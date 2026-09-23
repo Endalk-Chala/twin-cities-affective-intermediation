@@ -10,10 +10,11 @@ The AI-coded layer is analytically useful because it can code the full corpus co
 
 1. The AI codes the full eligible communication corpus first.
 2. AI codes are stored in a separate file and never overwrite human coding.
-3. The researcher later codes a fresh blind validation sample without seeing the AI codes.
-4. Agreement is calculated variable-by-variable.
-5. Low-confidence, ambiguous, and disagreement-heavy items are manually reviewed.
-6. The final manuscript reports the role of AI in coding and the human-validation procedure transparently.
+3. Every AI coding decision includes a concise evidence note tied to the available source text.
+4. The researcher later codes a fresh blind validation sample without seeing the AI codes.
+5. Agreement is calculated variable-by-variable.
+6. Low-confidence, ambiguous, and disagreement-heavy items are manually reviewed.
+7. The final manuscript reports the role of AI in coding and the human-validation procedure transparently.
 
 ## Output files
 
@@ -54,6 +55,57 @@ Preferred evidence order:
 3. substantial source excerpt;
 4. repository title plus collector summary;
 5. title alone.
+
+## Decision-level evidence-note requirement
+
+Every substantive coding decision must be auditable.
+
+For each coded variable or logically grouped set of closely related variables, the AI must record a short evidence note explaining why the code was assigned. The note should point to the communication itself, not to the study hypothesis or expected pattern.
+
+Examples:
+- `threat_appraisal = 1` → `Threat note: post describes continuing fear and safety concerns caused by enforcement activity.`
+- `hope_intensity = 2` → `Hope note: message explicitly frames refugee-owned businesses through hope and new beginnings.`
+- `function_mobilize = 1` → `Mobilization note: readers are directly asked to patronize and tag refugee-owned businesses.`
+- `function_advocate = 0` → `Advocacy note: call is for consumer support rather than policy, institutional, rights, or norm change.`
+- `reassurance_intensity = 0` → `Reassurance note: positive language is present, but the message does not reduce uncertainty or perceived threat.`
+
+### Evidence-note fields
+
+The AI output should include, at minimum:
+- `appraisal_evidence_notes`
+- `emotion_evidence_notes`
+- `function_evidence_notes`
+- `action_evidence_notes`
+- `audience_tone_evidence_notes`
+- `coding_source_note`
+- `ambiguity_notes`
+
+Where feasible, notes may also be stored at individual-variable level in a long-form audit table:
+
+`data/processed/ai_coding_decision_audit_v1.csv`
+
+Recommended long-form schema:
+- `item_id`
+- `variable_name`
+- `assigned_code`
+- `evidence_note`
+- `evidence_span_or_phrase`
+- `source_quality`
+- `decision_confidence`
+- `ambiguity_flag`
+
+This long-form audit table is preferred for reproducibility because it allows every decision to be inspected independently without making the main wide coding table unmanageably large.
+
+### Note-writing rules
+
+- Keep notes concise and descriptive.
+- Base notes only on available evidence.
+- Do not write generic notes such as `coded from context`.
+- Do not infer audience emotion from engagement counts.
+- Do not use organizational identity alone as evidence for emotion or appraisal.
+- When coding `0`, explain absence when the distinction is theoretically important or plausibly ambiguous.
+- When evidence is insufficient, use NA/abstain and explain why rather than inventing an absence rationale.
+- Short source phrases may be retained as evidence anchors, but avoid reproducing unnecessarily long copyrighted text.
 
 ## Abstention rule
 
@@ -207,7 +259,9 @@ The agent should:
 - receive the frozen codebook;
 - receive only the evidence available for that item;
 - emit strict structured fields matching the coding schema;
+- emit a concise evidence note for every coding decision or tightly related decision group;
 - include confidence and evidence-quality metadata;
+- preserve short evidence anchors where allowed;
 - be allowed to abstain;
 - never use aggregate results or hypotheses to decide item-level codes;
 - preserve a reproducible prompt/version identifier.
