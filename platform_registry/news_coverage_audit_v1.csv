@@ -2,6 +2,7 @@ org_id,organization,audit_status,verified_relation_count_min,search_notes,last_a
 TC038,Comunidades Latinas Unidas En Servicio (CLUES),verified_coverage,1,"CBS/WCCO fundraising uptake verified; additional CLUES-owned crisis material exists but is not counted as independent news.",2026-09-23
 TC041,International Institute of Minnesota,verified_coverage,4,"Verified in CBS/WCCO, Sahan, MPR and Star Tribune-linked reporting.",2026-09-23
 TC042,Isuroon,verified_coverage,1,"Verified CBS/WCCO Ramadan/halal-food coverage.",2026-09-23
+TC044,Minnesota Council of Churches - Refugee Services,verified_coverage,1,"Verified MPR News Dec. 24, 2025 coverage on federal refugee-policy changes, layoffs, and resettlement disruption.",2026-09-23
 TC045,Neighborhood House,verified_coverage,1,"Verified Community Reporter crisis-response feature.",2026-09-23
 TC054,Alight,verified_coverage,3,"Verified CBS/WCCO, MPR, and Star Tribune coverage/archived coverage.",2026-09-23
 TC057,Immigrant Law Center of Minnesota,verified_coverage,8,"Multiple Sahan, MPR, CBS/WCCO, Reformer and conversion/fundraising cases.",2026-09-23
@@ -25,8 +26,10 @@ TC028,African Career Education and Resources Inc. (ACER),searched_no_verified_co
 TC056,Karen Organization of Minnesota,searched_no_verified_coverage_yet,0,"Organization news and service pages found; no verified independent local-news uptake yet in this pass.",2026-09-23
 TC055,CAPI USA,coverage_candidate_nonlocal_or_secondary,0,"AAPI Civic Engagement Fund feature documents ICE effects at CAPI food shelf; source is partner/funder commentary rather than local independent journalism, so excluded from primary news corpus for now.",2026-09-23
 TC060,SEWA-AIFW,coverage_candidate_nonlocal_or_secondary,0,"National/community coalition references found; no verified independent local-news item yet.",2026-09-23
+TC006,Ka Joog,searched_no_verified_coverage_yet,0,"Dedicated Sahan/MPR and broader local-news searches completed; no sufficiently verified independent-news uptake found in this pass.",2026-09-23
+TC047,Oromo Community of Minnesota,searched_no_verified_coverage_yet,0,"Dedicated MPR/Sahan/local-news searches completed; no sufficiently verified independent-news item found in this pass.",2026-09-23
+TC051,Somali Community Resettlement Services,searched_no_verified_coverage_yet,0,"Dedicated local/community-media searches completed; no sufficiently verified independent-news item found in this pass.",2026-09-23
+TC052,Somali Success,searched_no_verified_coverage_yet,0,"Dedicated local/community-media searches completed; no sufficiently verified independent-news item found in this pass.",2026-09-23
+TC035,Arrive Ministries,searched_no_verified_coverage_yet,0,"Dedicated MPR/Sahan/local-news searches completed; no sufficiently verified independent-news item found in the study window in this pass.",2026-09-23
 TC019,Esperanza United,not_yet_fully_audited,0,"Needs dedicated outlet-by-outlet pass.",2026-09-23
-TC044,Minnesota Council of Churches - Refugee Services,not_yet_fully_audited,0,"Needs dedicated outlet-by-outlet pass.",2026-09-23
-TC047,Oromo Community of Minnesota,not_yet_fully_audited,0,"Needs dedicated community/ethnic-media pass.",2026-09-23
-TC051,Somali Community Resettlement Services,not_yet_fully_audited,0,"Needs dedicated community/ethnic-media pass.",2026-09-23
-TC052,Somali Success,not_yet_fully_audited,0,"Needs dedicated community/ethnic-media pass.",2026-09-23
+TC063,Afghan Cultural Society,not_yet_fully_audited,0,"Needs dedicated outlet-by-outlet/community-media pass.",2026-09-23
