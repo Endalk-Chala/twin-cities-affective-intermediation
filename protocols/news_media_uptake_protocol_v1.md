@@ -27,9 +27,13 @@ A news story mentioning multiple organizations remains one news-item row in the 
 
 ## Study window
 
-Primary window: 2025-11-01 through 2026-03-31 inclusive.
+The news-media corpus uses the same temporal boundaries as the primary nonprofit communication corpus:
 
-Later coverage may be retained in a supplemental file if it explicitly retrospectively discusses the study-period crisis, but it must not be silently mixed with the primary window.
+**2025-11-01 through 2026-03-31 inclusive.**
+
+Only news items published within this window belong in the primary analytical news-media dataset. Coverage published before November 1, 2025 or after March 31, 2026 is excluded from the paper's primary news-media analysis, even when it retrospectively discusses the study-period crisis.
+
+This rule keeps organizational communication, social-media uptake, news-media uptake, temporal phases, and crisis chronology analytically congruent.
 
 ## News ecosystem scope
 
