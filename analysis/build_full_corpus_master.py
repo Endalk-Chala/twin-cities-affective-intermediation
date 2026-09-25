@@ -9,7 +9,9 @@ The primary corpus contains verified communication items only. Candidate-tier
 records remain separate in data/processed/candidate_tier_inventory_v1.csv.
 """
 from pathlib import Path
+import csv
 import hashlib
+import re
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -55,11 +57,67 @@ TARGET_COLUMNS = [
     "direct_address","urgency_level","legal_information_present","service_information_present","resource_link_present","appraisal_notes","emotion_notes",
     "coder_id","coding_date","coder_confidence"
 ]
-SERIES_COLUMNS = ["series_id","series_label","series_type","series_analysis_note"]
+
+
+def _legacy_row_score(header, row):
+    d = dict(zip(header, row))
+    score = 0
+    if re.fullmatch(r"\d+", str(d.get("pilot_order", ""))): score += 5
+    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(d.get("date", ""))): score += 5
+    if d.get("platform") in {"website", "LinkedIn"}: score += 5
+    if d.get("coding_source_quality") in {"summary_plus_title", "full_text", "title_only"}: score += 3
+    if d.get("ai_coding_confidence") in {"high", "medium", "low"}: score += 3
+    if d.get("action_specificity") in {"none", "general", "specific"}: score += 2
+    if d.get("action_immediacy") in {"none", "low", "moderate", "high"}: score += 2
+    for name in header:
+        if name.endswith("_appraisal") or name.startswith("function_") or name in {
+            "coding_abstain","ambiguity_flag","action_orientation_present","direct_address",
+            "legal_information_present","service_information_present","resource_link_present"
+        }:
+            if str(d.get(name, "")) in {"0", "1", ""}: score += 1
+        if name.endswith("_intensity") or name == "urgency_level":
+            if str(d.get(name, "")) in {"0", "1", "2", "3", ""}: score += 1
+    return score
+
+
+def read_legacy_pilot_csv(path: Path) -> pd.DataFrame:
+    """Read legacy pilot CSVs that contain occasional one-field row drift.
+
+    The raw pilot files are preserved unchanged. When a row has exactly one
+    extra parsed field, test every adjacent-field merge and choose the version
+    that best conforms to the documented pilot schema. Ambiguous repairs fail.
+    """
+    with path.open("r", encoding="utf-8", newline="") as fh:
+        rows = list(csv.reader(fh))
+    header, data = rows[0], rows[1:]
+    repaired = []
+    repairs = []
+    for line_no, row in enumerate(data, start=2):
+        if len(row) == len(header):
+            repaired.append(row)
+            continue
+        if len(row) != len(header) + 1:
+            raise ValueError(f"{path.name} line {line_no}: expected {len(header)} fields; found {len(row)}")
+        candidates = []
+        for i in range(len(row) - 1):
+            candidate = row[:i] + [row[i] + "," + row[i+1]] + row[i+2:]
+            candidates.append((_legacy_row_score(header, candidate), i, candidate))
+        candidates.sort(key=lambda x: x[0], reverse=True)
+        best_score = candidates[0][0]
+        best = [c for c in candidates if c[0] == best_score]
+        if len(best) != 1:
+            raise ValueError(f"{path.name} line {line_no}: ambiguous legacy repair; {len(best)} candidates score {best_score}")
+        _, merge_at, fixed = best[0]
+        repaired.append(fixed)
+        repairs.append((path.name, line_no, merge_at, best_score))
+    if repairs:
+        for rec in repairs:
+            print(f"Legacy CSV repair: file={rec[0]} line={rec[1]} merge_index={rec[2]} score={rec[3]}")
+    return pd.DataFrame(repaired, columns=header)
 
 
 def normalize_pilot() -> pd.DataFrame:
-    pilot = pd.concat([pd.read_csv(p) for p in PILOT_FILES], ignore_index=True)
+    pilot = pd.concat([read_legacy_pilot_csv(p) for p in PILOT_FILES], ignore_index=True)
     supplement = pd.read_csv(PROCESSED / "pilot_schema_supplement_v1.csv")
     pilot = pilot.merge(supplement, on="item_id", how="left", validate="one_to_one")
     if pilot["org_role_primary"].isna().any():
@@ -105,12 +163,8 @@ def write_report(master: pd.DataFrame) -> None:
     missing = master.isna().sum().sort_values(ascending=False)
     missing = missing[missing > 0]
     sha256 = hashlib.sha256(OUT.read_bytes()).hexdigest()
-
     lines = [
-        "# Reproducibility Report — Full Coded Corpus v1",
-        "",
-        "## Build result",
-        "",
+        "# Reproducibility Report — Full Coded Corpus v1","","## Build result","",
         f"- Primary verified rows: **{len(master)}**",
         f"- Unique item IDs: **{master['item_id'].nunique()}**",
         f"- Organizations: **{master['organization'].nunique()}**",
@@ -119,43 +173,17 @@ def write_report(master: pd.DataFrame) -> None:
         f"- LinkedIn items: **{int(platform_counts.get('LinkedIn', 0))}**",
         f"- Rows flagged as members of recurring series: **{recurring}**",
         "- Candidate-tier records are excluded from this master and retained separately.",
-        f"- SHA-256 of master CSV: `{sha256}`",
-        "",
-        "## Validation checks",
-        "",
-        "- PASS: 337 rows",
-        "- PASS: 337 unique `item_id` values",
-        "- PASS: no duplicate `item_id` values",
-        "- PASS: all dates fall within 2025-11-01 through 2026-03-31",
-        "- PASS: 44 organizations",
-        "- PASS: platform counts = 317 website + 20 LinkedIn",
-        "",
-        "## Monthly coverage",
-        "",
-        "| Month | Items |",
-        "|---|---:|",
+        f"- SHA-256 of master CSV: `{sha256}`","","## Validation checks","",
+        "- PASS: 337 rows","- PASS: 337 unique `item_id` values","- PASS: no duplicate `item_id` values",
+        "- PASS: all dates fall within 2025-11-01 through 2026-03-31","- PASS: 44 organizations",
+        "- PASS: platform counts = 317 website + 20 LinkedIn","","## Monthly coverage","","| Month | Items |","|---|---:|",
     ]
     lines += [f"| {month} | {int(n)} |" for month, n in month_counts.items()]
     lines += ["", "## Organization coverage", "", "| Organization | Items |", "|---|---:|"]
     lines += [f"| {org.replace('|','/')} | {int(n)} |" for org, n in org_counts.items()]
     lines += ["", "## Missingness", "", "Blank/NA fields are retained as missing and are not recoded as zero unless the coding protocol explicitly defines zero as observed absence.", "", "| Field | Missing rows |", "|---|---:|"]
-    if len(missing):
-        lines += [f"| `{field}` | {int(n)} |" for field, n in missing.items()]
-    else:
-        lines += ["| None | 0 |"]
-    lines += [
-        "",
-        "## Rebuild",
-        "",
-        "Run:",
-        "",
-        "```bash",
-        "python -m pip install pandas",
-        "python analysis/build_full_corpus_master.py",
-        "```",
-        "",
-        "The build reads the four original pilot files, the pilot schema supplement, the thirteen expanded coding batches, and the recurring-series map. It then validates the corpus and rewrites both the master CSV and this report.",
-    ]
+    lines += [f"| `{field}` | {int(n)} |" for field, n in missing.items()] if len(missing) else ["| None | 0 |"]
+    lines += ["", "## Rebuild", "", "```bash", "python -m pip install pandas", "python analysis/build_full_corpus_master.py", "```", "", "The build reads the four original pilot files, the pilot schema supplement, the thirteen expanded coding batches, and the recurring-series map. Legacy pilot parsing is deterministic and schema-validated; source files remain unchanged. It then validates the corpus and rewrites both the master CSV and this report."]
     REPORT.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
@@ -168,18 +196,14 @@ def main() -> None:
     expanded = expanded[TARGET_COLUMNS]
     master = pd.concat([pilot, expanded], ignore_index=True)
     master["date"] = pd.to_datetime(master["date"], errors="raise").dt.strftime("%Y-%m-%d")
-
-    series = pd.read_csv(PROCESSED / "recurring_series_map_v1.csv")
-    series = series.rename(columns={"analysis_note": "series_analysis_note"})
+    series = pd.read_csv(PROCESSED / "recurring_series_map_v1.csv").rename(columns={"analysis_note": "series_analysis_note"})
     series = series[["item_id","series_id","series_label","series_type","series_analysis_note"]]
     master = master.merge(series, on="item_id", how="left", validate="one_to_one")
     master["is_recurring_series"] = master["series_id"].notna().astype(int)
-
     validate(master)
     master = master.sort_values(["date","organization","platform","item_id"], kind="stable").reset_index(drop=True)
     master.to_csv(OUT, index=False)
     write_report(master)
-
     print(f"Wrote {OUT}")
     print(f"Wrote {REPORT}")
     print(f"Rows: {len(master)}")
