@@ -8,6 +8,7 @@ on:
       - 'analysis/build_full_corpus_master_v3.py'
       - 'analysis/build_full_corpus_master_v4.py'
       - 'analysis/build_full_corpus_master_v5.py'
+      - 'analysis/build_full_corpus_master_v6.py'
       - 'data/processed/ai_coding_pilot_batch_*.csv'
       - 'data/processed/pilot_schema_supplement_v1.csv'
       - 'data/processed/full_corpus_coding_batch_*.csv'
@@ -31,7 +32,7 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pip pandas
       - name: Build and validate master corpus
-        run: python analysis/build_full_corpus_master_v5.py
+        run: python analysis/build_full_corpus_master_v6.py
       - name: Commit generated master and report
         run: |
           git config user.name "github-actions[bot]"
