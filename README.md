@@ -2,14 +2,15 @@
 
 ## Organizational emotion, public uptake, circulation, and action during immigration enforcement
 
-**Status:** Active research project · data collection substantially complete · reliability pilot and full coding next  
+**Status:** Active research project · primary corpus assembled, coded, and reproducibly validated  
 **Author:** Endalkachew H. Chala  
 **Study period:** November 1, 2025–March 31, 2026  
-**Primary analytical universe:** 114 eligible/probably eligible organizational, program, and network units
+**Primary analytical universe:** 114 eligible/probably eligible organizational, program, and network units  
+**Validated coded corpus:** 337 verified communication items from 44 canonical organizations
 
 ## Project overview
 
-This repository is the standalone home for a large-scale study of nonprofit and community communication during intensified immigration enforcement in the Twin Cities.
+This repository is the standalone home for a longitudinal study of nonprofit and community communication during intensified immigration enforcement in the Twin Cities.
 
 The project develops **affective intermediation** as a framework for examining how organizations interpret crisis, communicate emotion and appraisal, connect publics to resources and action, and how those messages are subsequently taken up, recirculated, contested, or converted into material or civic action.
 
@@ -28,9 +29,33 @@ The consolidated discovery frame contains **138 raw records**. Screening produce
 
 Communication availability is not an organizational eligibility criterion. A verified organization with incompletely retrievable historical platform content remains in the sampling universe.
 
-## Data architecture
+## Validated primary corpus
 
-This standalone repository uses the following structure:
+The reproducible build currently produces:
+
+- **337 verified coded communication items**
+- **44 canonical organizations**
+- **311 website items**
+- **26 LinkedIn items**
+- **41 recurring-series items flagged for robustness checks**
+
+The master analytical file is `data/processed/full_corpus_coded_master_v1.csv`. The validation report is `analysis/reproducibility_report_v1.md`.
+
+The build pipeline preserves source data, harmonizes legacy and current coding schemas, canonicalizes documented item-ID collisions while retaining original identifiers, normalizes organization labels, joins recurring-series metadata, checks dates and uniqueness, and writes a validated analysis-ready master file. A GitHub Actions workflow reruns the validation when relevant corpus files change.
+
+Additional candidate-tier records remain separate when historical platform retrieval, exact dating, or verification is incomplete.
+
+## Strategic communication relevance
+
+The project treats strategic communication as an organizational process of interpretation, positioning, relationship management, resource provision, advocacy, reassurance, solidarity building, mobilization, and adaptation under crisis and uncertainty.
+
+The analytical hierarchy is:
+
+`Organization → Platform → Time → Affect/Appraisal → Communication Function → Action/Uptake`
+
+This design supports comparative analysis of how service providers, advocacy groups, faith-based organizations, and community-rooted organizations communicate across stages of a crisis and how messages are taken up, recirculated, contested, or connected to observable action.
+
+## Data architecture
 
 ```text
 twin-cities-affective-intermediation/
@@ -55,19 +80,36 @@ Website communication is comparatively well observed. Historical social-media ar
 
 ## Analytical coding
 
-Communication items are coded for situational appraisal, emotion intensity (0–3), communication function, action orientation, audience, urgency, legal/service information, public uptake, circulation, and observable conversion-to-action signals.
+Communication items are coded for situational appraisal, emotion intensity (0–3), emotion source and explicitness, communication function, action orientation, audience, urgency, legal/service information, public uptake, circulation, and observable conversion-to-action signals.
 
 **Engagement volume is not emotion intensity.** Reactions, comments, shares, reposts, and views are relational/circulation measures; emotional meaning is coded separately.
 
-## Current workflow
+## Current research stage
 
-1. Build the analysis-ready corpus.
-2. Code the 40-item reliability pilot.
-3. Assess reliability and freeze the final codebook.
-4. Complete full-corpus coding.
-5. Merge and validate coding.
-6. Run temporal, role, platform, matched-message, uptake, circulation, and conversion analyses.
-7. Develop the manuscript around the affective-intermediation model.
+The primary corpus is assembled and reproducibly validated. The next stage is substantive analysis, including:
+
+1. organization-by-month communication trajectories;
+2. organizational-role comparisons;
+3. emotion and appraisal profiles;
+4. communication-function analysis;
+5. platform comparisons;
+6. recurring-series robustness checks;
+7. public-uptake and circulation analysis;
+8. matched-message analysis where data permit.
+
+## Rebuild
+
+```bash
+python -m pip install pandas
+python analysis/build_full_corpus_master_v6.py
+```
+
+## Documentation for faculty applications
+
+See:
+
+- `documentation/strategic_communication_research_infrastructure.md`
+- `documentation/job_application_framing_strategic_communication.md`
 
 ## Provenance
 
