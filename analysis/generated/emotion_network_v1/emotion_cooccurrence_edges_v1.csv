@@ -1,0 +1,92 @@
+from,to,cooccurrence_count,intensity_product_sum
+Solidarity,Care / compassion,257,1095.0
+Care / compassion,Hope,205,627.0
+Solidarity,Hope,200,730.0
+Care / compassion,Empathy,177,750.0
+Solidarity,Empathy,170,714.0
+Solidarity,Urgency,157,777.0
+Care / compassion,Urgency,156,703.0
+Care / compassion,Reassurance,145,453.0
+Fear,Care / compassion,137,639.0
+Solidarity,Reassurance,136,414.0
+Fear,Solidarity,135,624.0
+Fear,Urgency,132,614.0
+Empathy,Urgency,132,549.0
+Hope,Reassurance,132,349.0
+Fear,Empathy,124,556.0
+Fear,Anxiety / uncertainty,122,451.0
+Anxiety / uncertainty,Care / compassion,121,485.0
+Anxiety / uncertainty,Urgency,120,432.0
+Moral outrage,Solidarity,118,517.0
+Anxiety / uncertainty,Solidarity,117,446.0
+Moral outrage,Care / compassion,117,436.0
+Anxiety / uncertainty,Empathy,114,414.0
+Empathy,Hope,112,306.0
+Moral outrage,Urgency,111,495.0
+Solidarity,Defiance,108,497.0
+Hope,Pride,107,349.0
+Defiance,Urgency,105,479.0
+Care / compassion,Defiance,103,384.0
+Solidarity,Pride,103,359.0
+Fear,Moral outrage,102,428.0
+Moral outrage,Empathy,102,373.0
+Care / compassion,Pride,102,258.0
+Moral outrage,Defiance,97,428.0
+Empathy,Reassurance,96,283.0
+Hope,Urgency,96,254.0
+Anger,Moral outrage,92,311.0
+Reassurance,Urgency,89,266.0
+Anger,Urgency,88,303.0
+Fear,Reassurance,88,247.0
+Empathy,Defiance,87,305.0
+Anger,Solidarity,86,298.0
+Anger,Care / compassion,85,247.0
+Fear,Defiance,82,373.0
+Anger,Defiance,82,271.0
+Anxiety / uncertainty,Moral outrage,81,243.0
+Anxiety / uncertainty,Reassurance,81,216.0
+Anger,Empathy,76,217.0
+Hope,Gratitude,76,216.0
+Care / compassion,Gratitude,75,222.0
+Solidarity,Gratitude,74,232.0
+Fear,Hope,74,168.0
+Grief / sadness,Care / compassion,73,277.0
+Grief / sadness,Empathy,73,249.0
+Grief / sadness,Solidarity,72,275.0
+Fear,Anger,72,250.0
+Moral outrage,Hope,71,128.0
+Anxiety / uncertainty,Defiance,69,209.0
+Fear,Grief / sadness,65,242.0
+Grief / sadness,Urgency,61,232.0
+Anxiety / uncertainty,Hope,61,133.0
+Hope,Defiance,61,119.0
+Anxiety / uncertainty,Anger,60,140.0
+Anxiety / uncertainty,Grief / sadness,59,153.0
+Gratitude,Pride,55,136.0
+Moral outrage,Reassurance,54,94.0
+Moral outrage,Grief / sadness,48,208.0
+Empathy,Pride,47,90.0
+Pride,Reassurance,46,80.0
+Gratitude,Reassurance,44,109.0
+Anger,Grief / sadness,43,136.0
+Grief / sadness,Defiance,42,173.0
+Anger,Hope,40,60.0
+Empathy,Gratitude,39,102.0
+Reassurance,Defiance,36,79.0
+Grief / sadness,Hope,33,71.0
+Grief / sadness,Reassurance,28,56.0
+Anger,Reassurance,25,32.0
+Pride,Urgency,22,44.0
+Fear,Gratitude,21,44.0
+Grief / sadness,Gratitude,19,48.0
+Anxiety / uncertainty,Gratitude,17,43.0
+Pride,Defiance,17,33.0
+Gratitude,Urgency,16,43.0
+Moral outrage,Pride,15,26.0
+Anger,Pride,11,16.0
+Grief / sadness,Pride,10,35.0
+Fear,Pride,10,14.0
+Moral outrage,Gratitude,9,9.0
+Anxiety / uncertainty,Pride,7,10.0
+Gratitude,Defiance,3,5.0
+Anger,Gratitude,2,2.0

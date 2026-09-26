@@ -1,0 +1,15 @@
+emotion,item_prevalence,degree,weighted_degree,betweenness
+Care / compassion,276,13,1753,0.2692307692307692
+Solidarity,266,13,1733,0.10256410256410256
+Empathy,177,13,1349,0.0
+Urgency,169,13,1285,0.0
+Hope,217,13,1268,0.0
+Fear,149,13,1164,0.0
+Anxiety / uncertainty,130,13,1029,0.0
+Moral outrage,128,13,1017,0.0
+Reassurance,160,13,1000,0.0
+Defiance,109,13,892,0.0
+Anger,92,13,762,0.0
+Grief / sadness,73,13,626,0.0
+Pride,107,13,552,0.0
+Gratitude,76,13,450,0.0
