@@ -2,21 +2,17 @@
 
 ## Purpose
 
-This note reconciles the project's discovery-frame denominator with the later operational audit denominator so that the organizational universe is transparent before typology coding and communication analysis proceed.
+This note clarifies the project denominator before organizational typology coding and communication analysis proceed.
 
 ## Stable analytical universe
 
-The current operational communication-census universe remains **114 independent eligible or probably eligible organizational units**.
+The current operational communication-census universe is **114 independent eligible or probably eligible organizational units**.
 
 The study window remains **November 1, 2025 through March 31, 2026, inclusive**.
 
 Public communication availability, immigration-enforcement relevance, emotionality, and communication intensity are **not** organizational eligibility criteria.
 
-## Why two denominators appear in project records
-
-Two legitimate but different frames have been used during project construction:
-
-### 1. Discovery frame
+## Canonical discovery frame
 
 The consolidated discovery registry contains **138 raw records**.
 
@@ -27,35 +23,22 @@ The original screening summary classified these as:
 - 22 excluded;
 - 2 duplicate / alias / program-merge records.
 
-This produces the same 114-unit operational universe: **91 + 23 = 114**.
+This produces the operational universe of **114 eligible or probably eligible units (91 + 23)**.
 
-The 138 denominator therefore describes the full discovery history, not the final analytical universe.
-
-### 2. Later eligibility-audit frame
-
-A subsequent working checkpoint recorded **126 rows checked**, with:
-
-- 114 retained as independent eligible/probably eligible units;
-- 11 formally excluded rows;
-- 1 duplicate alias row.
-
-This 126-row denominator describes the later audit table/checking workflow, not the complete discovery history.
-
-The two denominators should therefore not be presented as competing estimates of the universe. They represent different stages of sampling-frame construction.
+The 138 denominator describes the complete discovery history. The 114 denominator describes the organizational universe used for communication-census construction and organizational comparison.
 
 ## Reconciliation rule
 
 For all analysis and collection trackers, use:
 
 - `discovery_frame_n = 138` when describing the complete raw discovery history;
-- `audit_frame_n = 126` only when describing the later checked-row audit workflow;
 - `operational_universe_n = 114` for the communication census and organizational comparisons.
 
-Until the 12-record difference between the 138-row discovery frame and 126-row later audit table is row-by-row documented, do **not** infer that those 12 records were excluded, duplicates, inactive, or otherwise analytically irrelevant. Preserve the difference as a provenance/QC issue.
+Do not introduce an intermediate denominator unless a repository artifact documents its row-level composition and provenance.
 
 ## Known unit-resolution decisions
 
-- **Navigate MN** is an alias/former-name record for **Unidos MN** and is not an independent organizational unit.
+- **Navigate MN** is the former-name/alias record for **Unidos MN** and is not counted as an independent organizational unit.
 - **Monarca** is treated as program-level material associated with **Unidos MN**, not as a separate organization; Monarca-branded communication may be retained as program-level communication when verified.
 - Organizations that fail the project's immigrant/refugee-population, geography, organizational-form, or study-period existence criteria remain in the audit trail but outside the 114-unit communication census.
 
@@ -73,7 +56,7 @@ Every organizational record used downstream should preserve at least:
 - `eligibility_basis`
 - `eligibility_evidence`
 - `eligibility_last_checked`
-- `provenance_frame` (`discovery_138`, `audit_126`, or both)
+- `provenance_frame`
 - `reconciliation_notes`
 
 ## Analytical implication
@@ -82,9 +65,14 @@ Organizational typology must be assigned only after unit identity is resolved. T
 
 The typology therefore operates on the stable **114-unit organizational universe**, while communication-item coding operates on all defensibly retrievable organization-owned public communication within the fixed study window.
 
+## Current corpus relationship
+
+The validated coded communication corpus currently contains **337 verified items from 44 canonical organizations**. These 44 organizations are an observed subset of the larger 114-unit organizational universe; presence in the coded corpus is a communication-retrieval outcome, not a separate organizational-eligibility rule.
+
 ## Outstanding QC
 
-1. Identify the exact 12 raw discovery records not represented in the later 126-row audit frame.
-2. Reconcile any previously collected website or social-media items belonging to excluded, alias, or program-level records against the 114-unit universe.
+1. Produce a row-level organizational-universe table carrying final eligibility and unit-resolution fields for all 138 discovery records.
+2. Reconcile previously collected website or social-media items belonging to excluded, alias, or program-level records against the 114-unit universe.
 3. Preserve unresolved communication candidates separately from verified items.
 4. Do not update claims of corpus completeness until platform-level archive limitations are recorded.
+5. Keep organizational typology in a separate organization-level table linked to item-level data through `org_id`.
