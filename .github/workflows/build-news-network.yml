@@ -9,6 +9,7 @@ on:
       - 'analysis/build_eligibility_universe.py'
       - 'analysis/build_full_universe_typology_seed.py'
       - 'analysis/build_org_role_media_visibility.py'
+      - 'analysis/analyze_role_media_visibility.py'
       - 'data/raw/news_media_uptake_batch_*.csv'
       - 'data/interim/organization_typology_bridge_v1.csv'
       - 'data/interim/organization_typology_bridge_media_visible_completion_v1.csv'
@@ -44,6 +45,8 @@ jobs:
         run: python analysis/build_role_media_multilayer.py
       - name: Build organization role-media visibility matrix
         run: python analysis/build_org_role_media_visibility.py
+      - name: Analyze role-media visibility
+        run: python analysis/analyze_role_media_visibility.py
       - name: Commit generated network files
         run: |
           git config user.name "github-actions[bot]"
@@ -64,10 +67,14 @@ jobs:
             data/interim/role_organization_outlet_layer_edges_v1.csv \
             data/interim/role_media_layer_summary_v1.csv \
             data/interim/typology_network_coverage_v1.csv \
-            data/processed/organization_role_media_visibility_v1.csv
+            data/processed/organization_role_media_visibility_v1.csv \
+            analysis/role_visibility_summary_v1.csv \
+            analysis/role_pair_visibility_summary_v1.csv \
+            analysis/screening_status_visibility_summary_v1.csv \
+            analysis/role_media_descriptive_findings_v1.md
           if git diff --cached --quiet; then
             echo "No generated changes to commit."
           else
-            git commit -m "Build eligibility, typology, and organization visibility matrix"
+            git commit -m "Build role-media descriptive analysis"
             git push
           fi
