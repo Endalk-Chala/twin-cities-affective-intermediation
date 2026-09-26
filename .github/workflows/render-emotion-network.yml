@@ -5,6 +5,7 @@ on:
     paths:
       - 'analysis/render_emotion_network_v1.py'
       - 'analysis/render_affective_circulation_network_v3.py'
+      - 'analysis/render_affective_circulation_network_r_v1.R'
       - 'data/processed/full_corpus_coded_master_v1.csv'
       - 'data/raw/news_media_uptake_batch_*.csv'
       - 'data/interim/media_multi_org_split_corrections_v1.csv'
@@ -26,6 +27,13 @@ jobs:
       - run: pip install pandas networkx matplotlib
       - run: python analysis/render_emotion_network_v1.py
       - run: python analysis/render_affective_circulation_network_v3.py
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: 'release'
+      - name: Install R network packages
+        run: Rscript -e 'install.packages(c("readr","dplyr","tibble","igraph","tidygraph","ggraph","graphlayouts","ggplot2","scales"), repos="https://cloud.r-project.org")'
+      - name: Render R force-directed network
+        run: Rscript analysis/render_affective_circulation_network_r_v1.R
       - name: Upload rendered affective network outputs
         uses: actions/upload-artifact@v4
         with:
@@ -41,6 +49,6 @@ jobs:
           if git diff --cached --quiet; then
             echo 'No generated changes.'
           else
-            git commit -m 'Render full affective network outputs'
+            git commit -m 'Render full affective network outputs including R force layout'
             git push
           fi
