@@ -5,8 +5,11 @@ on:
     paths:
       - 'analysis/build_news_network_master.py'
       - 'analysis/build_role_media_multilayer.py'
+      - 'analysis/build_eligibility_universe.py'
       - 'data/raw/news_media_uptake_batch_*.csv'
       - 'data/interim/organization_typology_bridge_v1.csv'
+      - 'data/interim/organization_typology_bridge_media_visible_completion_v1.csv'
+      - 'data/interim/organization_typology_bridge_full_universe_*.csv'
       - 'platform_registry/news_outlet_registry_v2.csv'
       - '.github/workflows/build-news-network.yml'
   workflow_dispatch:
@@ -26,6 +29,8 @@ jobs:
           python-version: '3.12'
       - name: Install dependencies
         run: python -m pip install --upgrade pip pandas
+      - name: Reconcile eligibility universe
+        run: python analysis/build_eligibility_universe.py
       - name: Build normalized news network
         run: python analysis/build_news_network_master.py
       - name: Build role-media multilayer network
@@ -35,6 +40,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
+            sampling_frame/eligibility_universe_reconciliation_v2.csv \
+            sampling_frame/eligibility_universe_reconciliation_v2.md \
             data/interim/organization_news_relations_master_v1.csv \
             data/interim/organization_news_relations_candidates_v1.csv \
             data/interim/news_item_id_crosswalk_v1.csv \
@@ -46,6 +53,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No generated changes to commit."
           else
-            git commit -m "Build normalized news and role-media networks"
+            git commit -m "Reconcile eligibility and rebuild networks"
             git push
           fi
