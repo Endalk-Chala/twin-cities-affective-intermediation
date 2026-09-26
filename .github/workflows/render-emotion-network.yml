@@ -21,6 +21,11 @@ jobs:
           python-version: '3.12'
       - run: pip install pandas networkx matplotlib
       - run: python analysis/render_emotion_network_v1.py
+      - name: Upload rendered emotion network
+        uses: actions/upload-artifact@v4
+        with:
+          name: emotion-network-v1
+          path: analysis/generated/emotion_network_v1
       - name: Commit generated emotion network outputs
         run: |
           git config user.name 'github-actions[bot]'
