@@ -12,6 +12,21 @@ The typology captures **organizational position and function**, not a single org
 
 Labels should not be inferred from news coverage alone. They should be coded from organizational mission, programs, official descriptions, and verified activity.
 
+## Equal-weight membership rule
+
+All labels coded as `verified` are treated as **equal-weight organizational memberships at the infrastructure stage**. No verified label is designated primary, secondary, dominant, or more important than another simply because it appears more central in an organization's public identity or is more visible in news coverage.
+
+Operationally:
+
+- a verified label represents membership in that organizational category;
+- verified labels carry equal analytical weight by default;
+- `type_status` records evidentiary certainty and must not be converted into an analytical weight;
+- `probable` and `candidate` labels remain available for audit and sensitivity analysis but should not be silently treated as equivalent to verified memberships in primary analyses;
+- media prominence, frequency of quotation, organizational size, budget, public visibility, or journalist characterization must not be used to up-weight a typology label;
+- if a later statistical or network analysis requires weighting, collapsing, or a primary-type variable, that transformation must be derived separately from the unchanged multi-label bridge table and documented as an analysis-stage decision.
+
+This rule ensures that any stronger relationship between an organizational role and an outcome such as source visibility, national amplification, or affective framing emerges from the observed data rather than from researcher-assigned hierarchy in the typology itself.
+
 ## Core labels
 
 - `community_rooted` — embedded in, governed by, or primarily serving a specific immigrant, refugee, ethnic, racial, linguistic, or diasporic community.
