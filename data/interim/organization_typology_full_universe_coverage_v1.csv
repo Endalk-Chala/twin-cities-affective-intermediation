@@ -1,0 +1,115 @@
+org_id,organization,screening_decision,verified_label_count,candidate_label_count,verified_labels,candidate_labels,typology_review_status
+TC001,Caring Friends Network,probably_eligible,0,2,,education_workforce;immigrant_integration,candidate_only_manual_review_needed
+TC002,Cedar Riverside Adult Education Collaborative,probably_eligible,3,0,community_rooted;education_workforce;immigrant_integration,,verified_labels_present
+TC003,Centro Tyrone Guzman,eligible,4,0,community_rooted;direct_service;ethnocultural;immigrant_integration,,verified_labels_present
+TC004,East African Integration Center,probably_eligible,0,4,,community_rooted;ethnocultural;immigrant_integration;youth_family,candidate_only_manual_review_needed
+TC005,International Education Center,eligible,3,0,direct_service;education_workforce;immigrant_integration,,verified_labels_present
+TC006,Ka Joog,probably_eligible,0,4,,community_rooted;direct_service;ethnocultural;youth_family,candidate_only_manual_review_needed
+TC007,Keystone Community Services,probably_eligible,1,0,direct_service,,verified_labels_present
+TC008,Literacy Minnesota,probably_eligible,2,0,education_workforce;immigrant_integration,,verified_labels_present
+TC009,Minnesota Somali Community Center,eligible,8,0,advocacy;community_rooted;direct_service;education_workforce;ethnocultural;health_wellbeing;housing_economic;youth_family,,verified_labels_present
+TC010,Minnesota Africans United,eligible,3,0,coalition_network;community_rooted;ethnocultural,,verified_labels_present
+TC011,MORE,eligible,4,0,community_rooted;direct_service;education_workforce;immigrant_integration,,verified_labels_present
+TC012,MTA Center - Mothers Tutoring Academy,probably_eligible,2,0,education_workforce;youth_family,,verified_labels_present
+TC013,Sierra Leone Community in Minnesota,eligible,3,0,coalition_network;community_rooted;ethnocultural,,verified_labels_present
+TC014,Somali American Parent Association (SAPA),eligible,6,0,community_rooted;direct_service;education_workforce;ethnocultural;legal;youth_family,,verified_labels_present
+TC017,Casa Guadalupana,eligible,4,0,direct_service;faith_based;housing_economic;immigrant_integration,,verified_labels_present
+TC019,Esperanza United,probably_eligible,8,0,advocacy;community_rooted;direct_service;ethnocultural;gender_based;health_wellbeing;organizing;youth_family,,verified_labels_present
+TC021,IAFR Jonathan House,eligible,4,0,direct_service;faith_based;housing_economic;immigrant_integration,,verified_labels_present
+TC022,Lutheran Social Service of Minnesota - Refugee Services,eligible,6,0,direct_service;education_workforce;faith_based;immigrant_integration;legal;refugee_resettlement,,verified_labels_present
+TC023,Missions Inc. Programs,probably_eligible,3,0,direct_service;gender_based;immigrant_integration,,verified_labels_present
+TC024,Sakan,eligible,4,0,advocacy;community_rooted;housing_economic;immigrant_integration,,verified_labels_present
+TC027,ZACAH,eligible,4,0,direct_service;faith_based;housing_economic;immigrant_integration,,verified_labels_present
+TC028,African Career Education and Resources Inc. (ACER),eligible,6,0,advocacy;community_rooted;ethnocultural;health_wellbeing;housing_economic;organizing,,verified_labels_present
+TC029,African Community Services,eligible,7,0,advocacy;community_rooted;direct_service;education_workforce;ethnocultural;housing_economic;immigrant_integration,,verified_labels_present
+TC030,African Development Center of Minnesota,eligible,5,0,community_rooted;direct_service;education_workforce;ethnocultural;housing_economic,,verified_labels_present
+TC031,African Economic Development Solutions (AEDS),eligible,5,0,community_rooted;direct_service;education_workforce;ethnocultural;housing_economic,,verified_labels_present
+TC032,AFDN / African Families Development Network,probably_eligible,0,3,,community_rooted;direct_service;ethnocultural,candidate_only_manual_review_needed
+TC033,African Immigrants Community Services (AICS),eligible,6,0,community_rooted;direct_service;education_workforce;ethnocultural;immigrant_integration;refugee_resettlement,,verified_labels_present
+TC034,Al-Maa'uun,probably_eligible,0,3,,direct_service;faith_based;housing_economic,candidate_only_manual_review_needed
+TC035,Arrive Ministries,eligible,6,0,direct_service;education_workforce;faith_based;immigrant_integration;legal;refugee_resettlement,,verified_labels_present
+TC038,Comunidades Latinas Unidas En Servicio (CLUES),eligible,7,0,advocacy;community_rooted;direct_service;ethnocultural;health_wellbeing;housing_economic;immigrant_integration,,verified_labels_present
+TC039,Darul Uloom Center,eligible,6,0,community_rooted;direct_service;education_workforce;faith_based;immigrant_integration;legal,,verified_labels_present
+TC040,Igbo Women League of Minnesota,eligible,6,0,community_rooted;education_workforce;ethnocultural;gender_based;health_wellbeing;youth_family,,verified_labels_present
+TC041,International Institute of Minnesota,eligible,4,0,direct_service;education_workforce;immigrant_integration;refugee_resettlement,,verified_labels_present
+TC042,Isuroon,eligible,6,0,community_rooted;direct_service;ethnocultural;gender_based;health_wellbeing;housing_economic,,verified_labels_present
+TC043,Minnesota African Women's Association,eligible,6,0,advocacy;community_rooted;direct_service;ethnocultural;gender_based;health_wellbeing,,verified_labels_present
+TC044,Minnesota Council of Churches - Refugee Services,eligible,6,0,direct_service;education_workforce;faith_based;immigrant_integration;legal;refugee_resettlement,,verified_labels_present
+TC045,Neighborhood House,eligible,5,0,direct_service;education_workforce;housing_economic;immigrant_integration;youth_family,,verified_labels_present
+TC046,New American Development Center,eligible,5,0,community_rooted;direct_service;education_workforce;ethnocultural;housing_economic,,verified_labels_present
+TC047,Oromo Community of Minnesota,eligible,4,0,community_rooted;direct_service;ethnocultural;immigrant_integration,,verified_labels_present
+TC048,Our Saviour's Community Services,eligible,3,0,direct_service;education_workforce;immigrant_integration,,verified_labels_present
+TC051,Somali Community Resettlement Services,eligible,5,0,community_rooted;direct_service;ethnocultural;immigrant_integration;refugee_resettlement,,verified_labels_present
+TC052,Somali Success,eligible,6,0,advocacy;community_rooted;direct_service;education_workforce;ethnocultural;immigrant_integration,,verified_labels_present
+TC053,YMCA of the North - Immigrant and Refugee Support,eligible,4,0,direct_service;immigrant_integration;legal;refugee_resettlement,,verified_labels_present
+TC054,Alight,eligible,4,0,direct_service;education_workforce;health_wellbeing;housing_economic,,verified_labels_present
+TC055,CAPI USA,eligible,3,0,community_rooted;direct_service;immigrant_integration,,verified_labels_present
+TC056,Karen Organization of Minnesota,eligible,4,0,community_rooted;direct_service;ethnocultural;immigrant_integration,,verified_labels_present
+TC057,Immigrant Law Center of Minnesota,eligible,4,0,advocacy;civil_rights_human_rights;direct_service;legal,,verified_labels_present
+TC058,Mid-Minnesota Legal Aid,eligible,4,0,advocacy;civil_rights_human_rights;direct_service;legal,,verified_labels_present
+TC059,Minnesota African Women Coalition,eligible,6,0,advocacy;community_rooted;ethnocultural;gender_based;health_wellbeing;housing_economic,,verified_labels_present
+TC060,SEWA-AIFW,eligible,5,0,community_rooted;direct_service;ethnocultural;immigrant_integration;refugee_resettlement,,verified_labels_present
+TC061,Ukrainian American Community Center,eligible,5,0,community_rooted;direct_service;ethnocultural;immigrant_integration;refugee_resettlement,,verified_labels_present
+TC062,AVIVO,eligible,3,0,direct_service;education_workforce;immigrant_integration,,verified_labels_present
+TC063,Afghan Cultural Society,eligible,6,0,community_rooted;direct_service;education_workforce;ethnocultural;health_wellbeing;immigrant_integration,,verified_labels_present
+TC064,The Advocates for Human Rights,eligible,4,0,advocacy;civil_rights_human_rights;direct_service;legal,,verified_labels_present
+TC065,Volunteer Lawyers Network,eligible,3,0,civil_rights_human_rights;direct_service;legal,,verified_labels_present
+TC066,United Cambodian Association of Minnesota (UCAM),eligible,6,0,advocacy;community_rooted;direct_service;ethnocultural;immigrant_integration;legal,,verified_labels_present
+TC067,Immigrant Connection - Waite Park,eligible,4,0,direct_service;faith_based;immigrant_integration;legal,,verified_labels_present
+TC068,Immigrant Connection Mosaic,eligible,5,0,direct_service;education_workforce;faith_based;immigrant_integration;legal,,verified_labels_present
+TC069,Hmong Cultural Center,eligible,4,0,community_rooted;education_workforce;ethnocultural;immigrant_integration,,verified_labels_present
+TC070,Hmong American Partnership,eligible,5,0,community_rooted;direct_service;education_workforce;ethnocultural;immigrant_integration,,verified_labels_present
+TC071,Lao Assistance Center of Minnesota,eligible,4,0,community_rooted;direct_service;ethnocultural;immigrant_integration,,verified_labels_present
+TC072,Confederation of Somali Community in Minnesota,eligible,5,0,community_rooted;direct_service;ethnocultural;immigrant_integration;legal,,verified_labels_present
+TC073,Center for Victims of Torture,eligible,3,0,civil_rights_human_rights;direct_service;health_wellbeing,,verified_labels_present
+TC074,COPAL - Communities Organizing Latine Power and Action,eligible,5,0,advocacy;civil_rights_human_rights;community_rooted;ethnocultural;organizing,,verified_labels_present
+TC075,Unidos MN,eligible,4,0,advocacy;community_rooted;immigrant_integration;organizing,,verified_labels_present
+TC076,Minnesota Interfaith Coalition on Immigration (ICOM),eligible,5,0,advocacy;coalition_network;direct_service;faith_based;organizing,,verified_labels_present
+TC077,ISAIAH,eligible,5,0,advocacy;civil_rights_human_rights;coalition_network;faith_based;organizing,,verified_labels_present
+TC078,Jewish Community Action,eligible,5,0,advocacy;community_rooted;faith_based;housing_economic;organizing,,verified_labels_present
+TC080,Asamblea de Derechos Civiles,probably_eligible,0,6,,advocacy;civil_rights_human_rights;community_rooted;ethnocultural;faith_based;organizing,candidate_only_manual_review_needed
+TC081,Minnesota Immigrant Movement,eligible,4,0,advocacy;community_rooted;direct_service;organizing,,verified_labels_present
+TC082,Coalition of Asian American Leaders (CAAL),eligible,4,0,advocacy;coalition_network;community_rooted;organizing,,verified_labels_present
+TC084,Minnesota Immigrant Rights Action Committee (MIRAC),eligible,3,0,advocacy;civil_rights_human_rights;organizing,,verified_labels_present
+D1-01,Voice in the Wilderness Organization,eligible,5,0,community_rooted;direct_service;ethnocultural;immigrant_integration;refugee_resettlement,,verified_labels_present
+D1-09,Southern Minnesota Regional Legal Services (SMRLS),eligible,3,0,civil_rights_human_rights;direct_service;legal,,verified_labels_present
+D2-01,ACLU of Minnesota,eligible,3,0,advocacy;civil_rights_human_rights;legal,,verified_labels_present
+D2-02,MN8 / Release MN8,eligible,3,0,advocacy;civil_rights_human_rights;direct_service,,verified_labels_present
+D2-03,Ayada Leads,eligible,5,0,advocacy;community_rooted;education_workforce;ethnocultural;gender_based,,verified_labels_present
+D2-04,Black Immigrant Collective,eligible,6,0,advocacy;civil_rights_human_rights;community_rooted;direct_service;legal;organizing,,verified_labels_present
+D2-05,CAIR-Minnesota,eligible,4,0,advocacy;civil_rights_human_rights;community_rooted;faith_based,,verified_labels_present
+D2-06,Inquilinxs Unidxs por Justicia / United Renters for Justice,probably_eligible,4,0,advocacy;community_rooted;housing_economic;organizing,,verified_labels_present
+D2-07,Groundwork Legal,eligible,3,0,advocacy;civil_rights_human_rights;legal,,verified_labels_present
+D2-08,Defend the 612,eligible,3,0,community_rooted;media_information;organizing,,verified_labels_present
+D2-10,Immigrant Defense Network,eligible,5,0,advocacy;coalition_network;community_rooted;media_information;organizing,,verified_labels_present
+D3-01,Community Services Agency of Minnesota (COMSA-MN),eligible,7,0,community_rooted;direct_service;education_workforce;health_wellbeing;immigrant_integration;legal;refugee_resettlement,,verified_labels_present
+D3-02,Southeast Asian Diaspora Project (SEAD),eligible,3,0,community_rooted;ethnocultural;media_information,,verified_labels_present
+D3-03,Bhutanese Community Organization of Minnesota,eligible,5,0,community_rooted;direct_service;education_workforce;ethnocultural;immigrant_integration,,verified_labels_present
+D3-04,Asian Women United of Minnesota,eligible,5,0,community_rooted;direct_service;gender_based;immigrant_integration;legal,,verified_labels_present
+D3-05,India Association of Minnesota,eligible,3,0,advocacy;community_rooted;ethnocultural,,verified_labels_present
+D3-06,Fil-Minnesotan Association,probably_eligible,4,0,community_rooted;education_workforce;ethnocultural;youth_family,,verified_labels_present
+D3-07,Cultural Society of Filipino Americans,probably_eligible,0,2,,community_rooted;ethnocultural,candidate_only_manual_review_needed
+D3-08,Chinese American Association of Minnesota,probably_eligible,0,2,,community_rooted;ethnocultural,candidate_only_manual_review_needed
+D3-09,The Urban Village,eligible,5,0,advocacy;community_rooted;ethnocultural;organizing;youth_family,,verified_labels_present
+D3-10,Korean Association of Minnesota,probably_eligible,0,2,,community_rooted;ethnocultural,candidate_only_manual_review_needed
+D3-11,Association of Nepalis in Minnesota,eligible,2,0,community_rooted;ethnocultural,,verified_labels_present
+D3-12,Tibetan American Foundation of Minnesota,eligible,4,0,community_rooted;direct_service;ethnocultural;immigrant_integration,,verified_labels_present
+D3-13,Vietnamese Community of Minnesota,eligible,4,0,advocacy;community_rooted;direct_service;ethnocultural,,verified_labels_present
+D3-14,LatinoLEAD,eligible,5,0,advocacy;coalition_network;community_rooted;education_workforce;ethnocultural,,verified_labels_present
+D3-15,Hispanic Advocacy and Community Empowerment through Research (HACER),eligible,3,0,advocacy;community_rooted;ethnocultural,,verified_labels_present
+D3-16,Latino Economic Development Center (LEDC),eligible,6,0,advocacy;community_rooted;direct_service;education_workforce;ethnocultural;housing_economic,,verified_labels_present
+D3-18,Asian Media Access,eligible,4,0,community_rooted;education_workforce;ethnocultural;media_information,,verified_labels_present
+D3-19,Minnesota Hmong Chamber of Commerce,probably_eligible,0,4,,advocacy;community_rooted;ethnocultural;housing_economic,candidate_only_manual_review_needed
+D3-20,MN Zej Zog,eligible,4,0,community_rooted;education_workforce;ethnocultural;youth_family,,verified_labels_present
+D3-21,Roseville Covenant Church - Good Neighbor refugee ministry,probably_eligible,3,0,direct_service;faith_based;immigrant_integration,,verified_labels_present
+D4-01,Ethiopian Community in Minnesota,eligible,7,0,advocacy;community_rooted;direct_service;education_workforce;ethnocultural;housing_economic;immigrant_integration,,verified_labels_present
+D4-02,Organization of Liberians in Minnesota,eligible,8,0,community_rooted;direct_service;education_workforce;ethnocultural;health_wellbeing;housing_economic;immigrant_integration;youth_family,,verified_labels_present
+D4-03,Lao Family Community of Minnesota,eligible,4,0,community_rooted;direct_service;ethnocultural;immigrant_integration,,verified_labels_present
+D4-04,Sub-Saharan African Youth and Family Services in Minnesota (SAYFSM),probably_eligible,5,0,community_rooted;direct_service;ethnocultural;health_wellbeing;youth_family,,verified_labels_present
+D4-05,Vietnamese Social Services of Minnesota,eligible,4,0,community_rooted;direct_service;ethnocultural;immigrant_integration,,verified_labels_present
+D4-06,Restoration for All Inc.,eligible,4,0,community_rooted;direct_service;ethnocultural;health_wellbeing,,verified_labels_present
+D4-07,Somali Parent Academy,eligible,6,0,advocacy;community_rooted;direct_service;education_workforce;ethnocultural;youth_family,,verified_labels_present
+D4-08,Hmong Shaman & Herb Center,probably_eligible,0,3,,community_rooted;ethnocultural;health_wellbeing,candidate_only_manual_review_needed
+D4-09,African Growers and Producers Alliance (AGAPA),probably_eligible,0,3,,community_rooted;ethnocultural;housing_economic,candidate_only_manual_review_needed
+D4-10,Legacy Family Center,eligible,7,0,community_rooted;direct_service;education_workforce;ethnocultural;health_wellbeing;immigrant_integration;youth_family,,verified_labels_present
+D4-11,Care Resource Connection,probably_eligible,0,1,,direct_service,candidate_only_manual_review_needed
