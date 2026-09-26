@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'analysis/build_news_network_master.py'
+      - 'analysis/build_primary_universe_network.py'
       - 'analysis/build_role_media_multilayer.py'
       - 'analysis/build_eligibility_universe.py'
       - 'data/raw/news_media_uptake_batch_*.csv'
@@ -33,6 +34,8 @@ jobs:
         run: python analysis/build_eligibility_universe.py
       - name: Build normalized news network
         run: python analysis/build_news_network_master.py
+      - name: Build primary-universe news network
+        run: python analysis/build_primary_universe_network.py
       - name: Build role-media multilayer network
         run: python analysis/build_role_media_multilayer.py
       - name: Commit generated network files
@@ -44,15 +47,18 @@ jobs:
             sampling_frame/eligibility_universe_reconciliation_v2.md \
             data/interim/organization_news_relations_master_v1.csv \
             data/interim/organization_news_relations_candidates_v1.csv \
+            data/interim/organization_news_relations_primary_universe_v1.csv \
+            data/interim/organization_news_relations_outside_primary_universe_v1.csv \
             data/interim/news_item_id_crosswalk_v1.csv \
             data/interim/news_network_qc_unmapped_outlets_v1.csv \
             data/interim/network_summary_full_v1.csv \
+            data/interim/network_summary_primary_universe_v1.csv \
             data/interim/role_organization_outlet_layer_edges_v1.csv \
             data/interim/role_media_layer_summary_v1.csv \
             data/interim/typology_network_coverage_v1.csv
           if git diff --cached --quiet; then
             echo "No generated changes to commit."
           else
-            git commit -m "Reconcile eligibility and rebuild networks"
+            git commit -m "Reconcile eligibility and rebuild primary networks"
             git push
           fi
