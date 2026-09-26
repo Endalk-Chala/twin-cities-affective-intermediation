@@ -1,0 +1,411 @@
+org_id,organization,affect,observed_items,affect_item_count,raw_intensity_sum,normalized_intensity_per_item,prevalence_share
+D2-01,ACLU of Minnesota,Fear,13,11,20.0,1.5384615384615385,0.8461538461538461
+D2-01,ACLU of Minnesota,Anxiety / uncertainty,13,7,7.0,0.5384615384615384,0.5384615384615384
+D2-01,ACLU of Minnesota,Anger,13,13,19.0,1.4615384615384615,1.0
+D2-01,ACLU of Minnesota,Moral outrage,13,13,29.0,2.230769230769231,1.0
+D2-01,ACLU of Minnesota,Grief / sadness,13,3,7.0,0.5384615384615384,0.23076923076923078
+D2-01,ACLU of Minnesota,Solidarity,13,13,23.0,1.7692307692307692,1.0
+D2-01,ACLU of Minnesota,Care / compassion,13,10,15.0,1.1538461538461537,0.7692307692307693
+D2-01,ACLU of Minnesota,Empathy,13,7,11.0,0.8461538461538461,0.5384615384615384
+D2-01,ACLU of Minnesota,Hope,13,4,4.0,0.3076923076923077,0.3076923076923077
+D2-01,ACLU of Minnesota,Reassurance,13,1,1.0,0.07692307692307693,0.07692307692307693
+D2-01,ACLU of Minnesota,Defiance,13,13,26.0,2.0,1.0
+D2-01,ACLU of Minnesota,Urgency,13,13,25.0,1.9230769230769231,1.0
+D2-03,Ayada Leads,Fear,2,1,2.0,1.0,0.5
+D2-03,Ayada Leads,Anxiety / uncertainty,2,1,2.0,1.0,0.5
+D2-03,Ayada Leads,Anger,2,1,1.0,0.5,0.5
+D2-03,Ayada Leads,Moral outrage,2,1,2.0,1.0,0.5
+D2-03,Ayada Leads,Solidarity,2,2,4.0,2.0,1.0
+D2-03,Ayada Leads,Care / compassion,2,1,2.0,1.0,0.5
+D2-03,Ayada Leads,Empathy,2,1,2.0,1.0,0.5
+D2-03,Ayada Leads,Hope,2,2,3.0,1.5,1.0
+D2-03,Ayada Leads,Pride,2,1,1.0,0.5,0.5
+D2-03,Ayada Leads,Reassurance,2,1,1.0,0.5,0.5
+D2-03,Ayada Leads,Defiance,2,1,1.0,0.5,0.5
+D2-03,Ayada Leads,Urgency,2,2,3.0,1.5,1.0
+D2-07,Groundwork Legal,Fear,5,5,10.0,2.0,1.0
+D2-07,Groundwork Legal,Anxiety / uncertainty,5,3,3.0,0.6,0.6
+D2-07,Groundwork Legal,Anger,5,3,5.0,1.0,0.6
+D2-07,Groundwork Legal,Moral outrage,5,5,10.0,2.0,1.0
+D2-07,Groundwork Legal,Grief / sadness,5,5,6.0,1.2,1.0
+D2-07,Groundwork Legal,Solidarity,5,5,10.0,2.0,1.0
+D2-07,Groundwork Legal,Care / compassion,5,5,14.0,2.8,1.0
+D2-07,Groundwork Legal,Empathy,5,5,14.0,2.8,1.0
+D2-07,Groundwork Legal,Hope,5,2,6.0,1.2,0.4
+D2-07,Groundwork Legal,Gratitude,5,2,2.0,0.4,0.4
+D2-07,Groundwork Legal,Reassurance,5,3,7.0,1.4,0.6
+D2-07,Groundwork Legal,Defiance,5,3,8.0,1.6,0.6
+D2-07,Groundwork Legal,Urgency,5,3,8.0,1.6,0.6
+D2-10,Immigrant Defense Network,Fear,1,1,2.0,2.0,1.0
+D2-10,Immigrant Defense Network,Anger,1,1,2.0,2.0,1.0
+D2-10,Immigrant Defense Network,Moral outrage,1,1,3.0,3.0,1.0
+D2-10,Immigrant Defense Network,Grief / sadness,1,1,1.0,1.0,1.0
+D2-10,Immigrant Defense Network,Solidarity,1,1,3.0,3.0,1.0
+D2-10,Immigrant Defense Network,Care / compassion,1,1,2.0,2.0,1.0
+D2-10,Immigrant Defense Network,Empathy,1,1,2.0,2.0,1.0
+D2-10,Immigrant Defense Network,Hope,1,1,1.0,1.0,1.0
+D2-10,Immigrant Defense Network,Pride,1,1,1.0,1.0,1.0
+D2-10,Immigrant Defense Network,Defiance,1,1,3.0,3.0,1.0
+D2-10,Immigrant Defense Network,Urgency,1,1,3.0,3.0,1.0
+TC002,Cedar Riverside Adult Education Collaborative,Solidarity,10,1,1.0,0.1,0.1
+TC002,Cedar Riverside Adult Education Collaborative,Hope,10,2,2.0,0.2,0.2
+TC002,Cedar Riverside Adult Education Collaborative,Pride,10,1,1.0,0.1,0.1
+TC002,Cedar Riverside Adult Education Collaborative,Reassurance,10,1,1.0,0.1,0.1
+TC003,Centro Tyrone Guzman,Grief / sadness,1,1,2.0,2.0,1.0
+TC003,Centro Tyrone Guzman,Solidarity,1,1,3.0,3.0,1.0
+TC003,Centro Tyrone Guzman,Care / compassion,1,1,2.0,2.0,1.0
+TC003,Centro Tyrone Guzman,Empathy,1,1,1.0,1.0,1.0
+TC003,Centro Tyrone Guzman,Hope,1,1,2.0,2.0,1.0
+TC003,Centro Tyrone Guzman,Gratitude,1,1,1.0,1.0,1.0
+TC003,Centro Tyrone Guzman,Pride,1,1,3.0,3.0,1.0
+TC008,Literacy Minnesota,Anxiety / uncertainty,1,1,2.0,2.0,1.0
+TC008,Literacy Minnesota,Grief / sadness,1,1,2.0,2.0,1.0
+TC008,Literacy Minnesota,Solidarity,1,1,2.0,2.0,1.0
+TC008,Literacy Minnesota,Care / compassion,1,1,3.0,3.0,1.0
+TC008,Literacy Minnesota,Empathy,1,1,1.0,1.0,1.0
+TC008,Literacy Minnesota,Hope,1,1,1.0,1.0,1.0
+TC008,Literacy Minnesota,Gratitude,1,1,3.0,3.0,1.0
+TC008,Literacy Minnesota,Reassurance,1,1,2.0,2.0,1.0
+TC008,Literacy Minnesota,Urgency,1,1,1.0,1.0,1.0
+TC015,Aeon,Solidarity,3,3,4.0,1.3333333333333333,1.0
+TC015,Aeon,Care / compassion,3,3,5.0,1.6666666666666667,1.0
+TC015,Aeon,Empathy,3,1,1.0,0.3333333333333333,0.3333333333333333
+TC015,Aeon,Hope,3,3,6.0,2.0,1.0
+TC015,Aeon,Gratitude,3,3,4.0,1.3333333333333333,1.0
+TC015,Aeon,Pride,3,3,4.0,1.3333333333333333,1.0
+TC015,Aeon,Reassurance,3,2,3.0,1.0,0.6666666666666666
+TC016,Bridging,Solidarity,2,2,5.0,2.5,1.0
+TC016,Bridging,Care / compassion,2,2,3.0,1.5,1.0
+TC016,Bridging,Hope,2,2,4.0,2.0,1.0
+TC016,Bridging,Gratitude,2,2,4.0,2.0,1.0
+TC016,Bridging,Pride,2,2,4.0,2.0,1.0
+TC019,Esperanza United,Fear,1,1,3.0,3.0,1.0
+TC019,Esperanza United,Anxiety / uncertainty,1,1,2.0,2.0,1.0
+TC019,Esperanza United,Anger,1,1,2.0,2.0,1.0
+TC019,Esperanza United,Moral outrage,1,1,3.0,3.0,1.0
+TC019,Esperanza United,Grief / sadness,1,1,1.0,1.0,1.0
+TC019,Esperanza United,Solidarity,1,1,3.0,3.0,1.0
+TC019,Esperanza United,Care / compassion,1,1,3.0,3.0,1.0
+TC019,Esperanza United,Empathy,1,1,3.0,3.0,1.0
+TC019,Esperanza United,Defiance,1,1,2.0,2.0,1.0
+TC019,Esperanza United,Urgency,1,1,3.0,3.0,1.0
+TC021,IAFR Jonathan House,Fear,1,1,3.0,3.0,1.0
+TC021,IAFR Jonathan House,Anxiety / uncertainty,1,1,2.0,2.0,1.0
+TC021,IAFR Jonathan House,Moral outrage,1,1,1.0,1.0,1.0
+TC021,IAFR Jonathan House,Grief / sadness,1,1,2.0,2.0,1.0
+TC021,IAFR Jonathan House,Solidarity,1,1,2.0,2.0,1.0
+TC021,IAFR Jonathan House,Care / compassion,1,1,3.0,3.0,1.0
+TC021,IAFR Jonathan House,Empathy,1,1,3.0,3.0,1.0
+TC021,IAFR Jonathan House,Hope,1,1,1.0,1.0,1.0
+TC021,IAFR Jonathan House,Reassurance,1,1,1.0,1.0,1.0
+TC021,IAFR Jonathan House,Urgency,1,1,2.0,2.0,1.0
+TC023,Missions Inc. Programs,Fear,5,1,1.0,0.2,0.2
+TC023,Missions Inc. Programs,Anxiety / uncertainty,5,1,1.0,0.2,0.2
+TC023,Missions Inc. Programs,Moral outrage,5,1,1.0,0.2,0.2
+TC023,Missions Inc. Programs,Grief / sadness,5,1,1.0,0.2,0.2
+TC023,Missions Inc. Programs,Solidarity,5,4,9.0,1.8,0.8
+TC023,Missions Inc. Programs,Care / compassion,5,5,11.0,2.2,1.0
+TC023,Missions Inc. Programs,Empathy,5,3,5.0,1.0,0.6
+TC023,Missions Inc. Programs,Hope,5,5,6.0,1.2,1.0
+TC023,Missions Inc. Programs,Gratitude,5,2,5.0,1.0,0.4
+TC023,Missions Inc. Programs,Pride,5,2,3.0,0.6,0.4
+TC023,Missions Inc. Programs,Reassurance,5,2,3.0,0.6,0.4
+TC023,Missions Inc. Programs,Defiance,5,1,1.0,0.2,0.2
+TC023,Missions Inc. Programs,Urgency,5,2,3.0,0.6,0.4
+TC025,Twin Cities Habitat for Humanity,Moral outrage,13,1,1.0,0.07692307692307693,0.07692307692307693
+TC025,Twin Cities Habitat for Humanity,Solidarity,13,9,16.0,1.2307692307692308,0.6923076923076923
+TC025,Twin Cities Habitat for Humanity,Care / compassion,13,13,19.0,1.4615384615384615,1.0
+TC025,Twin Cities Habitat for Humanity,Empathy,13,1,2.0,0.15384615384615385,0.07692307692307693
+TC025,Twin Cities Habitat for Humanity,Hope,13,13,25.0,1.9230769230769231,1.0
+TC025,Twin Cities Habitat for Humanity,Gratitude,13,6,8.0,0.6153846153846154,0.46153846153846156
+TC025,Twin Cities Habitat for Humanity,Pride,13,7,12.0,0.9230769230769231,0.5384615384615384
+TC025,Twin Cities Habitat for Humanity,Reassurance,13,8,12.0,0.9230769230769231,0.6153846153846154
+TC025,Twin Cities Habitat for Humanity,Defiance,13,1,1.0,0.07692307692307693,0.07692307692307693
+TC025,Twin Cities Habitat for Humanity,Urgency,13,2,3.0,0.23076923076923078,0.15384615384615385
+TC026,Volunteers of America Minnesota and Wisconsin,Solidarity,10,9,18.0,1.8,0.9
+TC026,Volunteers of America Minnesota and Wisconsin,Care / compassion,10,9,15.0,1.5,0.9
+TC026,Volunteers of America Minnesota and Wisconsin,Empathy,10,4,5.0,0.5,0.4
+TC026,Volunteers of America Minnesota and Wisconsin,Hope,10,9,23.0,2.3,0.9
+TC026,Volunteers of America Minnesota and Wisconsin,Gratitude,10,7,10.0,1.0,0.7
+TC026,Volunteers of America Minnesota and Wisconsin,Pride,10,9,16.0,1.6,0.9
+TC026,Volunteers of America Minnesota and Wisconsin,Reassurance,10,5,5.0,0.5,0.5
+TC028,ACER,Fear,4,1,1.0,0.25,0.25
+TC028,ACER,Anxiety / uncertainty,4,1,1.0,0.25,0.25
+TC028,ACER,Grief / sadness,4,1,1.0,0.25,0.25
+TC028,ACER,Solidarity,4,4,7.0,1.75,1.0
+TC028,ACER,Care / compassion,4,4,6.0,1.5,1.0
+TC028,ACER,Empathy,4,2,4.0,1.0,0.5
+TC028,ACER,Hope,4,4,9.0,2.25,1.0
+TC028,ACER,Gratitude,4,2,5.0,1.25,0.5
+TC028,ACER,Pride,4,3,5.0,1.25,0.75
+TC028,ACER,Reassurance,4,1,1.0,0.25,0.25
+TC028,ACER,Defiance,4,1,1.0,0.25,0.25
+TC030,African Development Center of Minnesota,Care / compassion,3,3,3.0,1.0,1.0
+TC030,African Development Center of Minnesota,Hope,3,3,6.0,2.0,1.0
+TC030,African Development Center of Minnesota,Reassurance,3,3,3.0,1.0,1.0
+TC031,African Economic Development Solutions (AEDS),Solidarity,4,4,11.0,2.75,1.0
+TC031,African Economic Development Solutions (AEDS),Care / compassion,4,4,5.0,1.25,1.0
+TC031,African Economic Development Solutions (AEDS),Empathy,4,2,2.0,0.5,0.5
+TC031,African Economic Development Solutions (AEDS),Hope,4,4,10.0,2.5,1.0
+TC031,African Economic Development Solutions (AEDS),Pride,4,4,9.0,2.25,1.0
+TC031,African Economic Development Solutions (AEDS),Reassurance,4,1,1.0,0.25,0.25
+TC034,Al-Maa'uun,Solidarity,4,4,7.0,1.75,1.0
+TC034,Al-Maa'uun,Care / compassion,4,4,5.0,1.25,1.0
+TC034,Al-Maa'uun,Hope,4,4,6.0,1.5,1.0
+TC034,Al-Maa'uun,Gratitude,4,1,1.0,0.25,0.25
+TC034,Al-Maa'uun,Pride,4,4,6.0,1.5,1.0
+TC035,Arrive Ministries,Fear,6,2,4.0,0.6666666666666666,0.3333333333333333
+TC035,Arrive Ministries,Anxiety / uncertainty,6,2,5.0,0.8333333333333334,0.3333333333333333
+TC035,Arrive Ministries,Solidarity,6,6,10.0,1.6666666666666667,1.0
+TC035,Arrive Ministries,Care / compassion,6,6,11.0,1.8333333333333333,1.0
+TC035,Arrive Ministries,Empathy,6,6,7.0,1.1666666666666667,1.0
+TC035,Arrive Ministries,Hope,6,4,7.0,1.1666666666666667,0.6666666666666666
+TC035,Arrive Ministries,Pride,6,3,4.0,0.6666666666666666,0.5
+TC035,Arrive Ministries,Reassurance,6,3,4.0,0.6666666666666666,0.5
+TC035,Arrive Ministries,Urgency,6,2,3.0,0.5,0.3333333333333333
+TC036,Catholic Charities Twin Cities,Anger,1,1,1.0,1.0,1.0
+TC036,Catholic Charities Twin Cities,Moral outrage,1,1,1.0,1.0,1.0
+TC036,Catholic Charities Twin Cities,Solidarity,1,1,2.0,2.0,1.0
+TC036,Catholic Charities Twin Cities,Care / compassion,1,1,2.0,2.0,1.0
+TC036,Catholic Charities Twin Cities,Empathy,1,1,1.0,1.0,1.0
+TC036,Catholic Charities Twin Cities,Hope,1,1,1.0,1.0,1.0
+TC036,Catholic Charities Twin Cities,Defiance,1,1,1.0,1.0,1.0
+TC036,Catholic Charities Twin Cities,Urgency,1,1,2.0,2.0,1.0
+TC037,CommonBond Communities,Solidarity,3,3,4.0,1.3333333333333333,1.0
+TC037,CommonBond Communities,Care / compassion,3,3,4.0,1.3333333333333333,1.0
+TC037,CommonBond Communities,Hope,3,3,6.0,2.0,1.0
+TC037,CommonBond Communities,Gratitude,3,1,1.0,0.3333333333333333,0.3333333333333333
+TC037,CommonBond Communities,Pride,3,3,3.0,1.0,1.0
+TC037,CommonBond Communities,Reassurance,3,2,3.0,1.0,0.6666666666666666
+TC038,Comunidades Latinas Unidas En Servicio (CLUES),Fear,24,1,2.0,0.08333333333333333,0.041666666666666664
+TC038,Comunidades Latinas Unidas En Servicio (CLUES),Anxiety / uncertainty,24,1,2.0,0.08333333333333333,0.041666666666666664
+TC038,Comunidades Latinas Unidas En Servicio (CLUES),Solidarity,24,2,5.0,0.20833333333333334,0.08333333333333333
+TC038,Comunidades Latinas Unidas En Servicio (CLUES),Care / compassion,24,2,4.0,0.16666666666666666,0.08333333333333333
+TC038,Comunidades Latinas Unidas En Servicio (CLUES),Empathy,24,1,2.0,0.08333333333333333,0.041666666666666664
+TC038,Comunidades Latinas Unidas En Servicio (CLUES),Hope,24,3,3.0,0.125,0.125
+TC038,Comunidades Latinas Unidas En Servicio (CLUES),Gratitude,24,1,1.0,0.041666666666666664,0.041666666666666664
+TC038,Comunidades Latinas Unidas En Servicio (CLUES),Pride,24,1,2.0,0.08333333333333333,0.041666666666666664
+TC038,Comunidades Latinas Unidas En Servicio (CLUES),Reassurance,24,1,2.0,0.08333333333333333,0.041666666666666664
+TC038,Comunidades Latinas Unidas En Servicio (CLUES),Urgency,24,1,3.0,0.125,0.041666666666666664
+TC041,International Institute of Minnesota,Fear,25,20,44.0,1.76,0.8
+TC041,International Institute of Minnesota,Anxiety / uncertainty,25,20,40.0,1.6,0.8
+TC041,International Institute of Minnesota,Anger,25,5,6.0,0.24,0.2
+TC041,International Institute of Minnesota,Moral outrage,25,8,11.0,0.44,0.32
+TC041,International Institute of Minnesota,Grief / sadness,25,12,14.0,0.56,0.48
+TC041,International Institute of Minnesota,Solidarity,25,25,54.0,2.16,1.0
+TC041,International Institute of Minnesota,Care / compassion,25,25,62.0,2.48,1.0
+TC041,International Institute of Minnesota,Empathy,25,25,53.0,2.12,1.0
+TC041,International Institute of Minnesota,Hope,25,13,24.0,0.96,0.52
+TC041,International Institute of Minnesota,Gratitude,25,6,12.0,0.48,0.24
+TC041,International Institute of Minnesota,Pride,25,4,8.0,0.32,0.16
+TC041,International Institute of Minnesota,Reassurance,25,22,30.0,1.2,0.88
+TC041,International Institute of Minnesota,Defiance,25,3,6.0,0.24,0.12
+TC041,International Institute of Minnesota,Urgency,25,19,35.0,1.4,0.76
+TC042,Isuroon,Fear,4,2,3.0,0.75,0.5
+TC042,Isuroon,Anxiety / uncertainty,4,2,3.0,0.75,0.5
+TC042,Isuroon,Solidarity,4,4,8.0,2.0,1.0
+TC042,Isuroon,Care / compassion,4,4,8.0,2.0,1.0
+TC042,Isuroon,Empathy,4,2,4.0,1.0,0.5
+TC042,Isuroon,Hope,4,3,4.0,1.0,0.75
+TC042,Isuroon,Gratitude,4,1,3.0,0.75,0.25
+TC042,Isuroon,Pride,4,2,4.0,1.0,0.5
+TC042,Isuroon,Reassurance,4,2,3.0,0.75,0.5
+TC042,Isuroon,Urgency,4,2,3.0,0.75,0.5
+TC044,Minnesota Council of Churches,Fear,3,3,7.0,2.3333333333333335,1.0
+TC044,Minnesota Council of Churches,Anxiety / uncertainty,3,2,3.0,1.0,0.6666666666666666
+TC044,Minnesota Council of Churches,Anger,3,3,3.0,1.0,1.0
+TC044,Minnesota Council of Churches,Moral outrage,3,3,6.0,2.0,1.0
+TC044,Minnesota Council of Churches,Grief / sadness,3,2,4.0,1.3333333333333333,0.6666666666666666
+TC044,Minnesota Council of Churches,Solidarity,3,3,9.0,3.0,1.0
+TC044,Minnesota Council of Churches,Care / compassion,3,3,8.0,2.6666666666666665,1.0
+TC044,Minnesota Council of Churches,Empathy,3,3,8.0,2.6666666666666665,1.0
+TC044,Minnesota Council of Churches,Hope,3,1,1.0,0.3333333333333333,0.3333333333333333
+TC044,Minnesota Council of Churches,Pride,3,1,2.0,0.6666666666666666,0.3333333333333333
+TC044,Minnesota Council of Churches,Reassurance,3,1,1.0,0.3333333333333333,0.3333333333333333
+TC044,Minnesota Council of Churches,Defiance,3,3,4.0,1.3333333333333333,1.0
+TC044,Minnesota Council of Churches,Urgency,3,3,5.0,1.6666666666666667,1.0
+TC047,Oromo Community of Minnesota,Fear,4,1,2.0,0.5,0.25
+TC047,Oromo Community of Minnesota,Anxiety / uncertainty,4,1,3.0,0.75,0.25
+TC047,Oromo Community of Minnesota,Moral outrage,4,1,1.0,0.25,0.25
+TC047,Oromo Community of Minnesota,Grief / sadness,4,3,9.0,2.25,0.75
+TC047,Oromo Community of Minnesota,Solidarity,4,4,10.0,2.5,1.0
+TC047,Oromo Community of Minnesota,Care / compassion,4,4,9.0,2.25,1.0
+TC047,Oromo Community of Minnesota,Empathy,4,4,5.0,1.25,1.0
+TC047,Oromo Community of Minnesota,Hope,4,4,4.0,1.0,1.0
+TC047,Oromo Community of Minnesota,Gratitude,4,3,3.0,0.75,0.75
+TC047,Oromo Community of Minnesota,Pride,4,3,6.0,1.5,0.75
+TC047,Oromo Community of Minnesota,Reassurance,4,1,2.0,0.5,0.25
+TC047,Oromo Community of Minnesota,Urgency,4,1,2.0,0.5,0.25
+TC050,Project for Pride in Living,Fear,18,3,8.0,0.4444444444444444,0.16666666666666666
+TC050,Project for Pride in Living,Anxiety / uncertainty,18,6,10.0,0.5555555555555556,0.3333333333333333
+TC050,Project for Pride in Living,Anger,18,4,4.0,0.2222222222222222,0.2222222222222222
+TC050,Project for Pride in Living,Moral outrage,18,5,6.0,0.3333333333333333,0.2777777777777778
+TC050,Project for Pride in Living,Grief / sadness,18,2,2.0,0.1111111111111111,0.1111111111111111
+TC050,Project for Pride in Living,Solidarity,18,18,31.0,1.7222222222222223,1.0
+TC050,Project for Pride in Living,Care / compassion,18,18,28.0,1.5555555555555556,1.0
+TC050,Project for Pride in Living,Empathy,18,10,17.0,0.9444444444444444,0.5555555555555556
+TC050,Project for Pride in Living,Hope,18,17,31.0,1.7222222222222223,0.9444444444444444
+TC050,Project for Pride in Living,Gratitude,18,10,13.0,0.7222222222222222,0.5555555555555556
+TC050,Project for Pride in Living,Pride,18,12,27.0,1.5,0.6666666666666666
+TC050,Project for Pride in Living,Reassurance,18,11,15.0,0.8333333333333334,0.6111111111111112
+TC050,Project for Pride in Living,Defiance,18,5,5.0,0.2777777777777778,0.2777777777777778
+TC050,Project for Pride in Living,Urgency,18,7,15.0,0.8333333333333334,0.3888888888888889
+TC054,Alight,Fear,13,8,15.0,1.1538461538461537,0.6153846153846154
+TC054,Alight,Anxiety / uncertainty,13,8,15.0,1.1538461538461537,0.6153846153846154
+TC054,Alight,Anger,13,1,1.0,0.07692307692307693,0.07692307692307693
+TC054,Alight,Moral outrage,13,1,2.0,0.15384615384615385,0.07692307692307693
+TC054,Alight,Grief / sadness,13,3,3.0,0.23076923076923078,0.23076923076923078
+TC054,Alight,Solidarity,13,13,29.0,2.230769230769231,1.0
+TC054,Alight,Care / compassion,13,13,33.0,2.5384615384615383,1.0
+TC054,Alight,Empathy,13,13,26.0,2.0,1.0
+TC054,Alight,Hope,13,12,23.0,1.7692307692307692,0.9230769230769231
+TC054,Alight,Gratitude,13,5,5.0,0.38461538461538464,0.38461538461538464
+TC054,Alight,Pride,13,6,7.0,0.5384615384615384,0.46153846153846156
+TC054,Alight,Reassurance,13,10,16.0,1.2307692307692308,0.7692307692307693
+TC054,Alight,Defiance,13,2,2.0,0.15384615384615385,0.15384615384615385
+TC054,Alight,Urgency,13,9,15.0,1.1538461538461537,0.6923076923076923
+TC055,CAPI USA,Solidarity,3,1,1.0,0.3333333333333333,0.3333333333333333
+TC055,CAPI USA,Care / compassion,3,2,2.0,0.6666666666666666,0.6666666666666666
+TC055,CAPI USA,Hope,3,3,5.0,1.6666666666666667,1.0
+TC055,CAPI USA,Pride,3,1,1.0,0.3333333333333333,0.3333333333333333
+TC055,CAPI USA,Reassurance,3,3,3.0,1.0,1.0
+TC056,Karen Organization of Minnesota,Solidarity,1,1,2.0,2.0,1.0
+TC056,Karen Organization of Minnesota,Care / compassion,1,1,1.0,1.0,1.0
+TC056,Karen Organization of Minnesota,Hope,1,1,2.0,2.0,1.0
+TC056,Karen Organization of Minnesota,Gratitude,1,1,1.0,1.0,1.0
+TC056,Karen Organization of Minnesota,Pride,1,1,2.0,2.0,1.0
+TC056,Karen Organization of Minnesota,Reassurance,1,1,1.0,1.0,1.0
+TC057,Immigrant Law Center of Minnesota,Fear,8,8,15.0,1.875,1.0
+TC057,Immigrant Law Center of Minnesota,Anxiety / uncertainty,8,6,10.0,1.25,0.75
+TC057,Immigrant Law Center of Minnesota,Anger,8,4,9.0,1.125,0.5
+TC057,Immigrant Law Center of Minnesota,Moral outrage,8,5,11.0,1.375,0.625
+TC057,Immigrant Law Center of Minnesota,Grief / sadness,8,3,7.0,0.875,0.375
+TC057,Immigrant Law Center of Minnesota,Solidarity,8,8,17.0,2.125,1.0
+TC057,Immigrant Law Center of Minnesota,Care / compassion,8,8,16.0,2.0,1.0
+TC057,Immigrant Law Center of Minnesota,Empathy,8,7,10.0,1.25,0.875
+TC057,Immigrant Law Center of Minnesota,Hope,8,4,5.0,0.625,0.5
+TC057,Immigrant Law Center of Minnesota,Reassurance,8,4,9.0,1.125,0.5
+TC057,Immigrant Law Center of Minnesota,Defiance,8,6,13.0,1.625,0.75
+TC057,Immigrant Law Center of Minnesota,Urgency,8,8,20.0,2.5,1.0
+TC058,Mid-Minnesota Legal Aid,Fear,28,15,21.0,0.75,0.5357142857142857
+TC058,Mid-Minnesota Legal Aid,Anxiety / uncertainty,28,12,16.0,0.5714285714285714,0.42857142857142855
+TC058,Mid-Minnesota Legal Aid,Anger,28,8,9.0,0.32142857142857145,0.2857142857142857
+TC058,Mid-Minnesota Legal Aid,Moral outrage,28,12,14.0,0.5,0.42857142857142855
+TC058,Mid-Minnesota Legal Aid,Grief / sadness,28,1,1.0,0.03571428571428571,0.03571428571428571
+TC058,Mid-Minnesota Legal Aid,Solidarity,28,7,12.0,0.42857142857142855,0.25
+TC058,Mid-Minnesota Legal Aid,Care / compassion,28,16,21.0,0.75,0.5714285714285714
+TC058,Mid-Minnesota Legal Aid,Empathy,28,8,10.0,0.35714285714285715,0.2857142857142857
+TC058,Mid-Minnesota Legal Aid,Hope,28,8,12.0,0.42857142857142855,0.2857142857142857
+TC058,Mid-Minnesota Legal Aid,Gratitude,28,3,3.0,0.10714285714285714,0.10714285714285714
+TC058,Mid-Minnesota Legal Aid,Pride,28,3,3.0,0.10714285714285714,0.10714285714285714
+TC058,Mid-Minnesota Legal Aid,Reassurance,28,15,16.0,0.5714285714285714,0.5357142857142857
+TC058,Mid-Minnesota Legal Aid,Defiance,28,4,8.0,0.2857142857142857,0.14285714285714285
+TC058,Mid-Minnesota Legal Aid,Urgency,28,11,12.0,0.42857142857142855,0.39285714285714285
+TC060,SEWA-AIFW,Solidarity,1,1,2.0,2.0,1.0
+TC060,SEWA-AIFW,Care / compassion,1,1,1.0,1.0,1.0
+TC060,SEWA-AIFW,Hope,1,1,2.0,2.0,1.0
+TC060,SEWA-AIFW,Pride,1,1,2.0,2.0,1.0
+TC062,AVIVO,Solidarity,1,1,2.0,2.0,1.0
+TC062,AVIVO,Care / compassion,1,1,1.0,1.0,1.0
+TC062,AVIVO,Hope,1,1,2.0,2.0,1.0
+TC062,AVIVO,Gratitude,1,1,1.0,1.0,1.0
+TC062,AVIVO,Pride,1,1,3.0,3.0,1.0
+TC064,The Advocates for Human Rights,Fear,21,18,27.0,1.2857142857142858,0.8571428571428571
+TC064,The Advocates for Human Rights,Anxiety / uncertainty,21,11,13.0,0.6190476190476191,0.5238095238095238
+TC064,The Advocates for Human Rights,Anger,21,12,18.0,0.8571428571428571,0.5714285714285714
+TC064,The Advocates for Human Rights,Moral outrage,21,18,36.0,1.7142857142857142,0.8571428571428571
+TC064,The Advocates for Human Rights,Grief / sadness,21,7,11.0,0.5238095238095238,0.3333333333333333
+TC064,The Advocates for Human Rights,Solidarity,21,18,28.0,1.3333333333333333,0.8571428571428571
+TC064,The Advocates for Human Rights,Care / compassion,21,15,21.0,1.0,0.7142857142857143
+TC064,The Advocates for Human Rights,Empathy,21,10,15.0,0.7142857142857143,0.47619047619047616
+TC064,The Advocates for Human Rights,Hope,21,10,14.0,0.6666666666666666,0.47619047619047616
+TC064,The Advocates for Human Rights,Gratitude,21,4,4.0,0.19047619047619047,0.19047619047619047
+TC064,The Advocates for Human Rights,Reassurance,21,10,15.0,0.7142857142857143,0.47619047619047616
+TC064,The Advocates for Human Rights,Defiance,21,13,26.0,1.2380952380952381,0.6190476190476191
+TC064,The Advocates for Human Rights,Urgency,21,17,29.0,1.380952380952381,0.8095238095238095
+TC065,Volunteer Lawyers Network,Solidarity,3,3,3.0,1.0,1.0
+TC065,Volunteer Lawyers Network,Care / compassion,3,3,3.0,1.0,1.0
+TC065,Volunteer Lawyers Network,Hope,3,3,3.0,1.0,1.0
+TC065,Volunteer Lawyers Network,Reassurance,3,3,3.0,1.0,1.0
+TC070,Hmong American Partnership,Solidarity,1,1,1.0,1.0,1.0
+TC070,Hmong American Partnership,Care / compassion,1,1,1.0,1.0,1.0
+TC070,Hmong American Partnership,Hope,1,1,2.0,2.0,1.0
+TC070,Hmong American Partnership,Reassurance,1,1,1.0,1.0,1.0
+TC073,Center for Victims of Torture,Fear,20,14,30.0,1.5,0.7
+TC073,Center for Victims of Torture,Anxiety / uncertainty,20,14,28.0,1.4,0.7
+TC073,Center for Victims of Torture,Anger,20,9,14.0,0.7,0.45
+TC073,Center for Victims of Torture,Moral outrage,20,11,23.0,1.15,0.55
+TC073,Center for Victims of Torture,Grief / sadness,20,13,18.0,0.9,0.65
+TC073,Center for Victims of Torture,Solidarity,20,20,38.0,1.9,1.0
+TC073,Center for Victims of Torture,Care / compassion,20,20,41.0,2.05,1.0
+TC073,Center for Victims of Torture,Empathy,20,16,35.0,1.75,0.8
+TC073,Center for Victims of Torture,Hope,20,11,23.0,1.15,0.55
+TC073,Center for Victims of Torture,Gratitude,20,8,11.0,0.55,0.4
+TC073,Center for Victims of Torture,Pride,20,6,8.0,0.4,0.3
+TC073,Center for Victims of Torture,Reassurance,20,8,12.0,0.6,0.4
+TC073,Center for Victims of Torture,Defiance,20,8,16.0,0.8,0.4
+TC073,Center for Victims of Torture,Urgency,20,12,26.0,1.3,0.6
+TC074,COPAL,Fear,12,9,22.0,1.8333333333333333,0.75
+TC074,COPAL,Anxiety / uncertainty,12,9,15.0,1.25,0.75
+TC074,COPAL,Anger,12,9,15.0,1.25,0.75
+TC074,COPAL,Moral outrage,12,10,23.0,1.9166666666666667,0.8333333333333334
+TC074,COPAL,Grief / sadness,12,6,13.0,1.0833333333333333,0.5
+TC074,COPAL,Solidarity,12,12,36.0,3.0,1.0
+TC074,COPAL,Care / compassion,12,12,26.0,2.1666666666666665,1.0
+TC074,COPAL,Empathy,12,11,22.0,1.8333333333333333,0.9166666666666666
+TC074,COPAL,Hope,12,8,14.0,1.1666666666666667,0.6666666666666666
+TC074,COPAL,Gratitude,12,1,2.0,0.16666666666666666,0.08333333333333333
+TC074,COPAL,Pride,12,4,6.0,0.5,0.3333333333333333
+TC074,COPAL,Reassurance,12,2,4.0,0.3333333333333333,0.16666666666666666
+TC074,COPAL,Defiance,12,11,25.0,2.0833333333333335,0.9166666666666666
+TC074,COPAL,Urgency,12,12,30.0,2.5,1.0
+TC075,Unidos MN,Fear,20,6,12.0,0.6,0.3
+TC075,Unidos MN,Anxiety / uncertainty,20,5,9.0,0.45,0.25
+TC075,Unidos MN,Anger,20,7,8.0,0.4,0.35
+TC075,Unidos MN,Moral outrage,20,7,12.0,0.6,0.35
+TC075,Unidos MN,Grief / sadness,20,2,4.0,0.2,0.1
+TC075,Unidos MN,Solidarity,20,20,46.0,2.3,1.0
+TC075,Unidos MN,Care / compassion,20,20,32.0,1.6,1.0
+TC075,Unidos MN,Empathy,20,7,13.0,0.65,0.35
+TC075,Unidos MN,Hope,20,19,35.0,1.75,0.95
+TC075,Unidos MN,Pride,20,8,9.0,0.45,0.4
+TC075,Unidos MN,Reassurance,20,14,19.0,0.95,0.7
+TC075,Unidos MN,Defiance,20,10,15.0,0.75,0.5
+TC075,Unidos MN,Urgency,20,14,26.0,1.3,0.7
+TC076,Minnesota Interfaith Coalition on Immigration,Fear,8,2,3.0,0.375,0.25
+TC076,Minnesota Interfaith Coalition on Immigration,Anxiety / uncertainty,8,3,3.0,0.375,0.375
+TC076,Minnesota Interfaith Coalition on Immigration,Anger,8,2,2.0,0.25,0.25
+TC076,Minnesota Interfaith Coalition on Immigration,Moral outrage,8,3,4.0,0.5,0.375
+TC076,Minnesota Interfaith Coalition on Immigration,Grief / sadness,8,1,1.0,0.125,0.125
+TC076,Minnesota Interfaith Coalition on Immigration,Solidarity,8,8,19.0,2.375,1.0
+TC076,Minnesota Interfaith Coalition on Immigration,Care / compassion,8,8,16.0,2.0,1.0
+TC076,Minnesota Interfaith Coalition on Immigration,Empathy,8,5,6.0,0.75,0.625
+TC076,Minnesota Interfaith Coalition on Immigration,Hope,8,8,14.0,1.75,1.0
+TC076,Minnesota Interfaith Coalition on Immigration,Gratitude,8,4,8.0,1.0,0.5
+TC076,Minnesota Interfaith Coalition on Immigration,Pride,8,5,5.0,0.625,0.625
+TC076,Minnesota Interfaith Coalition on Immigration,Reassurance,8,5,7.0,0.875,0.625
+TC076,Minnesota Interfaith Coalition on Immigration,Defiance,8,3,3.0,0.375,0.375
+TC076,Minnesota Interfaith Coalition on Immigration,Urgency,8,4,7.0,0.875,0.5
+TC077,ISAIAH,Fear,2,2,6.0,3.0,1.0
+TC077,ISAIAH,Anxiety / uncertainty,2,2,2.0,1.0,1.0
+TC077,ISAIAH,Anger,2,2,4.0,2.0,1.0
+TC077,ISAIAH,Moral outrage,2,2,6.0,3.0,1.0
+TC077,ISAIAH,Grief / sadness,2,2,5.0,2.5,1.0
+TC077,ISAIAH,Solidarity,2,2,6.0,3.0,1.0
+TC077,ISAIAH,Care / compassion,2,2,4.0,2.0,1.0
+TC077,ISAIAH,Empathy,2,2,4.0,2.0,1.0
+TC077,ISAIAH,Defiance,2,2,6.0,3.0,1.0
+TC077,ISAIAH,Urgency,2,2,6.0,3.0,1.0
+TC078,Jewish Community Action,Fear,19,13,24.0,1.263157894736842,0.6842105263157895
+TC078,Jewish Community Action,Anxiety / uncertainty,19,10,13.0,0.6842105263157895,0.5263157894736842
+TC078,Jewish Community Action,Anger,19,6,9.0,0.47368421052631576,0.3157894736842105
+TC078,Jewish Community Action,Moral outrage,19,17,23.0,1.2105263157894737,0.8947368421052632
+TC078,Jewish Community Action,Grief / sadness,19,1,1.0,0.05263157894736842,0.05263157894736842
+TC078,Jewish Community Action,Solidarity,19,19,53.0,2.789473684210526,1.0
+TC078,Jewish Community Action,Care / compassion,19,19,39.0,2.0526315789473686,1.0
+TC078,Jewish Community Action,Empathy,19,15,20.0,1.0526315789473684,0.7894736842105263
+TC078,Jewish Community Action,Hope,19,17,24.0,1.263157894736842,0.8947368421052632
+TC078,Jewish Community Action,Pride,19,4,6.0,0.3157894736842105,0.21052631578947367
+TC078,Jewish Community Action,Reassurance,19,11,18.0,0.9473684210526315,0.5789473684210527
+TC078,Jewish Community Action,Defiance,19,16,29.0,1.5263157894736843,0.8421052631578947
+TC078,Jewish Community Action,Urgency,19,18,44.0,2.3157894736842106,0.9473684210526315

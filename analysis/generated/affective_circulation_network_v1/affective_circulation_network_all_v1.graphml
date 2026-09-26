@@ -1,0 +1,3539 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d8" for="edge" attr.name="count" attr.type="long" />
+  <key id="d7" for="edge" attr.name="normalized_weight" attr.type="double" />
+  <key id="d6" for="edge" attr.name="raw_weight" attr.type="double" />
+  <key id="d5" for="edge" attr.name="edge_type" attr.type="string" />
+  <key id="d4" for="node" attr.name="corpus_member" attr.type="long" />
+  <key id="d3" for="node" attr.name="observed_items" attr.type="long" />
+  <key id="d2" for="node" attr.name="node_type" attr.type="string" />
+  <key id="d1" for="node" attr.name="layer" attr.type="string" />
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="A::Anger">
+      <data key="d0">Anger</data>
+      <data key="d1">affect</data>
+      <data key="d2">affect</data>
+    </node>
+    <node id="A::Anxiety / uncertainty">
+      <data key="d0">Anxiety / uncertainty</data>
+      <data key="d1">affect</data>
+      <data key="d2">affect</data>
+    </node>
+    <node id="A::Care / compassion">
+      <data key="d0">Care / compassion</data>
+      <data key="d1">affect</data>
+      <data key="d2">affect</data>
+    </node>
+    <node id="A::Defiance">
+      <data key="d0">Defiance</data>
+      <data key="d1">affect</data>
+      <data key="d2">affect</data>
+    </node>
+    <node id="A::Empathy">
+      <data key="d0">Empathy</data>
+      <data key="d1">affect</data>
+      <data key="d2">affect</data>
+    </node>
+    <node id="A::Fear">
+      <data key="d0">Fear</data>
+      <data key="d1">affect</data>
+      <data key="d2">affect</data>
+    </node>
+    <node id="A::Gratitude">
+      <data key="d0">Gratitude</data>
+      <data key="d1">affect</data>
+      <data key="d2">affect</data>
+    </node>
+    <node id="A::Grief / sadness">
+      <data key="d0">Grief / sadness</data>
+      <data key="d1">affect</data>
+      <data key="d2">affect</data>
+    </node>
+    <node id="A::Hope">
+      <data key="d0">Hope</data>
+      <data key="d1">affect</data>
+      <data key="d2">affect</data>
+    </node>
+    <node id="A::Moral outrage">
+      <data key="d0">Moral outrage</data>
+      <data key="d1">affect</data>
+      <data key="d2">affect</data>
+    </node>
+    <node id="A::Pride">
+      <data key="d0">Pride</data>
+      <data key="d1">affect</data>
+      <data key="d2">affect</data>
+    </node>
+    <node id="A::Reassurance">
+      <data key="d0">Reassurance</data>
+      <data key="d1">affect</data>
+      <data key="d2">affect</data>
+    </node>
+    <node id="A::Solidarity">
+      <data key="d0">Solidarity</data>
+      <data key="d1">affect</data>
+      <data key="d2">affect</data>
+    </node>
+    <node id="A::Urgency">
+      <data key="d0">Urgency</data>
+      <data key="d1">affect</data>
+      <data key="d2">affect</data>
+    </node>
+    <node id="O::D2-01">
+      <data key="d0">ACLU of Minnesota</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">13</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::D2-03">
+      <data key="d0">Ayada Leads</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">2</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::D2-07">
+      <data key="d0">Groundwork Legal</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">5</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::D2-10">
+      <data key="d0">Immigrant Defense Network</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">1</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC002">
+      <data key="d0">Cedar Riverside Adult Education Collaborative</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">10</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC003">
+      <data key="d0">Centro Tyrone Guzman</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">1</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC008">
+      <data key="d0">Literacy Minnesota</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">1</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC015">
+      <data key="d0">Aeon</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">3</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC016">
+      <data key="d0">Bridging</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">2</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC019">
+      <data key="d0">Esperanza United</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">1</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC021">
+      <data key="d0">IAFR Jonathan House</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">1</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC023">
+      <data key="d0">Missions Inc. Programs</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">5</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC025">
+      <data key="d0">Twin Cities Habitat for Humanity</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">13</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC026">
+      <data key="d0">Volunteers of America Minnesota and Wisconsin</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">10</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC028">
+      <data key="d0">ACER</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">4</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC030">
+      <data key="d0">African Development Center of Minnesota</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">3</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC031">
+      <data key="d0">African Economic Development Solutions (AEDS)</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">4</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC034">
+      <data key="d0">Al-Maa'uun</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">4</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC035">
+      <data key="d0">Arrive Ministries</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">6</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC036">
+      <data key="d0">Catholic Charities Twin Cities</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">1</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC037">
+      <data key="d0">CommonBond Communities</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">3</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC038">
+      <data key="d0">Comunidades Latinas Unidas En Servicio (CLUES)</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">24</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC041">
+      <data key="d0">International Institute of Minnesota</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">25</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC042">
+      <data key="d0">Isuroon</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">4</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC044">
+      <data key="d0">Minnesota Council of Churches</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">3</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC047">
+      <data key="d0">Oromo Community of Minnesota</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">4</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC049">
+      <data key="d0">PRISM</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">5</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC050">
+      <data key="d0">Project for Pride in Living</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">18</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC054">
+      <data key="d0">Alight</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">13</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC055">
+      <data key="d0">CAPI USA</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">3</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC056">
+      <data key="d0">Karen Organization of Minnesota</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">1</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC057">
+      <data key="d0">Immigrant Law Center of Minnesota</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">8</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC058">
+      <data key="d0">Mid-Minnesota Legal Aid</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">28</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC060">
+      <data key="d0">SEWA-AIFW</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">1</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC062">
+      <data key="d0">AVIVO</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">1</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC064">
+      <data key="d0">The Advocates for Human Rights</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">21</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC065">
+      <data key="d0">Volunteer Lawyers Network</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">3</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC070">
+      <data key="d0">Hmong American Partnership</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">1</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC073">
+      <data key="d0">Center for Victims of Torture</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">20</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC074">
+      <data key="d0">COPAL</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">12</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC075">
+      <data key="d0">Unidos MN</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">20</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC076">
+      <data key="d0">Minnesota Interfaith Coalition on Immigration</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">8</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC077">
+      <data key="d0">ISAIAH</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">2</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::TC078">
+      <data key="d0">Jewish Community Action</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">19</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="O::D1-09">
+      <data key="d0">Southern Minnesota Regional Legal Services (SMRLS)</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="O::D2-02">
+      <data key="d0">MN8 / Release MN8</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="O::D2-05">
+      <data key="d0">CAIR-Minnesota</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="O::D2-06">
+      <data key="d0">Inquilinxs Unidxs por Justicia / United Renters for Justice</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="O::D2-08">
+      <data key="d0">Defend the 612</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="O::TC045">
+      <data key="d0">Neighborhood House</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="O::TC082">
+      <data key="d0">Coalition of Asian American Leaders (CAAL)</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="O::TC084">
+      <data key="d0">Minnesota Immigrant Rights Action Committee (MIRAC)</data>
+      <data key="d1">organization</data>
+      <data key="d2">organization</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="M::Associated Press">
+      <data key="d0">Associated Press</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::Bring Me The News">
+      <data key="d0">Bring Me The News</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::CBS Minnesota / WCCO">
+      <data key="d0">CBS Minnesota / WCCO</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::CNN">
+      <data key="d0">CNN</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::Community Reporter">
+      <data key="d0">Community Reporter</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::FOX 9">
+      <data key="d0">FOX 9</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::Finance &amp; Commerce">
+      <data key="d0">Finance &amp; Commerce</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::Fox News Digital">
+      <data key="d0">Fox News Digital</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::Here &amp; Now / WBUR">
+      <data key="d0">Here &amp; Now / WBUR</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::Hmong Daily News">
+      <data key="d0">Hmong Daily News</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::In These Times">
+      <data key="d0">In These Times</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::Jewish Telegraphic Agency">
+      <data key="d0">Jewish Telegraphic Agency</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::KARE 11">
+      <data key="d0">KARE 11</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::KSTP 5 Eyewitness News">
+      <data key="d0">KSTP 5 Eyewitness News</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::MPR News">
+      <data key="d0">MPR News</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::Minnesota Reformer">
+      <data key="d0">Minnesota Reformer</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::Minnesota Spokesman-Recorder">
+      <data key="d0">Minnesota Spokesman-Recorder</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::Minnesota Star Tribune">
+      <data key="d0">Minnesota Star Tribune</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::Minnesota Women's Press">
+      <data key="d0">Minnesota Women's Press</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::N+ Univision">
+      <data key="d0">N+ Univision</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::NPR">
+      <data key="d0">NPR</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::Pioneer Press">
+      <data key="d0">Pioneer Press</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::Religion News Service">
+      <data key="d0">Religion News Service</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::Sahan Journal">
+      <data key="d0">Sahan Journal</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::TC Jewfolk">
+      <data key="d0">TC Jewfolk</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::The Guardian">
+      <data key="d0">The Guardian</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::The Imprint">
+      <data key="d0">The Imprint</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::The New York Times">
+      <data key="d0">The New York Times</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <node id="M::The Washington Post">
+      <data key="d0">The Washington Post</data>
+      <data key="d1">media</data>
+      <data key="d2">media</data>
+    </node>
+    <edge source="A::Anger" target="O::D2-01">
+      <data key="d5">affect_org</data>
+      <data key="d6">19.0</data>
+      <data key="d7">1.4615384615384615</data>
+      <data key="d8">13</data>
+    </edge>
+    <edge source="A::Anger" target="O::D2-03">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.5</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Anger" target="O::D2-07">
+      <data key="d5">affect_org</data>
+      <data key="d6">5.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Anger" target="O::D2-10">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Anger" target="O::TC019">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Anger" target="O::TC036">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Anger" target="O::TC041">
+      <data key="d5">affect_org</data>
+      <data key="d6">6.0</data>
+      <data key="d7">0.24</data>
+      <data key="d8">5</data>
+    </edge>
+    <edge source="A::Anger" target="O::TC044">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Anger" target="O::TC050">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">0.2222222222222222</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Anger" target="O::TC054">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.07692307692307693</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Anger" target="O::TC057">
+      <data key="d5">affect_org</data>
+      <data key="d6">9.0</data>
+      <data key="d7">1.125</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Anger" target="O::TC058">
+      <data key="d5">affect_org</data>
+      <data key="d6">9.0</data>
+      <data key="d7">0.32142857142857145</data>
+      <data key="d8">8</data>
+    </edge>
+    <edge source="A::Anger" target="O::TC064">
+      <data key="d5">affect_org</data>
+      <data key="d6">18.0</data>
+      <data key="d7">0.8571428571428571</data>
+      <data key="d8">12</data>
+    </edge>
+    <edge source="A::Anger" target="O::TC073">
+      <data key="d5">affect_org</data>
+      <data key="d6">14.0</data>
+      <data key="d7">0.7</data>
+      <data key="d8">9</data>
+    </edge>
+    <edge source="A::Anger" target="O::TC074">
+      <data key="d5">affect_org</data>
+      <data key="d6">15.0</data>
+      <data key="d7">1.25</data>
+      <data key="d8">9</data>
+    </edge>
+    <edge source="A::Anger" target="O::TC075">
+      <data key="d5">affect_org</data>
+      <data key="d6">8.0</data>
+      <data key="d7">0.4</data>
+      <data key="d8">7</data>
+    </edge>
+    <edge source="A::Anger" target="O::TC076">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">0.25</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Anger" target="O::TC077">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Anger" target="O::TC078">
+      <data key="d5">affect_org</data>
+      <data key="d6">9.0</data>
+      <data key="d7">0.47368421052631576</data>
+      <data key="d8">6</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::D2-01">
+      <data key="d5">affect_org</data>
+      <data key="d6">7.0</data>
+      <data key="d7">0.5384615384615384</data>
+      <data key="d8">7</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::D2-03">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::D2-07">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">0.6</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::TC008">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::TC019">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::TC021">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::TC023">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.2</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::TC028">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.25</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::TC035">
+      <data key="d5">affect_org</data>
+      <data key="d6">5.0</data>
+      <data key="d7">0.8333333333333334</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::TC038">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">0.08333333333333333</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::TC041">
+      <data key="d5">affect_org</data>
+      <data key="d6">40.0</data>
+      <data key="d7">1.6</data>
+      <data key="d8">20</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::TC042">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">0.75</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::TC044">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::TC047">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">0.75</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::TC050">
+      <data key="d5">affect_org</data>
+      <data key="d6">10.0</data>
+      <data key="d7">0.5555555555555556</data>
+      <data key="d8">6</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::TC054">
+      <data key="d5">affect_org</data>
+      <data key="d6">15.0</data>
+      <data key="d7">1.1538461538461537</data>
+      <data key="d8">8</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::TC057">
+      <data key="d5">affect_org</data>
+      <data key="d6">10.0</data>
+      <data key="d7">1.25</data>
+      <data key="d8">6</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::TC058">
+      <data key="d5">affect_org</data>
+      <data key="d6">16.0</data>
+      <data key="d7">0.5714285714285714</data>
+      <data key="d8">12</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::TC064">
+      <data key="d5">affect_org</data>
+      <data key="d6">13.0</data>
+      <data key="d7">0.6190476190476191</data>
+      <data key="d8">11</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::TC073">
+      <data key="d5">affect_org</data>
+      <data key="d6">28.0</data>
+      <data key="d7">1.4</data>
+      <data key="d8">14</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::TC074">
+      <data key="d5">affect_org</data>
+      <data key="d6">15.0</data>
+      <data key="d7">1.25</data>
+      <data key="d8">9</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::TC075">
+      <data key="d5">affect_org</data>
+      <data key="d6">9.0</data>
+      <data key="d7">0.45</data>
+      <data key="d8">5</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::TC076">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">0.375</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::TC077">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Anxiety / uncertainty" target="O::TC078">
+      <data key="d5">affect_org</data>
+      <data key="d6">13.0</data>
+      <data key="d7">0.6842105263157895</data>
+      <data key="d8">10</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::D2-01">
+      <data key="d5">affect_org</data>
+      <data key="d6">15.0</data>
+      <data key="d7">1.1538461538461537</data>
+      <data key="d8">10</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::D2-03">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::D2-07">
+      <data key="d5">affect_org</data>
+      <data key="d6">14.0</data>
+      <data key="d7">2.8</data>
+      <data key="d8">5</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::D2-10">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC003">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC008">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC015">
+      <data key="d5">affect_org</data>
+      <data key="d6">5.0</data>
+      <data key="d7">1.6666666666666667</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC016">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">1.5</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC019">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC021">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC023">
+      <data key="d5">affect_org</data>
+      <data key="d6">11.0</data>
+      <data key="d7">2.2</data>
+      <data key="d8">5</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC025">
+      <data key="d5">affect_org</data>
+      <data key="d6">19.0</data>
+      <data key="d7">1.4615384615384615</data>
+      <data key="d8">13</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC026">
+      <data key="d5">affect_org</data>
+      <data key="d6">15.0</data>
+      <data key="d7">1.5</data>
+      <data key="d8">9</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC028">
+      <data key="d5">affect_org</data>
+      <data key="d6">6.0</data>
+      <data key="d7">1.5</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC030">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC031">
+      <data key="d5">affect_org</data>
+      <data key="d6">5.0</data>
+      <data key="d7">1.25</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC034">
+      <data key="d5">affect_org</data>
+      <data key="d6">5.0</data>
+      <data key="d7">1.25</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC035">
+      <data key="d5">affect_org</data>
+      <data key="d6">11.0</data>
+      <data key="d7">1.8333333333333333</data>
+      <data key="d8">6</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC036">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC037">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">1.3333333333333333</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC038">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">0.16666666666666666</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC041">
+      <data key="d5">affect_org</data>
+      <data key="d6">62.0</data>
+      <data key="d7">2.48</data>
+      <data key="d8">25</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC042">
+      <data key="d5">affect_org</data>
+      <data key="d6">8.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC044">
+      <data key="d5">affect_org</data>
+      <data key="d6">8.0</data>
+      <data key="d7">2.6666666666666665</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC047">
+      <data key="d5">affect_org</data>
+      <data key="d6">9.0</data>
+      <data key="d7">2.25</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC050">
+      <data key="d5">affect_org</data>
+      <data key="d6">28.0</data>
+      <data key="d7">1.5555555555555556</data>
+      <data key="d8">18</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC054">
+      <data key="d5">affect_org</data>
+      <data key="d6">33.0</data>
+      <data key="d7">2.5384615384615383</data>
+      <data key="d8">13</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC055">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">0.6666666666666666</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC056">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC057">
+      <data key="d5">affect_org</data>
+      <data key="d6">16.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">8</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC058">
+      <data key="d5">affect_org</data>
+      <data key="d6">21.0</data>
+      <data key="d7">0.75</data>
+      <data key="d8">16</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC060">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC062">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC064">
+      <data key="d5">affect_org</data>
+      <data key="d6">21.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">15</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC065">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC070">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC073">
+      <data key="d5">affect_org</data>
+      <data key="d6">41.0</data>
+      <data key="d7">2.05</data>
+      <data key="d8">20</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC074">
+      <data key="d5">affect_org</data>
+      <data key="d6">26.0</data>
+      <data key="d7">2.1666666666666665</data>
+      <data key="d8">12</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC075">
+      <data key="d5">affect_org</data>
+      <data key="d6">32.0</data>
+      <data key="d7">1.6</data>
+      <data key="d8">20</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC076">
+      <data key="d5">affect_org</data>
+      <data key="d6">16.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">8</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC077">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Care / compassion" target="O::TC078">
+      <data key="d5">affect_org</data>
+      <data key="d6">39.0</data>
+      <data key="d7">2.0526315789473686</data>
+      <data key="d8">19</data>
+    </edge>
+    <edge source="A::Defiance" target="O::D2-01">
+      <data key="d5">affect_org</data>
+      <data key="d6">26.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">13</data>
+    </edge>
+    <edge source="A::Defiance" target="O::D2-03">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.5</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Defiance" target="O::D2-07">
+      <data key="d5">affect_org</data>
+      <data key="d6">8.0</data>
+      <data key="d7">1.6</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Defiance" target="O::D2-10">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Defiance" target="O::TC019">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Defiance" target="O::TC023">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.2</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Defiance" target="O::TC025">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.07692307692307693</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Defiance" target="O::TC028">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.25</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Defiance" target="O::TC036">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Defiance" target="O::TC041">
+      <data key="d5">affect_org</data>
+      <data key="d6">6.0</data>
+      <data key="d7">0.24</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Defiance" target="O::TC044">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">1.3333333333333333</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Defiance" target="O::TC050">
+      <data key="d5">affect_org</data>
+      <data key="d6">5.0</data>
+      <data key="d7">0.2777777777777778</data>
+      <data key="d8">5</data>
+    </edge>
+    <edge source="A::Defiance" target="O::TC054">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">0.15384615384615385</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Defiance" target="O::TC057">
+      <data key="d5">affect_org</data>
+      <data key="d6">13.0</data>
+      <data key="d7">1.625</data>
+      <data key="d8">6</data>
+    </edge>
+    <edge source="A::Defiance" target="O::TC058">
+      <data key="d5">affect_org</data>
+      <data key="d6">8.0</data>
+      <data key="d7">0.2857142857142857</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Defiance" target="O::TC064">
+      <data key="d5">affect_org</data>
+      <data key="d6">26.0</data>
+      <data key="d7">1.2380952380952381</data>
+      <data key="d8">13</data>
+    </edge>
+    <edge source="A::Defiance" target="O::TC073">
+      <data key="d5">affect_org</data>
+      <data key="d6">16.0</data>
+      <data key="d7">0.8</data>
+      <data key="d8">8</data>
+    </edge>
+    <edge source="A::Defiance" target="O::TC074">
+      <data key="d5">affect_org</data>
+      <data key="d6">25.0</data>
+      <data key="d7">2.0833333333333335</data>
+      <data key="d8">11</data>
+    </edge>
+    <edge source="A::Defiance" target="O::TC075">
+      <data key="d5">affect_org</data>
+      <data key="d6">15.0</data>
+      <data key="d7">0.75</data>
+      <data key="d8">10</data>
+    </edge>
+    <edge source="A::Defiance" target="O::TC076">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">0.375</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Defiance" target="O::TC077">
+      <data key="d5">affect_org</data>
+      <data key="d6">6.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Defiance" target="O::TC078">
+      <data key="d5">affect_org</data>
+      <data key="d6">29.0</data>
+      <data key="d7">1.5263157894736843</data>
+      <data key="d8">16</data>
+    </edge>
+    <edge source="A::Empathy" target="O::D2-01">
+      <data key="d5">affect_org</data>
+      <data key="d6">11.0</data>
+      <data key="d7">0.8461538461538461</data>
+      <data key="d8">7</data>
+    </edge>
+    <edge source="A::Empathy" target="O::D2-03">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Empathy" target="O::D2-07">
+      <data key="d5">affect_org</data>
+      <data key="d6">14.0</data>
+      <data key="d7">2.8</data>
+      <data key="d8">5</data>
+    </edge>
+    <edge source="A::Empathy" target="O::D2-10">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC003">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC008">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC015">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.3333333333333333</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC019">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC021">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC023">
+      <data key="d5">affect_org</data>
+      <data key="d6">5.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC025">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">0.15384615384615385</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC026">
+      <data key="d5">affect_org</data>
+      <data key="d6">5.0</data>
+      <data key="d7">0.5</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC028">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC031">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">0.5</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC035">
+      <data key="d5">affect_org</data>
+      <data key="d6">7.0</data>
+      <data key="d7">1.1666666666666667</data>
+      <data key="d8">6</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC036">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC038">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">0.08333333333333333</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC041">
+      <data key="d5">affect_org</data>
+      <data key="d6">53.0</data>
+      <data key="d7">2.12</data>
+      <data key="d8">25</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC042">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC044">
+      <data key="d5">affect_org</data>
+      <data key="d6">8.0</data>
+      <data key="d7">2.6666666666666665</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC047">
+      <data key="d5">affect_org</data>
+      <data key="d6">5.0</data>
+      <data key="d7">1.25</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC050">
+      <data key="d5">affect_org</data>
+      <data key="d6">17.0</data>
+      <data key="d7">0.9444444444444444</data>
+      <data key="d8">10</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC054">
+      <data key="d5">affect_org</data>
+      <data key="d6">26.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">13</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC057">
+      <data key="d5">affect_org</data>
+      <data key="d6">10.0</data>
+      <data key="d7">1.25</data>
+      <data key="d8">7</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC058">
+      <data key="d5">affect_org</data>
+      <data key="d6">10.0</data>
+      <data key="d7">0.35714285714285715</data>
+      <data key="d8">8</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC064">
+      <data key="d5">affect_org</data>
+      <data key="d6">15.0</data>
+      <data key="d7">0.7142857142857143</data>
+      <data key="d8">10</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC073">
+      <data key="d5">affect_org</data>
+      <data key="d6">35.0</data>
+      <data key="d7">1.75</data>
+      <data key="d8">16</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC074">
+      <data key="d5">affect_org</data>
+      <data key="d6">22.0</data>
+      <data key="d7">1.8333333333333333</data>
+      <data key="d8">11</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC075">
+      <data key="d5">affect_org</data>
+      <data key="d6">13.0</data>
+      <data key="d7">0.65</data>
+      <data key="d8">7</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC076">
+      <data key="d5">affect_org</data>
+      <data key="d6">6.0</data>
+      <data key="d7">0.75</data>
+      <data key="d8">5</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC077">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Empathy" target="O::TC078">
+      <data key="d5">affect_org</data>
+      <data key="d6">20.0</data>
+      <data key="d7">1.0526315789473684</data>
+      <data key="d8">15</data>
+    </edge>
+    <edge source="A::Fear" target="O::D2-01">
+      <data key="d5">affect_org</data>
+      <data key="d6">20.0</data>
+      <data key="d7">1.5384615384615385</data>
+      <data key="d8">11</data>
+    </edge>
+    <edge source="A::Fear" target="O::D2-03">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Fear" target="O::D2-07">
+      <data key="d5">affect_org</data>
+      <data key="d6">10.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">5</data>
+    </edge>
+    <edge source="A::Fear" target="O::D2-10">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Fear" target="O::TC019">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Fear" target="O::TC021">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Fear" target="O::TC023">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.2</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Fear" target="O::TC028">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.25</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Fear" target="O::TC035">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">0.6666666666666666</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Fear" target="O::TC038">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">0.08333333333333333</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Fear" target="O::TC041">
+      <data key="d5">affect_org</data>
+      <data key="d6">44.0</data>
+      <data key="d7">1.76</data>
+      <data key="d8">20</data>
+    </edge>
+    <edge source="A::Fear" target="O::TC042">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">0.75</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Fear" target="O::TC044">
+      <data key="d5">affect_org</data>
+      <data key="d6">7.0</data>
+      <data key="d7">2.3333333333333335</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Fear" target="O::TC047">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">0.5</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Fear" target="O::TC050">
+      <data key="d5">affect_org</data>
+      <data key="d6">8.0</data>
+      <data key="d7">0.4444444444444444</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Fear" target="O::TC054">
+      <data key="d5">affect_org</data>
+      <data key="d6">15.0</data>
+      <data key="d7">1.1538461538461537</data>
+      <data key="d8">8</data>
+    </edge>
+    <edge source="A::Fear" target="O::TC057">
+      <data key="d5">affect_org</data>
+      <data key="d6">15.0</data>
+      <data key="d7">1.875</data>
+      <data key="d8">8</data>
+    </edge>
+    <edge source="A::Fear" target="O::TC058">
+      <data key="d5">affect_org</data>
+      <data key="d6">21.0</data>
+      <data key="d7">0.75</data>
+      <data key="d8">15</data>
+    </edge>
+    <edge source="A::Fear" target="O::TC064">
+      <data key="d5">affect_org</data>
+      <data key="d6">27.0</data>
+      <data key="d7">1.2857142857142858</data>
+      <data key="d8">18</data>
+    </edge>
+    <edge source="A::Fear" target="O::TC073">
+      <data key="d5">affect_org</data>
+      <data key="d6">30.0</data>
+      <data key="d7">1.5</data>
+      <data key="d8">14</data>
+    </edge>
+    <edge source="A::Fear" target="O::TC074">
+      <data key="d5">affect_org</data>
+      <data key="d6">22.0</data>
+      <data key="d7">1.8333333333333333</data>
+      <data key="d8">9</data>
+    </edge>
+    <edge source="A::Fear" target="O::TC075">
+      <data key="d5">affect_org</data>
+      <data key="d6">12.0</data>
+      <data key="d7">0.6</data>
+      <data key="d8">6</data>
+    </edge>
+    <edge source="A::Fear" target="O::TC076">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">0.375</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Fear" target="O::TC077">
+      <data key="d5">affect_org</data>
+      <data key="d6">6.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Fear" target="O::TC078">
+      <data key="d5">affect_org</data>
+      <data key="d6">24.0</data>
+      <data key="d7">1.263157894736842</data>
+      <data key="d8">13</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::D2-07">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">0.4</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC003">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC008">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC015">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">1.3333333333333333</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC016">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC023">
+      <data key="d5">affect_org</data>
+      <data key="d6">5.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC025">
+      <data key="d5">affect_org</data>
+      <data key="d6">8.0</data>
+      <data key="d7">0.6153846153846154</data>
+      <data key="d8">6</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC026">
+      <data key="d5">affect_org</data>
+      <data key="d6">10.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">7</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC028">
+      <data key="d5">affect_org</data>
+      <data key="d6">5.0</data>
+      <data key="d7">1.25</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC034">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.25</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC037">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.3333333333333333</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC038">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.041666666666666664</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC041">
+      <data key="d5">affect_org</data>
+      <data key="d6">12.0</data>
+      <data key="d7">0.48</data>
+      <data key="d8">6</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC042">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">0.75</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC047">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">0.75</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC050">
+      <data key="d5">affect_org</data>
+      <data key="d6">13.0</data>
+      <data key="d7">0.7222222222222222</data>
+      <data key="d8">10</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC054">
+      <data key="d5">affect_org</data>
+      <data key="d6">5.0</data>
+      <data key="d7">0.38461538461538464</data>
+      <data key="d8">5</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC056">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC058">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">0.10714285714285714</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC062">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC064">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">0.19047619047619047</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC073">
+      <data key="d5">affect_org</data>
+      <data key="d6">11.0</data>
+      <data key="d7">0.55</data>
+      <data key="d8">8</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC074">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">0.16666666666666666</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Gratitude" target="O::TC076">
+      <data key="d5">affect_org</data>
+      <data key="d6">8.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::D2-01">
+      <data key="d5">affect_org</data>
+      <data key="d6">7.0</data>
+      <data key="d7">0.5384615384615384</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::D2-07">
+      <data key="d5">affect_org</data>
+      <data key="d6">6.0</data>
+      <data key="d7">1.2</data>
+      <data key="d8">5</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::D2-10">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::TC003">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::TC008">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::TC019">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::TC021">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::TC023">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.2</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::TC028">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.25</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::TC041">
+      <data key="d5">affect_org</data>
+      <data key="d6">14.0</data>
+      <data key="d7">0.56</data>
+      <data key="d8">12</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::TC044">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">1.3333333333333333</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::TC047">
+      <data key="d5">affect_org</data>
+      <data key="d6">9.0</data>
+      <data key="d7">2.25</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::TC050">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">0.1111111111111111</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::TC054">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">0.23076923076923078</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::TC057">
+      <data key="d5">affect_org</data>
+      <data key="d6">7.0</data>
+      <data key="d7">0.875</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::TC058">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.03571428571428571</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::TC064">
+      <data key="d5">affect_org</data>
+      <data key="d6">11.0</data>
+      <data key="d7">0.5238095238095238</data>
+      <data key="d8">7</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::TC073">
+      <data key="d5">affect_org</data>
+      <data key="d6">18.0</data>
+      <data key="d7">0.9</data>
+      <data key="d8">13</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::TC074">
+      <data key="d5">affect_org</data>
+      <data key="d6">13.0</data>
+      <data key="d7">1.0833333333333333</data>
+      <data key="d8">6</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::TC075">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">0.2</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::TC076">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.125</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::TC077">
+      <data key="d5">affect_org</data>
+      <data key="d6">5.0</data>
+      <data key="d7">2.5</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Grief / sadness" target="O::TC078">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.05263157894736842</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Hope" target="O::D2-01">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">0.3076923076923077</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Hope" target="O::D2-03">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">1.5</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Hope" target="O::D2-07">
+      <data key="d5">affect_org</data>
+      <data key="d6">6.0</data>
+      <data key="d7">1.2</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Hope" target="O::D2-10">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC002">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">0.2</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC003">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC008">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC015">
+      <data key="d5">affect_org</data>
+      <data key="d6">6.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC016">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC021">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC023">
+      <data key="d5">affect_org</data>
+      <data key="d6">6.0</data>
+      <data key="d7">1.2</data>
+      <data key="d8">5</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC025">
+      <data key="d5">affect_org</data>
+      <data key="d6">25.0</data>
+      <data key="d7">1.9230769230769231</data>
+      <data key="d8">13</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC026">
+      <data key="d5">affect_org</data>
+      <data key="d6">23.0</data>
+      <data key="d7">2.3</data>
+      <data key="d8">9</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC028">
+      <data key="d5">affect_org</data>
+      <data key="d6">9.0</data>
+      <data key="d7">2.25</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC030">
+      <data key="d5">affect_org</data>
+      <data key="d6">6.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC031">
+      <data key="d5">affect_org</data>
+      <data key="d6">10.0</data>
+      <data key="d7">2.5</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC034">
+      <data key="d5">affect_org</data>
+      <data key="d6">6.0</data>
+      <data key="d7">1.5</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC035">
+      <data key="d5">affect_org</data>
+      <data key="d6">7.0</data>
+      <data key="d7">1.1666666666666667</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC036">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC037">
+      <data key="d5">affect_org</data>
+      <data key="d6">6.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC038">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">0.125</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC041">
+      <data key="d5">affect_org</data>
+      <data key="d6">24.0</data>
+      <data key="d7">0.96</data>
+      <data key="d8">13</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC042">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC044">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.3333333333333333</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC047">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC050">
+      <data key="d5">affect_org</data>
+      <data key="d6">31.0</data>
+      <data key="d7">1.7222222222222223</data>
+      <data key="d8">17</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC054">
+      <data key="d5">affect_org</data>
+      <data key="d6">23.0</data>
+      <data key="d7">1.7692307692307692</data>
+      <data key="d8">12</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC055">
+      <data key="d5">affect_org</data>
+      <data key="d6">5.0</data>
+      <data key="d7">1.6666666666666667</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC056">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC057">
+      <data key="d5">affect_org</data>
+      <data key="d6">5.0</data>
+      <data key="d7">0.625</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC058">
+      <data key="d5">affect_org</data>
+      <data key="d6">12.0</data>
+      <data key="d7">0.42857142857142855</data>
+      <data key="d8">8</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC060">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC062">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC064">
+      <data key="d5">affect_org</data>
+      <data key="d6">14.0</data>
+      <data key="d7">0.6666666666666666</data>
+      <data key="d8">10</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC065">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC070">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC073">
+      <data key="d5">affect_org</data>
+      <data key="d6">23.0</data>
+      <data key="d7">1.15</data>
+      <data key="d8">11</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC074">
+      <data key="d5">affect_org</data>
+      <data key="d6">14.0</data>
+      <data key="d7">1.1666666666666667</data>
+      <data key="d8">8</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC075">
+      <data key="d5">affect_org</data>
+      <data key="d6">35.0</data>
+      <data key="d7">1.75</data>
+      <data key="d8">19</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC076">
+      <data key="d5">affect_org</data>
+      <data key="d6">14.0</data>
+      <data key="d7">1.75</data>
+      <data key="d8">8</data>
+    </edge>
+    <edge source="A::Hope" target="O::TC078">
+      <data key="d5">affect_org</data>
+      <data key="d6">24.0</data>
+      <data key="d7">1.263157894736842</data>
+      <data key="d8">17</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::D2-01">
+      <data key="d5">affect_org</data>
+      <data key="d6">29.0</data>
+      <data key="d7">2.230769230769231</data>
+      <data key="d8">13</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::D2-03">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::D2-07">
+      <data key="d5">affect_org</data>
+      <data key="d6">10.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">5</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::D2-10">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::TC019">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::TC021">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::TC023">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.2</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::TC025">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.07692307692307693</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::TC036">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::TC041">
+      <data key="d5">affect_org</data>
+      <data key="d6">11.0</data>
+      <data key="d7">0.44</data>
+      <data key="d8">8</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::TC044">
+      <data key="d5">affect_org</data>
+      <data key="d6">6.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::TC047">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.25</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::TC050">
+      <data key="d5">affect_org</data>
+      <data key="d6">6.0</data>
+      <data key="d7">0.3333333333333333</data>
+      <data key="d8">5</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::TC054">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">0.15384615384615385</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::TC057">
+      <data key="d5">affect_org</data>
+      <data key="d6">11.0</data>
+      <data key="d7">1.375</data>
+      <data key="d8">5</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::TC058">
+      <data key="d5">affect_org</data>
+      <data key="d6">14.0</data>
+      <data key="d7">0.5</data>
+      <data key="d8">12</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::TC064">
+      <data key="d5">affect_org</data>
+      <data key="d6">36.0</data>
+      <data key="d7">1.7142857142857142</data>
+      <data key="d8">18</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::TC073">
+      <data key="d5">affect_org</data>
+      <data key="d6">23.0</data>
+      <data key="d7">1.15</data>
+      <data key="d8">11</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::TC074">
+      <data key="d5">affect_org</data>
+      <data key="d6">23.0</data>
+      <data key="d7">1.9166666666666667</data>
+      <data key="d8">10</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::TC075">
+      <data key="d5">affect_org</data>
+      <data key="d6">12.0</data>
+      <data key="d7">0.6</data>
+      <data key="d8">7</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::TC076">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">0.5</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::TC077">
+      <data key="d5">affect_org</data>
+      <data key="d6">6.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Moral outrage" target="O::TC078">
+      <data key="d5">affect_org</data>
+      <data key="d6">23.0</data>
+      <data key="d7">1.2105263157894737</data>
+      <data key="d8">17</data>
+    </edge>
+    <edge source="A::Pride" target="O::D2-03">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.5</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Pride" target="O::D2-10">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC002">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.1</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC003">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC015">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">1.3333333333333333</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC016">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC023">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">0.6</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC025">
+      <data key="d5">affect_org</data>
+      <data key="d6">12.0</data>
+      <data key="d7">0.9230769230769231</data>
+      <data key="d8">7</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC026">
+      <data key="d5">affect_org</data>
+      <data key="d6">16.0</data>
+      <data key="d7">1.6</data>
+      <data key="d8">9</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC028">
+      <data key="d5">affect_org</data>
+      <data key="d6">5.0</data>
+      <data key="d7">1.25</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC031">
+      <data key="d5">affect_org</data>
+      <data key="d6">9.0</data>
+      <data key="d7">2.25</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC034">
+      <data key="d5">affect_org</data>
+      <data key="d6">6.0</data>
+      <data key="d7">1.5</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC035">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">0.6666666666666666</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC037">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC038">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">0.08333333333333333</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC041">
+      <data key="d5">affect_org</data>
+      <data key="d6">8.0</data>
+      <data key="d7">0.32</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC042">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC044">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">0.6666666666666666</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC047">
+      <data key="d5">affect_org</data>
+      <data key="d6">6.0</data>
+      <data key="d7">1.5</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC050">
+      <data key="d5">affect_org</data>
+      <data key="d6">27.0</data>
+      <data key="d7">1.5</data>
+      <data key="d8">12</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC054">
+      <data key="d5">affect_org</data>
+      <data key="d6">7.0</data>
+      <data key="d7">0.5384615384615384</data>
+      <data key="d8">6</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC055">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.3333333333333333</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC056">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC058">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">0.10714285714285714</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC060">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC062">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC073">
+      <data key="d5">affect_org</data>
+      <data key="d6">8.0</data>
+      <data key="d7">0.4</data>
+      <data key="d8">6</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC074">
+      <data key="d5">affect_org</data>
+      <data key="d6">6.0</data>
+      <data key="d7">0.5</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC075">
+      <data key="d5">affect_org</data>
+      <data key="d6">9.0</data>
+      <data key="d7">0.45</data>
+      <data key="d8">8</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC076">
+      <data key="d5">affect_org</data>
+      <data key="d6">5.0</data>
+      <data key="d7">0.625</data>
+      <data key="d8">5</data>
+    </edge>
+    <edge source="A::Pride" target="O::TC078">
+      <data key="d5">affect_org</data>
+      <data key="d6">6.0</data>
+      <data key="d7">0.3157894736842105</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::D2-01">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.07692307692307693</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::D2-03">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.5</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::D2-07">
+      <data key="d5">affect_org</data>
+      <data key="d6">7.0</data>
+      <data key="d7">1.4</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC002">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.1</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC008">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC015">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC021">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC023">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">0.6</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC025">
+      <data key="d5">affect_org</data>
+      <data key="d6">12.0</data>
+      <data key="d7">0.9230769230769231</data>
+      <data key="d8">8</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC026">
+      <data key="d5">affect_org</data>
+      <data key="d6">5.0</data>
+      <data key="d7">0.5</data>
+      <data key="d8">5</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC028">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.25</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC030">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC031">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.25</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC035">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">0.6666666666666666</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC037">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC038">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">0.08333333333333333</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC041">
+      <data key="d5">affect_org</data>
+      <data key="d6">30.0</data>
+      <data key="d7">1.2</data>
+      <data key="d8">22</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC042">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">0.75</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC044">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.3333333333333333</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC047">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">0.5</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC050">
+      <data key="d5">affect_org</data>
+      <data key="d6">15.0</data>
+      <data key="d7">0.8333333333333334</data>
+      <data key="d8">11</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC054">
+      <data key="d5">affect_org</data>
+      <data key="d6">16.0</data>
+      <data key="d7">1.2307692307692308</data>
+      <data key="d8">10</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC055">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC056">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC057">
+      <data key="d5">affect_org</data>
+      <data key="d6">9.0</data>
+      <data key="d7">1.125</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC058">
+      <data key="d5">affect_org</data>
+      <data key="d6">16.0</data>
+      <data key="d7">0.5714285714285714</data>
+      <data key="d8">15</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC064">
+      <data key="d5">affect_org</data>
+      <data key="d6">15.0</data>
+      <data key="d7">0.7142857142857143</data>
+      <data key="d8">10</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC065">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC070">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC073">
+      <data key="d5">affect_org</data>
+      <data key="d6">12.0</data>
+      <data key="d7">0.6</data>
+      <data key="d8">8</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC074">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">0.3333333333333333</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC075">
+      <data key="d5">affect_org</data>
+      <data key="d6">19.0</data>
+      <data key="d7">0.95</data>
+      <data key="d8">14</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC076">
+      <data key="d5">affect_org</data>
+      <data key="d6">7.0</data>
+      <data key="d7">0.875</data>
+      <data key="d8">5</data>
+    </edge>
+    <edge source="A::Reassurance" target="O::TC078">
+      <data key="d5">affect_org</data>
+      <data key="d6">18.0</data>
+      <data key="d7">0.9473684210526315</data>
+      <data key="d8">11</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::D2-01">
+      <data key="d5">affect_org</data>
+      <data key="d6">23.0</data>
+      <data key="d7">1.7692307692307692</data>
+      <data key="d8">13</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::D2-03">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::D2-07">
+      <data key="d5">affect_org</data>
+      <data key="d6">10.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">5</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::D2-10">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC002">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.1</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC003">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC008">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC015">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">1.3333333333333333</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC016">
+      <data key="d5">affect_org</data>
+      <data key="d6">5.0</data>
+      <data key="d7">2.5</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC019">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC021">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC023">
+      <data key="d5">affect_org</data>
+      <data key="d6">9.0</data>
+      <data key="d7">1.8</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC025">
+      <data key="d5">affect_org</data>
+      <data key="d6">16.0</data>
+      <data key="d7">1.2307692307692308</data>
+      <data key="d8">9</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC026">
+      <data key="d5">affect_org</data>
+      <data key="d6">18.0</data>
+      <data key="d7">1.8</data>
+      <data key="d8">9</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC028">
+      <data key="d5">affect_org</data>
+      <data key="d6">7.0</data>
+      <data key="d7">1.75</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC031">
+      <data key="d5">affect_org</data>
+      <data key="d6">11.0</data>
+      <data key="d7">2.75</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC034">
+      <data key="d5">affect_org</data>
+      <data key="d6">7.0</data>
+      <data key="d7">1.75</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC035">
+      <data key="d5">affect_org</data>
+      <data key="d6">10.0</data>
+      <data key="d7">1.6666666666666667</data>
+      <data key="d8">6</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC036">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC037">
+      <data key="d5">affect_org</data>
+      <data key="d6">4.0</data>
+      <data key="d7">1.3333333333333333</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC038">
+      <data key="d5">affect_org</data>
+      <data key="d6">5.0</data>
+      <data key="d7">0.20833333333333334</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC041">
+      <data key="d5">affect_org</data>
+      <data key="d6">54.0</data>
+      <data key="d7">2.16</data>
+      <data key="d8">25</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC042">
+      <data key="d5">affect_org</data>
+      <data key="d6">8.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC044">
+      <data key="d5">affect_org</data>
+      <data key="d6">9.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC047">
+      <data key="d5">affect_org</data>
+      <data key="d6">10.0</data>
+      <data key="d7">2.5</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC050">
+      <data key="d5">affect_org</data>
+      <data key="d6">31.0</data>
+      <data key="d7">1.7222222222222223</data>
+      <data key="d8">18</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC054">
+      <data key="d5">affect_org</data>
+      <data key="d6">29.0</data>
+      <data key="d7">2.230769230769231</data>
+      <data key="d8">13</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC055">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.3333333333333333</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC056">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC057">
+      <data key="d5">affect_org</data>
+      <data key="d6">17.0</data>
+      <data key="d7">2.125</data>
+      <data key="d8">8</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC058">
+      <data key="d5">affect_org</data>
+      <data key="d6">12.0</data>
+      <data key="d7">0.42857142857142855</data>
+      <data key="d8">7</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC060">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC062">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC064">
+      <data key="d5">affect_org</data>
+      <data key="d6">28.0</data>
+      <data key="d7">1.3333333333333333</data>
+      <data key="d8">18</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC065">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC070">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC073">
+      <data key="d5">affect_org</data>
+      <data key="d6">38.0</data>
+      <data key="d7">1.9</data>
+      <data key="d8">20</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC074">
+      <data key="d5">affect_org</data>
+      <data key="d6">36.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">12</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC075">
+      <data key="d5">affect_org</data>
+      <data key="d6">46.0</data>
+      <data key="d7">2.3</data>
+      <data key="d8">20</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC076">
+      <data key="d5">affect_org</data>
+      <data key="d6">19.0</data>
+      <data key="d7">2.375</data>
+      <data key="d8">8</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC077">
+      <data key="d5">affect_org</data>
+      <data key="d6">6.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Solidarity" target="O::TC078">
+      <data key="d5">affect_org</data>
+      <data key="d6">53.0</data>
+      <data key="d7">2.789473684210526</data>
+      <data key="d8">19</data>
+    </edge>
+    <edge source="A::Urgency" target="O::D2-01">
+      <data key="d5">affect_org</data>
+      <data key="d6">25.0</data>
+      <data key="d7">1.9230769230769231</data>
+      <data key="d8">13</data>
+    </edge>
+    <edge source="A::Urgency" target="O::D2-03">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">1.5</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Urgency" target="O::D2-07">
+      <data key="d5">affect_org</data>
+      <data key="d6">8.0</data>
+      <data key="d7">1.6</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Urgency" target="O::D2-10">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC008">
+      <data key="d5">affect_org</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC019">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC021">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC023">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">0.6</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC025">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">0.23076923076923078</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC035">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">0.5</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC036">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC038">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">0.125</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC041">
+      <data key="d5">affect_org</data>
+      <data key="d6">35.0</data>
+      <data key="d7">1.4</data>
+      <data key="d8">19</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC042">
+      <data key="d5">affect_org</data>
+      <data key="d6">3.0</data>
+      <data key="d7">0.75</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC044">
+      <data key="d5">affect_org</data>
+      <data key="d6">5.0</data>
+      <data key="d7">1.6666666666666667</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC047">
+      <data key="d5">affect_org</data>
+      <data key="d6">2.0</data>
+      <data key="d7">0.5</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC050">
+      <data key="d5">affect_org</data>
+      <data key="d6">15.0</data>
+      <data key="d7">0.8333333333333334</data>
+      <data key="d8">7</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC054">
+      <data key="d5">affect_org</data>
+      <data key="d6">15.0</data>
+      <data key="d7">1.1538461538461537</data>
+      <data key="d8">9</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC057">
+      <data key="d5">affect_org</data>
+      <data key="d6">20.0</data>
+      <data key="d7">2.5</data>
+      <data key="d8">8</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC058">
+      <data key="d5">affect_org</data>
+      <data key="d6">12.0</data>
+      <data key="d7">0.42857142857142855</data>
+      <data key="d8">11</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC064">
+      <data key="d5">affect_org</data>
+      <data key="d6">29.0</data>
+      <data key="d7">1.380952380952381</data>
+      <data key="d8">17</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC073">
+      <data key="d5">affect_org</data>
+      <data key="d6">26.0</data>
+      <data key="d7">1.3</data>
+      <data key="d8">12</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC074">
+      <data key="d5">affect_org</data>
+      <data key="d6">30.0</data>
+      <data key="d7">2.5</data>
+      <data key="d8">12</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC075">
+      <data key="d5">affect_org</data>
+      <data key="d6">26.0</data>
+      <data key="d7">1.3</data>
+      <data key="d8">14</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC076">
+      <data key="d5">affect_org</data>
+      <data key="d6">7.0</data>
+      <data key="d7">0.875</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC077">
+      <data key="d5">affect_org</data>
+      <data key="d6">6.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="A::Urgency" target="O::TC078">
+      <data key="d5">affect_org</data>
+      <data key="d6">44.0</data>
+      <data key="d7">2.3157894736842106</data>
+      <data key="d8">18</data>
+    </edge>
+    <edge source="O::D2-01" target="M::Bring Me The News">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::D2-01" target="M::FOX 9">
+      <data key="d5">org_media</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="O::D2-01" target="M::KSTP 5 Eyewitness News">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::D2-01" target="M::MPR News">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::D2-01" target="M::Minnesota Reformer">
+      <data key="d5">org_media</data>
+      <data key="d6">4.0</data>
+      <data key="d7">4.0</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="O::D2-01" target="M::Minnesota Star Tribune">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::D2-01" target="M::Sahan Journal">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::D2-03" target="M::Here &amp; Now / WBUR">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::D2-03" target="M::Sahan Journal">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::D2-07" target="M::Sahan Journal">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::D2-10" target="M::Community Reporter">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::D2-10" target="M::The Guardian">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC003" target="M::N+ Univision">
+      <data key="d5">org_media</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="O::TC019" target="M::MPR News">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC025" target="M::Sahan Journal">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC038" target="M::CBS Minnesota / WCCO">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC041" target="M::Bring Me The News">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC041" target="M::CBS Minnesota / WCCO">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC041" target="M::KSTP 5 Eyewitness News">
+      <data key="d5">org_media</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="O::TC041" target="M::MPR News">
+      <data key="d5">org_media</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="O::TC041" target="M::Minnesota Star Tribune">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC041" target="M::NPR">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC041" target="M::Sahan Journal">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC042" target="M::CBS Minnesota / WCCO">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC044" target="M::MPR News">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC054" target="M::CBS Minnesota / WCCO">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC054" target="M::MPR News">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC054" target="M::Minnesota Star Tribune">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC057" target="M::Associated Press">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC057" target="M::Bring Me The News">
+      <data key="d5">org_media</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="O::TC057" target="M::CBS Minnesota / WCCO">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC057" target="M::CNN">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC057" target="M::KSTP 5 Eyewitness News">
+      <data key="d5">org_media</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="O::TC057" target="M::MPR News">
+      <data key="d5">org_media</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="O::TC057" target="M::Minnesota Reformer">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC057" target="M::Sahan Journal">
+      <data key="d5">org_media</data>
+      <data key="d6">4.0</data>
+      <data key="d7">4.0</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="O::TC057" target="M::The New York Times">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC058" target="M::CBS Minnesota / WCCO">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC058" target="M::Minnesota Spokesman-Recorder">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC058" target="M::Minnesota Star Tribune">
+      <data key="d5">org_media</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="O::TC058" target="M::The Imprint">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC064" target="M::Associated Press">
+      <data key="d5">org_media</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="O::TC064" target="M::Bring Me The News">
+      <data key="d5">org_media</data>
+      <data key="d6">5.0</data>
+      <data key="d7">5.0</data>
+      <data key="d8">5</data>
+    </edge>
+    <edge source="O::TC064" target="M::KSTP 5 Eyewitness News">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC064" target="M::MPR News">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC064" target="M::Minnesota Star Tribune">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC064" target="M::Sahan Journal">
+      <data key="d5">org_media</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="O::TC065" target="M::CBS Minnesota / WCCO">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC065" target="M::Community Reporter">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC065" target="M::Minnesota Star Tribune">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC073" target="M::CNN">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC073" target="M::KARE 11">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC073" target="M::MPR News">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC073" target="M::Minnesota Star Tribune">
+      <data key="d5">org_media</data>
+      <data key="d6">4.0</data>
+      <data key="d7">4.0</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="O::TC073" target="M::Pioneer Press">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC074" target="M::MPR News">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC074" target="M::CNN">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC074" target="M::The Guardian">
+      <data key="d5">org_media</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="O::TC075" target="M::CBS Minnesota / WCCO">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC075" target="M::FOX 9">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC075" target="M::Minnesota Reformer">
+      <data key="d5">org_media</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="O::TC075" target="M::Sahan Journal">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC076" target="M::Religion News Service">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC077" target="M::TC Jewfolk">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC077" target="M::The Guardian">
+      <data key="d5">org_media</data>
+      <data key="d6">3.0</data>
+      <data key="d7">3.0</data>
+      <data key="d8">3</data>
+    </edge>
+    <edge source="O::TC078" target="M::Jewish Telegraphic Agency">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC078" target="M::TC Jewfolk">
+      <data key="d5">org_media</data>
+      <data key="d6">5.0</data>
+      <data key="d7">5.0</data>
+      <data key="d8">5</data>
+    </edge>
+    <edge source="O::D1-09" target="M::Minnesota Women's Press">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::D2-02" target="M::Community Reporter">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::D2-05" target="M::Sahan Journal">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::D2-06" target="M::Finance &amp; Commerce">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::D2-06" target="M::In These Times">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::D2-08" target="M::Associated Press">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::D2-08" target="M::Fox News Digital">
+      <data key="d5">org_media</data>
+      <data key="d6">2.0</data>
+      <data key="d7">2.0</data>
+      <data key="d8">2</data>
+    </edge>
+    <edge source="O::D2-08" target="M::The Washington Post">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC045" target="M::Community Reporter">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC082" target="M::Hmong Daily News">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC084" target="M::Associated Press">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC084" target="M::MPR News">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+    <edge source="O::TC084" target="M::Sahan Journal">
+      <data key="d5">org_media</data>
+      <data key="d6">4.0</data>
+      <data key="d7">4.0</data>
+      <data key="d8">4</data>
+    </edge>
+    <edge source="O::TC084" target="M::The Guardian">
+      <data key="d5">org_media</data>
+      <data key="d6">1.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">1</data>
+    </edge>
+  </graph>
+</graphml>
