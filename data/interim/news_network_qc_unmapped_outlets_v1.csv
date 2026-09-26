@@ -1,7 +1,6 @@
 source_batch,source_news_item_id,normalized_news_item_id,outlet,date,headline,collection_status
 news_media_uptake_batch_21_cross_layer_deep_pass.csv,NM103,STY-9A4D670F5E4F,local_regional_news,2026-01-01,Unidos MN organizers describe hospital access and worker resistance amid enforcement surge,candidate
 news_media_uptake_batch_21_cross_layer_deep_pass.csv,NM102,STY-2E15B78576EC,local_regional_news,2026-02-01,Brooklyn Park council reaffirms support for immigrant communities,candidate
-news_media_uptake_batch_21_rotating_ix.csv,NM096,STY-85F325C36F1D,Finance & Commerce,2026-02-18,Twin Cities tenant group plans March 1 rent strike,verified
 news_media_uptake_batch_22_foxnews_national.csv,NM098,STY-0AAA8BA982A0,Fox News Digital,2026-02-05,Anti-ICE 'digital Minutemen' use military-grade surveillance tactics against feds,verified_external
 news_media_uptake_batch_22_foxnews_national.csv,NM099,STY-1D051FC7269E,Fox News Digital,2026-02-06,When anti-ICE clashes trigger federal intervention: Experts explain the constitutional breaking point,verified_external
 news_media_uptake_batch_15_ayada.csv,NM082,STY-8C93C1B29958,Here & Now / WBUR,2026-01-15,Minnesota activist weighs in on supporting Somali community amid violence,verified_external

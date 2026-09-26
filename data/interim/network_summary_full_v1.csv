@@ -1,14 +1,13 @@
 metric,entity_id,entity_name,count,notes
-media_layer_edges,,local_regional,87,Verified deduplicated organization-story edges.
+media_layer_edges,,local_regional,88,Verified deduplicated organization-story edges.
 media_layer_edges,,national_amplification,17,Verified deduplicated organization-story edges.
 media_layer_edges,,community_ethnic,17,Verified deduplicated organization-story edges.
-media_layer_edges,,unmapped,1,Verified deduplicated organization-story edges.
 organization_edges,D1-09,Southern Minnesota Regional Legal Services (SMRLS),1,unique_stories=1; media_layers=1
 organization_edges,D2-01,ACLU of Minnesota,12,unique_stories=12; media_layers=1
 organization_edges,D2-02,MN8 / Release MN8,2,unique_stories=2; media_layers=2
 organization_edges,D2-03,Ayada Leads,1,unique_stories=1; media_layers=1
 organization_edges,D2-05,CAIR-Minnesota,1,unique_stories=1; media_layers=1
-organization_edges,D2-06,Inquilinxs Unidxs por Justicia / United Renters for Justice,2,unique_stories=2; media_layers=2
+organization_edges,D2-06,Inquilinxs Unidxs por Justicia / United Renters for Justice,2,unique_stories=2; media_layers=1
 organization_edges,D2-07,Groundwork Legal,1,unique_stories=1; media_layers=1
 organization_edges,D2-08,Defend the 612,1,unique_stories=1; media_layers=1
 organization_edges,D2-10,Immigrant Defense Network,2,unique_stories=2; media_layers=2
@@ -66,9 +65,10 @@ outlet_edges,NEWS050,The Militant,1,unique_orgs=1; unique_stories=1
 outlet_edges,NEWS051,Rafu Shimpo,1,unique_orgs=1; unique_stories=1
 outlet_edges,NEWS052,La Nacion,1,unique_orgs=1; unique_stories=1
 outlet_edges,NEWS053,Boreal Community Media,1,unique_orgs=1; unique_stories=1
+outlet_edges,NEWS054,Finance & Commerce,1,unique_orgs=1; unique_stories=1
 corpus_total,,verified_edges,122,After story/org deduplication.
 corpus_total,,verified_unique_stories,104,Normalized by date + outlet + headline.
 corpus_total,,verified_organizations,33,Organizations with at least one verified news relation.
-corpus_total,,verified_outlets_mapped,30,Registered outlets represented in verified network.
-corpus_total,,unmapped_verified_edges,1,Resolve before final network analysis.
+corpus_total,,verified_outlets_mapped,31,Registered outlets represented in verified network.
+corpus_total,,unmapped_verified_edges,0,Resolve before final network analysis.
 corpus_total,,candidate_edges,25,Kept outside verified master counts.
