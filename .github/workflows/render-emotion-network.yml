@@ -18,7 +18,7 @@ permissions:
 
 jobs:
   render:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -30,8 +30,8 @@ jobs:
       - uses: r-lib/actions/setup-r@v2
         with:
           r-version: 'release'
-      - name: Install R network packages
-        run: Rscript -e 'install.packages(c("readr","dplyr","tibble","igraph","tidygraph","ggraph","graphlayouts","ggplot2","scales"), repos="https://cloud.r-project.org")'
+      - name: Install R network packages from Posit Package Manager
+        run: Rscript -e 'install.packages(c("readr","dplyr","tibble","igraph","tidygraph","ggraph","graphlayouts","ggplot2","scales"), repos="https://packagemanager.posit.co/cran/__linux__/noble/latest")'
       - name: Render R force-directed network
         run: Rscript analysis/render_affective_circulation_network_r_v1.R
       - name: Upload rendered affective network outputs
