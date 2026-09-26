@@ -1,0 +1,49 @@
+outlet_id,outlet_name,media_layer,audit_status,study_window_issue_coverage,verified_sampled_org_match,search_notes,last_audited
+NEWS001,Sahan Journal,local_regional,corpus_verified,1,1,"Multiple organization-level study-window relations already present in raw news batches.",2026-09-26
+NEWS002,MPR News,local_regional,corpus_verified,1,1,"Multiple organization-level relations; high-yield source for crisis interpretation and service/legal sourcing.",2026-09-26
+NEWS003,Star Tribune,local_regional,corpus_verified,1,1,"Multiple organization-level relations in current corpus; paywall may limit complete recovery.",2026-09-26
+NEWS004,CBS Minnesota / WCCO,local_regional,corpus_verified,1,1,"Multiple organization-level relations including service/fundraising/crisis-response uptake.",2026-09-26
+NEWS005,KARE 11,local_regional,corpus_verified,1,1,"Verified sampled-organization coverage in current corpus.",2026-09-26
+NEWS006,FOX 9,local_regional,corpus_verified,1,1,"Verified sampled-organization coverage in current corpus.",2026-09-26
+NEWS007,KSTP 5 Eyewitness News,local_regional,corpus_verified,1,1,"Dedicated raw batch exists; sampled-organization relations verified.",2026-09-26
+NEWS008,Pioneer Press,local_regional,corpus_verified,1,1,"Verified sampled-organization coverage; archive/paywall incompleteness remains.",2026-09-26
+NEWS009,MinnPost,local_regional,issue_coverage_verified_org_audit_incomplete,1,0,"Relevant statewide public-affairs coverage expected/located, but sampled-organization relation audit is not yet complete.",2026-09-26
+NEWS010,Minnesota Reformer,local_regional,corpus_verified,1,1,"Multiple sampled-organization relations verified.",2026-09-26
+NEWS011,Bring Me The News,local_regional,corpus_verified,1,1,"Sampled-organization relations verified in current corpus.",2026-09-26
+NEWS012,Southwest Voices,community_ethnic,not_yet_fully_audited,,0,"Registry validated; dedicated organization-by-organization study-window pass still required.",2026-09-26
+NEWS013,North News,community_ethnic,issue_coverage_verified_org_audit_incomplete,1,0,"Study-window ICE/community reporting verified and some material republished by Sahan; sampled-org matching still incomplete.",2026-09-26
+NEWS014,KRSM 98.9 FM,community_ethnic,not_yet_fully_audited,,0,"Archive/transcript retrieval remains the main limitation.",2026-09-26
+NEWS015,Minnesota Spokesman-Recorder,community_ethnic,corpus_verified,1,1,"Verified study-window immigration coverage and sampled-organization relation(s), including Mid-Minnesota Legal Aid.",2026-09-26
+NEWS016,Community Reporter,community_ethnic,corpus_verified,1,1,"Verified organization-level crisis-response/resource coverage for multiple sampled organizations.",2026-09-26
+NEWS017,TC Jewfolk,community_ethnic,corpus_verified,1,1,"Verified organization-level interfaith/Jewish-community coverage.",2026-09-26
+NEWS018,Hmong Times,community_ethnic,candidate_date_or_archive_issue,1,0,"Substantive sampled-organization candidate found, but at least one item has unresolved publication dating.",2026-09-26
+NEWS019,Hmong Daily News,community_ethnic,corpus_verified,1,1,"Study-window archive verified; sampled-organization relation for CAAL already documented.",2026-09-26
+NEWS020,La Prensa de Minnesota,community_ethnic,not_yet_fully_audited,,0,"Outlet retained for Spanish-language layer; dedicated study-window organization search still needed.",2026-09-26
+NEWS021,Insight News,community_ethnic,registry_candidate_unverified,,0,"Canonical archive and systematic study-window access still need verification.",2026-09-26
+NEWS022,The Circle,community_ethnic,issue_coverage_verified_org_audit_incomplete,1,0,"Verified Jan. 19, 2026 story on thousands of ICE agents in Twin Cities; no sampled-organization match confirmed in current pass.",2026-09-26
+NEWS023,Minnesota Women's Press,community_ethnic,issue_coverage_verified_org_audit_incomplete,1,0,"Verified in-window immigration/gender-violence coverage; sampled-org matching remains incomplete.",2026-09-26
+NEWS024,Somali TV of Minnesota / Somali Media,community_ethnic,registry_candidate_unverified,,0,"Potentially important Somali media layer; identity/archive verification still required.",2026-09-26
+NEWS025,Mshale,community_ethnic,issue_coverage_verified_org_audit_incomplete,1,0,"Verified Jan. 30, 2026 coverage of journalist arrest after ICE protest; sampled-org relation not yet confirmed.",2026-09-26
+NEWS026,Axios Twin Cities,local_regional,issue_coverage_verified_org_audit_incomplete,1,0,"Extensive Jan.-Mar. 2026 immigration-enforcement coverage verified; sampled-org matching now needs targeted extraction.",2026-09-26
+NEWS027,Associated Press,national_amplification,issue_coverage_verified_org_audit_incomplete,1,0,"Extensive study-window Minnesota immigration coverage verified; sampled-org relation extraction still incomplete.",2026-09-26
+NEWS028,Reuters,national_amplification,national_org_match_verified,1,1,"Reuters Jan. 10/11 coverage identifies MIRAC as organizer of ICE Out of Minnesota rally; Jan. 24 coverage focuses Somali activism.",2026-09-26
+NEWS029,NPR,national_amplification,issue_coverage_verified_org_audit_incomplete,1,0,"Verified national reporting from Minneapolis during study window; sampled-org relation audit remains incomplete.",2026-09-26
+NEWS030,PBS NewsHour,national_amplification,not_yet_fully_audited,,0,"National public-service layer retained; targeted sampled-org search still required.",2026-09-26
+NEWS031,The Washington Post,national_amplification,national_org_match_verified,1,1,"Verified direct sourcing of Immigrant Law Center of Minnesota and later coverage of The Advocates for Human Rights litigation.",2026-09-26
+NEWS032,The New York Times,national_amplification,not_yet_fully_audited,,0,"National high-priority outlet retained; targeted organization-level audit incomplete.",2026-09-26
+NEWS033,CNN,national_amplification,issue_coverage_verified_org_audit_incomplete,1,0,"National on-the-ground Minnesota coverage documented; sampled-org matching not complete.",2026-09-26
+NEWS034,NBC News,national_amplification,not_yet_fully_audited,,0,"National outlet retained; organization-level audit incomplete.",2026-09-26
+NEWS035,ABC News,national_amplification,not_yet_fully_audited,,0,"National outlet retained; organization-level audit incomplete.",2026-09-26
+NEWS036,CBS News,national_amplification,not_yet_fully_audited,,0,"Must distinguish national CBS stories from WCCO local stories during extraction.",2026-09-26
+NEWS037,USA Today,national_amplification,not_yet_fully_audited,,0,"National/network layer retained; syndication and original reporting need deduplication.",2026-09-26
+NEWS038,The Guardian US,national_amplification,issue_coverage_verified_org_audit_incomplete,1,0,"Verified Jan. 17, 2026 reporting on Minnesota ICE-shooting media coverage; sampled-org sourcing not yet confirmed.",2026-09-26
+NEWS039,The 19th,national_amplification,not_yet_fully_audited,,0,"Potentially useful for gendered crisis coverage; targeted organization search pending.",2026-09-26
+NEWS040,ProPublica,national_amplification,not_yet_fully_audited,,0,"Investigative layer retained; targeted organization search pending.",2026-09-26
+NEWS041,El Minnesota de Hoy,community_ethnic,issue_coverage_verified_org_audit_incomplete,1,0,"Extensive Spanish-language Jan.-Feb. 2026 ICE/surge/protest coverage verified; sampled-org matching now required.",2026-09-26
+NEWS042,Racket,local_regional,issue_coverage_verified_org_audit_incomplete,1,0,"Extensive Jan.-Feb. 2026 local ICE, protest, mutual-aid, and rapid-response coverage verified.",2026-09-26
+NEWS043,Longfellow Nokomis Messenger,community_ethnic,issue_coverage_verified_org_audit_incomplete,1,0,"Verified Jan. 8 and Jan. 20, 2026 neighborhood/journalism coverage; archive access is uneven.",2026-09-26
+NEWS044,TPT Almanac,local_regional,issue_coverage_verified_org_audit_incomplete,1,0,"Verified Jan. 9, 2026 episode focused on fatal ICE shooting and statewide context.",2026-09-26
+NEWS045,Jewish Telegraphic Agency,national_amplification,national_org_match_verified,1,1,"Jan. 21, 2026 story explicitly includes Jewish Community Action among Minnesota Jewish groups responding to ICE operations.",2026-09-26
+NEWS046,The Imprint,national_amplification,corpus_verified,1,1,"Sampled-organization relation already documented for Mid-Minnesota Legal Aid in existing corpus.",2026-09-26
+NEWS047,NOTUS,national_amplification,national_org_match_verified,1,1,"Jan. 27, 2026 national reporting quotes Immigrant Law Center of Minnesota policy director; story was syndicated.",2026-09-26
+NEWS048,KFAI,community_ethnic,not_yet_fully_audited,,0,"Multilingual community-radio layer retained; study-window archive/organization pass still required.",2026-09-26
