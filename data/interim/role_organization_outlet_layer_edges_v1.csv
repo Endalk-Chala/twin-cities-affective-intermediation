@@ -333,36 +333,3 @@ refugee_resettlement,TC041,International Institute of Minnesota,R0075,STY-77075C
 refugee_resettlement,TC041,International Institute of Minnesota,R0122,STY-FFE89FC98534,NEWS029,national_amplification,direct_quote,1,supporting,refugee_resettlement_source,1,1,0,0,1,0,verified
 refugee_resettlement,TC041,International Institute of Minnesota,R0040,STY-4CA2E2495573,NEWS030,national_amplification,direct_quote,1,supporting,refugee_resettlement_source,1,1,0,0,1,0,verified
 refugee_resettlement,TC041,International Institute of Minnesota,R0068,STY-7052A7220650,NEWS031,national_amplification,direct_quote,1,supporting,refugee_resettlement_source,1,1,0,0,1,0,verified
-,D1-09,,R0060,STY-679A7E5A974D,NEWS023,community_ethnic,direct_quote,1,primary,legal_expert,1,1,0,0,1,1,verified
-,D2-02,,R0008,STY-15C721780639,NEWS001,local_regional,direct_quote,1,supporting,advocacy_source,1,1,1,0,1,1,verified
-,D2-02,,R0022,STY-376D05B4D135,NEWS016,community_ethnic,resource_listing,0,resource_only,specialized_support_source,0,1,0,0,1,0,verified
-,D2-03,,R0011,STY-1E4074FFF418,NEWS001,local_regional,named_mention,0,supporting,crisis_response_source,0,1,0,0,1,1,verified
-,D2-05,,R0066,STY-6F84D2CD9A9E,NEWS001,local_regional,direct_quote,1,supporting,advocacy_source,1,0,1,0,0,0,verified
-,D2-06,,R0052,STY-577453D0D7A8,NEWS004,local_regional,direct_quote,1,supporting,advocacy_source,1,0,1,0,0,0,verified
-,D2-06,,R0083,STY-85F325C36F1D,NEWS054,local_regional,named_mention,0,supporting,housing_justice_source,0,0,0,0,0,0,verified
-,D2-07,,R0055,STY-5E05E490685E,NEWS001,local_regional,direct_quote,1,supporting,legal_advocacy_source,1,0,0,0,0,1,verified
-,D2-08,,R0021,STY-373C016F1D24,NEWS031,national_amplification,named_mention,0,primary,mobilization_source,1,0,1,0,0,0,verified
-,D2-10,,R0092,STY-A2533DA2D136,NEWS001,local_regional,direct_quote,1,primary,mobilization_source,1,0,1,0,0,0,verified
-,D2-10,,R0023,STY-376D05B4D135,NEWS016,community_ethnic,resource_listing,0,resource_only,coordination_network_source,0,1,1,0,1,0,verified
-,D3-13,,R0028,STY-3C6325FEEF11,NEWS003,local_regional,direct_quote,1,supporting,affected_community_intermediary,1,0,0,0,0,0,verified
-,D3-16,,R0104,STY-C4CED6E09EF6,NEWS003,local_regional,direct_quote,1,supporting,data_information_source,1,1,0,0,1,0,verified
-,D4-02,,R0018,STY-2F91135ABD0F,NEWS050,community_ethnic,named_mention,0,supporting,mobilization_source,0,0,1,0,0,0,verified
-,TC009,,R0089,STY-8E8D95B320DC,NEWS049,community_ethnic,named_mention,0,supporting,mobilization_source,0,0,1,0,0,0,verified
-,TC019,,R0038,STY-4B7977EA2636,NEWS002,local_regional,direct_quote,1,supporting,affected_community_intermediary,1,1,0,0,1,0,verified
-,TC025,,R0116,STY-EA45B6ADD853,NEWS001,local_regional,named_mention,0,supporting,housing_service_source,0,1,0,0,1,0,verified
-,TC038,,R0071,STY-7542CDBA6D7B,NEWS003,local_regional,direct_quote,1,supporting,affected_community_intermediary,1,0,0,0,0,0,verified
-,TC038,,R0097,STY-B0DCEF2BA9C5,NEWS004,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,1,1,1,1,0,verified
-,TC044,,R0057,STY-5FD5514D98BC,NEWS002,local_regional,direct_quote,1,supporting,faith_refugee_service_source,1,1,0,0,1,0,verified
-,TC045,,R0024,STY-376D05B4D135,NEWS016,community_ethnic,named_mention,0,primary,community_service_intermediary,1,1,0,1,1,0,verified
-,TC050,,R0098,STY-BAC049360883,NEWS032,national_amplification,direct_quote,1,supporting,affected_community_intermediary,1,0,0,0,0,0,verified
-,TC054,,R0002,STY-07A358550AE0,NEWS002,local_regional,direct_quote,1,primary,humanitarian_service_source,1,1,0,0,1,0,verified
-,TC054,,R0003,STY-0FB3DFD946CF,NEWS003,local_regional,direct_quote,1,primary,humanitarian_service_source,1,1,0,1,1,0,verified
-,TC054,,R0010,STY-1A208602483F,NEWS004,local_regional,direct_quote,1,primary,community_service_intermediary,1,1,0,0,1,0,verified
-,TC054,,R0105,STY-C7C15EBDC1E4,NEWS033,national_amplification,direct_quote,1,supporting,refugee_resettlement_source,1,1,0,0,1,0,verified
-,TC065,,R0118,STY-F0A55E72BE26,NEWS003,local_regional,resource_listing,0,resource_only,legal_resource_source,0,1,0,0,1,1,verified
-,TC065,,R0045,STY-532733DA5C25,NEWS004,local_regional,resource_listing,0,resource_only,legal_resource_source,0,1,0,0,1,1,verified
-,TC065,,R0025,STY-376D05B4D135,NEWS016,community_ethnic,resource_listing,0,resource_only,legal_resource_source,0,1,0,0,1,1,verified
-,TC074,,R0064,STY-6C1B14119833,NEWS002,local_regional,direct_quote,1,primary,community_intermediary,1,1,0,0,1,0,verified
-,TC074,,R0001,STY-01D82C4B0E8E,NEWS032,national_amplification,direct_quote,1,supporting,mobilization_source,1,0,1,0,0,0,verified
-,TC077,,R0014,STY-29BDFA5FEC1A,NEWS017,community_ethnic,direct_quote,1,supporting,faith_advocacy_source,1,0,1,0,0,0,verified
-,TC077,,R0103,STY-C39A1C9851EB,NEWS053,community_ethnic,named_mention,0,supporting,mobilization_source,0,0,1,0,0,0,verified
