@@ -6,6 +6,7 @@ INTERIM = ROOT / "data" / "interim"
 ELIG_PATH = ROOT / "sampling_frame" / "eligibility_universe_reconciliation_v2.csv"
 OUT = INTERIM / "organization_typology_bridge_full_universe_seed_v1.csv"
 COVERAGE = INTERIM / "organization_typology_full_universe_coverage_v1.csv"
+MANUAL_REVIEW = INTERIM / "organization_typology_bridge_full_universe_manual_review_v1.csv"
 
 # Conservative role assignments derived from explicit role/function language in the
 # authoritative eligibility screening evidence. Existing manually reviewed typology
@@ -96,9 +97,6 @@ LABELS = {
 "D4-11":["direct_service"],
 }
 
-# These organizations have enough evidence for a role hypothesis, but the screening
-# record explicitly says current organizational/activity/form evidence remains weak.
-# Their seed labels therefore remain candidate until source-level manual verification.
 CANDIDATE_ROLE_ORGS = {
     "TC001", "TC004", "TC006", "TC032", "TC034", "TC080",
     "D3-07", "D3-08", "D3-10", "D3-19", "D4-08", "D4-09", "D4-11",
@@ -117,7 +115,11 @@ def main():
     primary = elig[elig["primary_universe_flag"].eq("1")].copy()
 
     existing_parts = []
-    for p in [INTERIM / "organization_typology_bridge_v1.csv", INTERIM / "organization_typology_bridge_media_visible_completion_v1.csv"]:
+    for p in [
+        INTERIM / "organization_typology_bridge_v1.csv",
+        INTERIM / "organization_typology_bridge_media_visible_completion_v1.csv",
+        MANUAL_REVIEW,
+    ]:
         if p.exists():
             existing_parts.append(pd.read_csv(p, dtype=str).fillna(""))
     existing = pd.concat(existing_parts, ignore_index=True) if existing_parts else pd.DataFrame(columns=["org_id", "type_label", "type_status"])
@@ -154,9 +156,16 @@ def main():
     seed.to_csv(OUT, index=False)
 
     all_typ = pd.concat([existing, seed], ignore_index=True, sort=False).fillna("")
+    verified_pairs = set(map(tuple, all_typ.loc[all_typ["type_status"].eq("verified"), ["org_id", "type_label"]].values.tolist()))
+    candidate_mask = all_typ.apply(lambda r: r["type_status"] == "candidate" and (r["org_id"], r["type_label"]) not in verified_pairs, axis=1)
+    effective = pd.concat([
+        all_typ[all_typ["type_status"].eq("verified")],
+        all_typ[candidate_mask],
+    ], ignore_index=True).drop_duplicates(subset=["org_id", "type_label", "type_status"])
+
     coverage = []
     for r in primary.itertuples(index=False):
-        grp = all_typ[all_typ["org_id"].eq(r.org_id)]
+        grp = effective[effective["org_id"].eq(r.org_id)]
         verified = sorted(grp.loc[grp["type_status"].eq("verified"), "type_label"].unique())
         candidate = sorted(grp.loc[grp["type_status"].eq("candidate"), "type_label"].unique())
         coverage.append({
@@ -172,6 +181,9 @@ def main():
     cov = pd.DataFrame(coverage)
     if len(cov) != 114:
         raise RuntimeError(f"Expected 114 primary-universe organizations; got {len(cov)}")
+    if (cov["verified_label_count"] == 0).any():
+        unresolved = cov.loc[cov["verified_label_count"].eq(0), "org_id"].tolist()
+        raise RuntimeError(f"Full-universe manual review incomplete; organizations without verified labels: {unresolved}")
     cov.to_csv(COVERAGE, index=False)
 
     print(f"Primary universe organizations: {len(cov)}")
