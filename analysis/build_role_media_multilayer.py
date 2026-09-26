@@ -4,8 +4,8 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 INTERIM = ROOT / "data" / "interim"
 
-REL = INTERIM / "organization_news_relations_master_v1.csv"
-TYP_FILES = [
+REL = INTERIM / "organization_news_relations_primary_universe_v1.csv"
+BASE_TYP_FILES = [
     INTERIM / "organization_typology_bridge_v1.csv",
     INTERIM / "organization_typology_bridge_media_visible_completion_v1.csv",
 ]
@@ -16,7 +16,8 @@ COVERAGE = INTERIM / "typology_network_coverage_v1.csv"
 
 def main():
     rel = pd.read_csv(REL, dtype=str).fillna("")
-    typ_parts = [pd.read_csv(p, dtype=str).fillna("") for p in TYP_FILES if p.exists()]
+    typ_files = BASE_TYP_FILES + sorted(INTERIM.glob("organization_typology_bridge_full_universe_*.csv"))
+    typ_parts = [pd.read_csv(p, dtype=str).fillna("") for p in typ_files if p.exists()]
     if not typ_parts:
         raise SystemExit("No typology bridge files found")
     typ = pd.concat(typ_parts, ignore_index=True).drop_duplicates(
@@ -70,7 +71,7 @@ def main():
         })
     pd.DataFrame(coverage).to_csv(COVERAGE, index=False)
 
-    print(f"Verified news organizations: {len(all_orgs)}")
+    print(f"Primary-universe news organizations: {len(all_orgs)}")
     print(f"Organizations with verified typology labels: {len(coded_orgs & set(all_orgs))}")
     print(f"Role-expanded multilayer edges: {len(role_edges)}")
     print(f"Role labels represented: {role_edges['type_label'].nunique()}")
