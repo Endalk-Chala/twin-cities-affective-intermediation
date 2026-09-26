@@ -90,6 +90,7 @@ edges <- purrr::map_dfr(pairs, function(pair) {
   b <- pair[[2]]
 
   present_both <- presence[[a]] == 1 & presence[[b]] == 1
+  joint_intensity <- (intensity[[a]] + intensity[[b]]) / 2
 
   tibble(
     from = unname(emotion_labels[a]),
@@ -98,7 +99,7 @@ edges <- purrr::map_dfr(pairs, function(pair) {
     intensity_product_sum = sum(intensity[[a]] * intensity[[b]], na.rm = TRUE),
     mean_joint_intensity = ifelse(
       sum(present_both, na.rm = TRUE) > 0,
-      mean((intensity[[a]] + intensity[[b]]) / 2, na.rm = TRUE, subset = present_both),
+      mean(joint_intensity[present_both], na.rm = TRUE),
       0
     )
   )
