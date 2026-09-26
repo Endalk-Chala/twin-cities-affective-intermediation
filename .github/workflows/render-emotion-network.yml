@@ -1,10 +1,14 @@
-name: Render emotion network
+name: Render affective networks
 
 on:
   push:
     paths:
       - 'analysis/render_emotion_network_v1.py'
+      - 'analysis/render_affective_circulation_network_v1.py'
       - 'data/processed/full_corpus_coded_master_v1.csv'
+      - 'data/raw/news_media_uptake_batch_*.csv'
+      - 'data/interim/media_multi_org_split_corrections_v1.csv'
+      - 'data/processed/media_frame_transformation_audit_v1.csv'
       - '.github/workflows/render-emotion-network.yml'
   workflow_dispatch:
 
@@ -21,19 +25,22 @@ jobs:
           python-version: '3.12'
       - run: pip install pandas networkx matplotlib
       - run: python analysis/render_emotion_network_v1.py
-      - name: Upload rendered emotion network
+      - run: python analysis/render_affective_circulation_network_v1.py
+      - name: Upload rendered affective network outputs
         uses: actions/upload-artifact@v4
         with:
-          name: emotion-network-v1
-          path: analysis/generated/emotion_network_v1
-      - name: Commit generated emotion network outputs
+          name: affective-network-outputs-v1
+          path: |
+            analysis/generated/emotion_network_v1
+            analysis/generated/affective_circulation_network_v1
+      - name: Commit generated network outputs
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add analysis/generated/emotion_network_v1
+          git add analysis/generated/emotion_network_v1 analysis/generated/affective_circulation_network_v1
           if git diff --cached --quiet; then
             echo 'No generated changes.'
           else
-            git commit -m 'Render full-corpus emotion network outputs'
+            git commit -m 'Render full affective network outputs'
             git push
           fi
