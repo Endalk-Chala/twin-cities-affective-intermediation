@@ -1,0 +1,492 @@
+from,to,edge_type,raw_weight,weight,count
+AFF::Fear,ORG::D2-01,Affect–organization,20,1.5384615384615383,11
+AFF::Anxiety / uncertainty,ORG::D2-01,Affect–organization,7,0.5384615384615384,7
+AFF::Anger,ORG::D2-01,Affect–organization,19,1.4615384615384617,13
+AFF::Moral outrage,ORG::D2-01,Affect–organization,29,2.230769230769231,13
+AFF::Grief / sadness,ORG::D2-01,Affect–organization,7,0.5384615384615384,3
+AFF::Solidarity,ORG::D2-01,Affect–organization,23,1.7692307692307692,13
+AFF::Care / compassion,ORG::D2-01,Affect–organization,15,1.1538461538461535,10
+AFF::Empathy,ORG::D2-01,Affect–organization,11,0.8461538461538461,7
+AFF::Hope,ORG::D2-01,Affect–organization,4,0.3076923076923077,4
+AFF::Reassurance,ORG::D2-01,Affect–organization,1,0.07692307692307693,1
+AFF::Defiance,ORG::D2-01,Affect–organization,26,2,13
+AFF::Urgency,ORG::D2-01,Affect–organization,25,1.9230769230769231,13
+AFF::Fear,ORG::D2-03,Affect–organization,2,1,1
+AFF::Anxiety / uncertainty,ORG::D2-03,Affect–organization,2,1,1
+AFF::Anger,ORG::D2-03,Affect–organization,1,0.5,1
+AFF::Moral outrage,ORG::D2-03,Affect–organization,2,1,1
+AFF::Solidarity,ORG::D2-03,Affect–organization,4,2,2
+AFF::Care / compassion,ORG::D2-03,Affect–organization,2,1,1
+AFF::Empathy,ORG::D2-03,Affect–organization,2,1,1
+AFF::Hope,ORG::D2-03,Affect–organization,3,1.5,2
+AFF::Pride,ORG::D2-03,Affect–organization,1,0.5,1
+AFF::Reassurance,ORG::D2-03,Affect–organization,1,0.5,1
+AFF::Defiance,ORG::D2-03,Affect–organization,1,0.5,1
+AFF::Urgency,ORG::D2-03,Affect–organization,3,1.5,2
+AFF::Fear,ORG::D2-07,Affect–organization,10,2,5
+AFF::Anxiety / uncertainty,ORG::D2-07,Affect–organization,3,0.6,3
+AFF::Anger,ORG::D2-07,Affect–organization,5,1,3
+AFF::Moral outrage,ORG::D2-07,Affect–organization,10,2,5
+AFF::Grief / sadness,ORG::D2-07,Affect–organization,6,1.2,5
+AFF::Solidarity,ORG::D2-07,Affect–organization,10,2,5
+AFF::Care / compassion,ORG::D2-07,Affect–organization,14,2.8,5
+AFF::Empathy,ORG::D2-07,Affect–organization,14,2.8,5
+AFF::Hope,ORG::D2-07,Affect–organization,6,1.2,2
+AFF::Gratitude,ORG::D2-07,Affect–organization,2,0.4,2
+AFF::Reassurance,ORG::D2-07,Affect–organization,7,1.4,3
+AFF::Defiance,ORG::D2-07,Affect–organization,8,1.6,3
+AFF::Urgency,ORG::D2-07,Affect–organization,8,1.6,3
+AFF::Fear,ORG::D2-10,Affect–organization,2,2,1
+AFF::Anger,ORG::D2-10,Affect–organization,2,2,1
+AFF::Moral outrage,ORG::D2-10,Affect–organization,3,3,1
+AFF::Grief / sadness,ORG::D2-10,Affect–organization,1,1,1
+AFF::Solidarity,ORG::D2-10,Affect–organization,3,3,1
+AFF::Care / compassion,ORG::D2-10,Affect–organization,2,2,1
+AFF::Empathy,ORG::D2-10,Affect–organization,2,2,1
+AFF::Hope,ORG::D2-10,Affect–organization,1,1,1
+AFF::Pride,ORG::D2-10,Affect–organization,1,1,1
+AFF::Defiance,ORG::D2-10,Affect–organization,3,3,1
+AFF::Urgency,ORG::D2-10,Affect–organization,3,3,1
+AFF::Solidarity,ORG::TC002,Affect–organization,1,0.1,1
+AFF::Hope,ORG::TC002,Affect–organization,2,0.2,2
+AFF::Pride,ORG::TC002,Affect–organization,1,0.1,1
+AFF::Reassurance,ORG::TC002,Affect–organization,1,0.1,1
+AFF::Grief / sadness,ORG::TC003,Affect–organization,2,2,1
+AFF::Solidarity,ORG::TC003,Affect–organization,3,3,1
+AFF::Care / compassion,ORG::TC003,Affect–organization,2,2,1
+AFF::Empathy,ORG::TC003,Affect–organization,1,1,1
+AFF::Hope,ORG::TC003,Affect–organization,2,2,1
+AFF::Gratitude,ORG::TC003,Affect–organization,1,1,1
+AFF::Pride,ORG::TC003,Affect–organization,3,3,1
+AFF::Anxiety / uncertainty,ORG::TC008,Affect–organization,2,2,1
+AFF::Grief / sadness,ORG::TC008,Affect–organization,2,2,1
+AFF::Solidarity,ORG::TC008,Affect–organization,2,2,1
+AFF::Care / compassion,ORG::TC008,Affect–organization,3,3,1
+AFF::Empathy,ORG::TC008,Affect–organization,1,1,1
+AFF::Hope,ORG::TC008,Affect–organization,1,1,1
+AFF::Gratitude,ORG::TC008,Affect–organization,3,3,1
+AFF::Reassurance,ORG::TC008,Affect–organization,2,2,1
+AFF::Urgency,ORG::TC008,Affect–organization,1,1,1
+AFF::Solidarity,ORG::TC015,Affect–organization,4,1.3333333333333333,3
+AFF::Care / compassion,ORG::TC015,Affect–organization,5,1.6666666666666667,3
+AFF::Empathy,ORG::TC015,Affect–organization,1,0.3333333333333333,1
+AFF::Hope,ORG::TC015,Affect–organization,6,2,3
+AFF::Gratitude,ORG::TC015,Affect–organization,4,1.3333333333333333,3
+AFF::Pride,ORG::TC015,Affect–organization,4,1.3333333333333333,3
+AFF::Reassurance,ORG::TC015,Affect–organization,3,1,2
+AFF::Solidarity,ORG::TC016,Affect–organization,5,2.5,2
+AFF::Care / compassion,ORG::TC016,Affect–organization,3,1.5,2
+AFF::Hope,ORG::TC016,Affect–organization,4,2,2
+AFF::Gratitude,ORG::TC016,Affect–organization,4,2,2
+AFF::Pride,ORG::TC016,Affect–organization,4,2,2
+AFF::Fear,ORG::TC019,Affect–organization,3,3,1
+AFF::Anxiety / uncertainty,ORG::TC019,Affect–organization,2,2,1
+AFF::Anger,ORG::TC019,Affect–organization,2,2,1
+AFF::Moral outrage,ORG::TC019,Affect–organization,3,3,1
+AFF::Grief / sadness,ORG::TC019,Affect–organization,1,1,1
+AFF::Solidarity,ORG::TC019,Affect–organization,3,3,1
+AFF::Care / compassion,ORG::TC019,Affect–organization,3,3,1
+AFF::Empathy,ORG::TC019,Affect–organization,3,3,1
+AFF::Defiance,ORG::TC019,Affect–organization,2,2,1
+AFF::Urgency,ORG::TC019,Affect–organization,3,3,1
+AFF::Fear,ORG::TC021,Affect–organization,3,3,1
+AFF::Anxiety / uncertainty,ORG::TC021,Affect–organization,2,2,1
+AFF::Moral outrage,ORG::TC021,Affect–organization,1,1,1
+AFF::Grief / sadness,ORG::TC021,Affect–organization,2,2,1
+AFF::Solidarity,ORG::TC021,Affect–organization,2,2,1
+AFF::Care / compassion,ORG::TC021,Affect–organization,3,3,1
+AFF::Empathy,ORG::TC021,Affect–organization,3,3,1
+AFF::Hope,ORG::TC021,Affect–organization,1,1,1
+AFF::Reassurance,ORG::TC021,Affect–organization,1,1,1
+AFF::Urgency,ORG::TC021,Affect–organization,2,2,1
+AFF::Fear,ORG::TC023,Affect–organization,1,0.2,1
+AFF::Anxiety / uncertainty,ORG::TC023,Affect–organization,1,0.2,1
+AFF::Moral outrage,ORG::TC023,Affect–organization,1,0.2,1
+AFF::Grief / sadness,ORG::TC023,Affect–organization,1,0.2,1
+AFF::Solidarity,ORG::TC023,Affect–organization,9,1.8,4
+AFF::Care / compassion,ORG::TC023,Affect–organization,11,2.2,5
+AFF::Empathy,ORG::TC023,Affect–organization,5,1,3
+AFF::Hope,ORG::TC023,Affect–organization,6,1.2,5
+AFF::Gratitude,ORG::TC023,Affect–organization,5,1,2
+AFF::Pride,ORG::TC023,Affect–organization,3,0.6,2
+AFF::Reassurance,ORG::TC023,Affect–organization,3,0.6,2
+AFF::Defiance,ORG::TC023,Affect–organization,1,0.2,1
+AFF::Urgency,ORG::TC023,Affect–organization,3,0.6,2
+AFF::Moral outrage,ORG::TC025,Affect–organization,1,0.07692307692307693,1
+AFF::Solidarity,ORG::TC025,Affect–organization,16,1.2307692307692308,9
+AFF::Care / compassion,ORG::TC025,Affect–organization,19,1.4615384615384617,13
+AFF::Empathy,ORG::TC025,Affect–organization,2,0.15384615384615383,1
+AFF::Hope,ORG::TC025,Affect–organization,25,1.9230769230769231,13
+AFF::Gratitude,ORG::TC025,Affect–organization,8,0.6153846153846154,6
+AFF::Pride,ORG::TC025,Affect–organization,12,0.9230769230769232,7
+AFF::Reassurance,ORG::TC025,Affect–organization,12,0.9230769230769232,8
+AFF::Defiance,ORG::TC025,Affect–organization,1,0.07692307692307693,1
+AFF::Urgency,ORG::TC025,Affect–organization,3,0.2307692307692308,2
+AFF::Solidarity,ORG::TC026,Affect–organization,18,1.8,9
+AFF::Care / compassion,ORG::TC026,Affect–organization,15,1.5,9
+AFF::Empathy,ORG::TC026,Affect–organization,5,0.5,4
+AFF::Hope,ORG::TC026,Affect–organization,23,2.3,9
+AFF::Gratitude,ORG::TC026,Affect–organization,10,1,7
+AFF::Pride,ORG::TC026,Affect–organization,16,1.6,9
+AFF::Reassurance,ORG::TC026,Affect–organization,5,0.5,5
+AFF::Fear,ORG::TC028,Affect–organization,1,0.25,1
+AFF::Anxiety / uncertainty,ORG::TC028,Affect–organization,1,0.25,1
+AFF::Grief / sadness,ORG::TC028,Affect–organization,1,0.25,1
+AFF::Solidarity,ORG::TC028,Affect–organization,7,1.75,4
+AFF::Care / compassion,ORG::TC028,Affect–organization,6,1.5,4
+AFF::Empathy,ORG::TC028,Affect–organization,4,1,2
+AFF::Hope,ORG::TC028,Affect–organization,9,2.25,4
+AFF::Gratitude,ORG::TC028,Affect–organization,5,1.25,2
+AFF::Pride,ORG::TC028,Affect–organization,5,1.25,3
+AFF::Reassurance,ORG::TC028,Affect–organization,1,0.25,1
+AFF::Defiance,ORG::TC028,Affect–organization,1,0.25,1
+AFF::Care / compassion,ORG::TC030,Affect–organization,3,1,3
+AFF::Hope,ORG::TC030,Affect–organization,6,2,3
+AFF::Reassurance,ORG::TC030,Affect–organization,3,1,3
+AFF::Solidarity,ORG::TC031,Affect–organization,11,2.75,4
+AFF::Care / compassion,ORG::TC031,Affect–organization,5,1.25,4
+AFF::Empathy,ORG::TC031,Affect–organization,2,0.5,2
+AFF::Hope,ORG::TC031,Affect–organization,10,2.5,4
+AFF::Pride,ORG::TC031,Affect–organization,9,2.25,4
+AFF::Reassurance,ORG::TC031,Affect–organization,1,0.25,1
+AFF::Solidarity,ORG::TC034,Affect–organization,7,1.75,4
+AFF::Care / compassion,ORG::TC034,Affect–organization,5,1.25,4
+AFF::Hope,ORG::TC034,Affect–organization,6,1.5,4
+AFF::Gratitude,ORG::TC034,Affect–organization,1,0.25,1
+AFF::Pride,ORG::TC034,Affect–organization,6,1.5,4
+AFF::Fear,ORG::TC035,Affect–organization,4,0.6666666666666666,2
+AFF::Anxiety / uncertainty,ORG::TC035,Affect–organization,5,0.8333333333333334,2
+AFF::Solidarity,ORG::TC035,Affect–organization,10,1.6666666666666667,6
+AFF::Care / compassion,ORG::TC035,Affect–organization,11,1.8333333333333333,6
+AFF::Empathy,ORG::TC035,Affect–organization,7,1.1666666666666667,6
+AFF::Hope,ORG::TC035,Affect–organization,7,1.1666666666666667,4
+AFF::Pride,ORG::TC035,Affect–organization,4,0.6666666666666666,3
+AFF::Reassurance,ORG::TC035,Affect–organization,4,0.6666666666666666,3
+AFF::Urgency,ORG::TC035,Affect–organization,3,0.5,2
+AFF::Anger,ORG::TC036,Affect–organization,1,1,1
+AFF::Moral outrage,ORG::TC036,Affect–organization,1,1,1
+AFF::Solidarity,ORG::TC036,Affect–organization,2,2,1
+AFF::Care / compassion,ORG::TC036,Affect–organization,2,2,1
+AFF::Empathy,ORG::TC036,Affect–organization,1,1,1
+AFF::Hope,ORG::TC036,Affect–organization,1,1,1
+AFF::Defiance,ORG::TC036,Affect–organization,1,1,1
+AFF::Urgency,ORG::TC036,Affect–organization,2,2,1
+AFF::Solidarity,ORG::TC037,Affect–organization,4,1.3333333333333333,3
+AFF::Care / compassion,ORG::TC037,Affect–organization,4,1.3333333333333333,3
+AFF::Hope,ORG::TC037,Affect–organization,6,2,3
+AFF::Gratitude,ORG::TC037,Affect–organization,1,0.3333333333333333,1
+AFF::Pride,ORG::TC037,Affect–organization,3,1,3
+AFF::Reassurance,ORG::TC037,Affect–organization,3,1,2
+AFF::Fear,ORG::TC038,Affect–organization,2,0.08333333333333333,1
+AFF::Anxiety / uncertainty,ORG::TC038,Affect–organization,2,0.08333333333333333,1
+AFF::Solidarity,ORG::TC038,Affect–organization,5,0.20833333333333337,2
+AFF::Care / compassion,ORG::TC038,Affect–organization,4,0.16666666666666666,2
+AFF::Empathy,ORG::TC038,Affect–organization,2,0.08333333333333333,1
+AFF::Hope,ORG::TC038,Affect–organization,3,0.125,3
+AFF::Gratitude,ORG::TC038,Affect–organization,1,0.04166666666666666,1
+AFF::Pride,ORG::TC038,Affect–organization,2,0.08333333333333333,1
+AFF::Reassurance,ORG::TC038,Affect–organization,2,0.08333333333333333,1
+AFF::Urgency,ORG::TC038,Affect–organization,3,0.125,1
+AFF::Fear,ORG::TC041,Affect–organization,44,1.76,20
+AFF::Anxiety / uncertainty,ORG::TC041,Affect–organization,40,1.6,20
+AFF::Anger,ORG::TC041,Affect–organization,6,0.24,5
+AFF::Moral outrage,ORG::TC041,Affect–organization,11,0.44,8
+AFF::Grief / sadness,ORG::TC041,Affect–organization,14,0.56,12
+AFF::Solidarity,ORG::TC041,Affect–organization,54,2.16,25
+AFF::Care / compassion,ORG::TC041,Affect–organization,62,2.48,25
+AFF::Empathy,ORG::TC041,Affect–organization,53,2.12,25
+AFF::Hope,ORG::TC041,Affect–organization,24,0.96,13
+AFF::Gratitude,ORG::TC041,Affect–organization,12,0.48,6
+AFF::Pride,ORG::TC041,Affect–organization,8,0.32,4
+AFF::Reassurance,ORG::TC041,Affect–organization,30,1.2,22
+AFF::Defiance,ORG::TC041,Affect–organization,6,0.24,3
+AFF::Urgency,ORG::TC041,Affect–organization,35,1.4,19
+AFF::Fear,ORG::TC042,Affect–organization,3,0.75,2
+AFF::Anxiety / uncertainty,ORG::TC042,Affect–organization,3,0.75,2
+AFF::Solidarity,ORG::TC042,Affect–organization,8,2,4
+AFF::Care / compassion,ORG::TC042,Affect–organization,8,2,4
+AFF::Empathy,ORG::TC042,Affect–organization,4,1,2
+AFF::Hope,ORG::TC042,Affect–organization,4,1,3
+AFF::Gratitude,ORG::TC042,Affect–organization,3,0.75,1
+AFF::Pride,ORG::TC042,Affect–organization,4,1,2
+AFF::Reassurance,ORG::TC042,Affect–organization,3,0.75,2
+AFF::Urgency,ORG::TC042,Affect–organization,3,0.75,2
+AFF::Fear,ORG::TC044,Affect–organization,7,2.3333333333333335,3
+AFF::Anxiety / uncertainty,ORG::TC044,Affect–organization,3,1,2
+AFF::Anger,ORG::TC044,Affect–organization,3,1,3
+AFF::Moral outrage,ORG::TC044,Affect–organization,6,2,3
+AFF::Grief / sadness,ORG::TC044,Affect–organization,4,1.3333333333333333,2
+AFF::Solidarity,ORG::TC044,Affect–organization,9,3,3
+AFF::Care / compassion,ORG::TC044,Affect–organization,8,2.6666666666666665,3
+AFF::Empathy,ORG::TC044,Affect–organization,8,2.6666666666666665,3
+AFF::Hope,ORG::TC044,Affect–organization,1,0.3333333333333333,1
+AFF::Pride,ORG::TC044,Affect–organization,2,0.6666666666666666,1
+AFF::Reassurance,ORG::TC044,Affect–organization,1,0.3333333333333333,1
+AFF::Defiance,ORG::TC044,Affect–organization,4,1.3333333333333333,3
+AFF::Urgency,ORG::TC044,Affect–organization,5,1.6666666666666667,3
+AFF::Fear,ORG::TC047,Affect–organization,2,0.5,1
+AFF::Anxiety / uncertainty,ORG::TC047,Affect–organization,3,0.75,1
+AFF::Moral outrage,ORG::TC047,Affect–organization,1,0.25,1
+AFF::Grief / sadness,ORG::TC047,Affect–organization,9,2.25,3
+AFF::Solidarity,ORG::TC047,Affect–organization,10,2.5,4
+AFF::Care / compassion,ORG::TC047,Affect–organization,9,2.25,4
+AFF::Empathy,ORG::TC047,Affect–organization,5,1.25,4
+AFF::Hope,ORG::TC047,Affect–organization,4,1,4
+AFF::Gratitude,ORG::TC047,Affect–organization,3,0.75,3
+AFF::Pride,ORG::TC047,Affect–organization,6,1.5,3
+AFF::Reassurance,ORG::TC047,Affect–organization,2,0.5,1
+AFF::Urgency,ORG::TC047,Affect–organization,2,0.5,1
+AFF::Fear,ORG::TC050,Affect–organization,8,0.4444444444444444,3
+AFF::Anxiety / uncertainty,ORG::TC050,Affect–organization,10,0.5555555555555556,6
+AFF::Anger,ORG::TC050,Affect–organization,4,0.2222222222222222,4
+AFF::Moral outrage,ORG::TC050,Affect–organization,6,0.3333333333333333,5
+AFF::Grief / sadness,ORG::TC050,Affect–organization,2,0.1111111111111111,2
+AFF::Solidarity,ORG::TC050,Affect–organization,31,1.7222222222222223,18
+AFF::Care / compassion,ORG::TC050,Affect–organization,28,1.5555555555555556,18
+AFF::Empathy,ORG::TC050,Affect–organization,17,0.9444444444444444,10
+AFF::Hope,ORG::TC050,Affect–organization,31,1.7222222222222223,17
+AFF::Gratitude,ORG::TC050,Affect–organization,13,0.7222222222222222,10
+AFF::Pride,ORG::TC050,Affect–organization,27,1.5,12
+AFF::Reassurance,ORG::TC050,Affect–organization,15,0.8333333333333334,11
+AFF::Defiance,ORG::TC050,Affect–organization,5,0.2777777777777778,5
+AFF::Urgency,ORG::TC050,Affect–organization,15,0.8333333333333334,7
+AFF::Fear,ORG::TC054,Affect–organization,15,1.1538461538461535,8
+AFF::Anxiety / uncertainty,ORG::TC054,Affect–organization,15,1.1538461538461535,8
+AFF::Anger,ORG::TC054,Affect–organization,1,0.07692307692307693,1
+AFF::Moral outrage,ORG::TC054,Affect–organization,2,0.15384615384615383,1
+AFF::Grief / sadness,ORG::TC054,Affect–organization,3,0.2307692307692308,3
+AFF::Solidarity,ORG::TC054,Affect–organization,29,2.230769230769231,13
+AFF::Care / compassion,ORG::TC054,Affect–organization,33,2.5384615384615383,13
+AFF::Empathy,ORG::TC054,Affect–organization,26,2,13
+AFF::Hope,ORG::TC054,Affect–organization,23,1.7692307692307692,12
+AFF::Gratitude,ORG::TC054,Affect–organization,5,0.38461538461538464,5
+AFF::Pride,ORG::TC054,Affect–organization,7,0.5384615384615384,6
+AFF::Reassurance,ORG::TC054,Affect–organization,16,1.2307692307692308,10
+AFF::Defiance,ORG::TC054,Affect–organization,2,0.15384615384615383,2
+AFF::Urgency,ORG::TC054,Affect–organization,15,1.1538461538461535,9
+AFF::Solidarity,ORG::TC055,Affect–organization,1,0.3333333333333333,1
+AFF::Care / compassion,ORG::TC055,Affect–organization,2,0.6666666666666666,2
+AFF::Hope,ORG::TC055,Affect–organization,5,1.6666666666666667,3
+AFF::Pride,ORG::TC055,Affect–organization,1,0.3333333333333333,1
+AFF::Reassurance,ORG::TC055,Affect–organization,3,1,3
+AFF::Solidarity,ORG::TC056,Affect–organization,2,2,1
+AFF::Care / compassion,ORG::TC056,Affect–organization,1,1,1
+AFF::Hope,ORG::TC056,Affect–organization,2,2,1
+AFF::Gratitude,ORG::TC056,Affect–organization,1,1,1
+AFF::Pride,ORG::TC056,Affect–organization,2,2,1
+AFF::Reassurance,ORG::TC056,Affect–organization,1,1,1
+AFF::Fear,ORG::TC057,Affect–organization,15,1.875,8
+AFF::Anxiety / uncertainty,ORG::TC057,Affect–organization,10,1.25,6
+AFF::Anger,ORG::TC057,Affect–organization,9,1.125,4
+AFF::Moral outrage,ORG::TC057,Affect–organization,11,1.375,5
+AFF::Grief / sadness,ORG::TC057,Affect–organization,7,0.875,3
+AFF::Solidarity,ORG::TC057,Affect–organization,17,2.125,8
+AFF::Care / compassion,ORG::TC057,Affect–organization,16,2,8
+AFF::Empathy,ORG::TC057,Affect–organization,10,1.25,7
+AFF::Hope,ORG::TC057,Affect–organization,5,0.625,4
+AFF::Reassurance,ORG::TC057,Affect–organization,9,1.125,4
+AFF::Defiance,ORG::TC057,Affect–organization,13,1.625,6
+AFF::Urgency,ORG::TC057,Affect–organization,20,2.5,8
+AFF::Fear,ORG::TC058,Affect–organization,21,0.75,15
+AFF::Anxiety / uncertainty,ORG::TC058,Affect–organization,16,0.5714285714285714,12
+AFF::Anger,ORG::TC058,Affect–organization,9,0.32142857142857145,8
+AFF::Moral outrage,ORG::TC058,Affect–organization,14,0.5,12
+AFF::Grief / sadness,ORG::TC058,Affect–organization,1,0.03571428571428571,1
+AFF::Solidarity,ORG::TC058,Affect–organization,12,0.42857142857142855,7
+AFF::Care / compassion,ORG::TC058,Affect–organization,21,0.75,16
+AFF::Empathy,ORG::TC058,Affect–organization,10,0.35714285714285715,8
+AFF::Hope,ORG::TC058,Affect–organization,12,0.42857142857142855,8
+AFF::Gratitude,ORG::TC058,Affect–organization,3,0.10714285714285714,3
+AFF::Pride,ORG::TC058,Affect–organization,3,0.10714285714285714,3
+AFF::Reassurance,ORG::TC058,Affect–organization,16,0.5714285714285714,15
+AFF::Defiance,ORG::TC058,Affect–organization,8,0.2857142857142857,4
+AFF::Urgency,ORG::TC058,Affect–organization,12,0.42857142857142855,11
+AFF::Solidarity,ORG::TC060,Affect–organization,2,2,1
+AFF::Care / compassion,ORG::TC060,Affect–organization,1,1,1
+AFF::Hope,ORG::TC060,Affect–organization,2,2,1
+AFF::Pride,ORG::TC060,Affect–organization,2,2,1
+AFF::Solidarity,ORG::TC062,Affect–organization,2,2,1
+AFF::Care / compassion,ORG::TC062,Affect–organization,1,1,1
+AFF::Hope,ORG::TC062,Affect–organization,2,2,1
+AFF::Gratitude,ORG::TC062,Affect–organization,1,1,1
+AFF::Pride,ORG::TC062,Affect–organization,3,3,1
+AFF::Fear,ORG::TC064,Affect–organization,27,1.2857142857142858,18
+AFF::Anxiety / uncertainty,ORG::TC064,Affect–organization,13,0.6190476190476191,11
+AFF::Anger,ORG::TC064,Affect–organization,18,0.8571428571428571,12
+AFF::Moral outrage,ORG::TC064,Affect–organization,36,1.7142857142857142,18
+AFF::Grief / sadness,ORG::TC064,Affect–organization,11,0.5238095238095238,7
+AFF::Solidarity,ORG::TC064,Affect–organization,28,1.3333333333333333,18
+AFF::Care / compassion,ORG::TC064,Affect–organization,21,1,15
+AFF::Empathy,ORG::TC064,Affect–organization,15,0.7142857142857143,10
+AFF::Hope,ORG::TC064,Affect–organization,14,0.6666666666666666,10
+AFF::Gratitude,ORG::TC064,Affect–organization,4,0.1904761904761905,4
+AFF::Reassurance,ORG::TC064,Affect–organization,15,0.7142857142857143,10
+AFF::Defiance,ORG::TC064,Affect–organization,26,1.238095238095238,13
+AFF::Urgency,ORG::TC064,Affect–organization,29,1.380952380952381,17
+AFF::Solidarity,ORG::TC065,Affect–organization,3,1,3
+AFF::Care / compassion,ORG::TC065,Affect–organization,3,1,3
+AFF::Hope,ORG::TC065,Affect–organization,3,1,3
+AFF::Reassurance,ORG::TC065,Affect–organization,3,1,3
+AFF::Solidarity,ORG::TC070,Affect–organization,1,1,1
+AFF::Care / compassion,ORG::TC070,Affect–organization,1,1,1
+AFF::Hope,ORG::TC070,Affect–organization,2,2,1
+AFF::Reassurance,ORG::TC070,Affect–organization,1,1,1
+AFF::Fear,ORG::TC073,Affect–organization,30,1.5,14
+AFF::Anxiety / uncertainty,ORG::TC073,Affect–organization,28,1.4,14
+AFF::Anger,ORG::TC073,Affect–organization,14,0.7,9
+AFF::Moral outrage,ORG::TC073,Affect–organization,23,1.15,11
+AFF::Grief / sadness,ORG::TC073,Affect–organization,18,0.9,13
+AFF::Solidarity,ORG::TC073,Affect–organization,38,1.9,20
+AFF::Care / compassion,ORG::TC073,Affect–organization,41,2.05,20
+AFF::Empathy,ORG::TC073,Affect–organization,35,1.75,16
+AFF::Hope,ORG::TC073,Affect–organization,23,1.15,11
+AFF::Gratitude,ORG::TC073,Affect–organization,11,0.55,8
+AFF::Pride,ORG::TC073,Affect–organization,8,0.4,6
+AFF::Reassurance,ORG::TC073,Affect–organization,12,0.6,8
+AFF::Defiance,ORG::TC073,Affect–organization,16,0.8,8
+AFF::Urgency,ORG::TC073,Affect–organization,26,1.3,12
+AFF::Fear,ORG::TC074,Affect–organization,22,1.8333333333333333,9
+AFF::Anxiety / uncertainty,ORG::TC074,Affect–organization,15,1.25,9
+AFF::Anger,ORG::TC074,Affect–organization,15,1.25,9
+AFF::Moral outrage,ORG::TC074,Affect–organization,23,1.9166666666666667,10
+AFF::Grief / sadness,ORG::TC074,Affect–organization,13,1.0833333333333333,6
+AFF::Solidarity,ORG::TC074,Affect–organization,36,3,12
+AFF::Care / compassion,ORG::TC074,Affect–organization,26,2.1666666666666665,12
+AFF::Empathy,ORG::TC074,Affect–organization,22,1.8333333333333333,11
+AFF::Hope,ORG::TC074,Affect–organization,14,1.1666666666666667,8
+AFF::Gratitude,ORG::TC074,Affect–organization,2,0.16666666666666666,1
+AFF::Pride,ORG::TC074,Affect–organization,6,0.5,4
+AFF::Reassurance,ORG::TC074,Affect–organization,4,0.3333333333333333,2
+AFF::Defiance,ORG::TC074,Affect–organization,25,2.0833333333333335,11
+AFF::Urgency,ORG::TC074,Affect–organization,30,2.5,12
+AFF::Fear,ORG::TC075,Affect–organization,12,0.6,6
+AFF::Anxiety / uncertainty,ORG::TC075,Affect–organization,9,0.45,5
+AFF::Anger,ORG::TC075,Affect–organization,8,0.4,7
+AFF::Moral outrage,ORG::TC075,Affect–organization,12,0.6,7
+AFF::Grief / sadness,ORG::TC075,Affect–organization,4,0.2,2
+AFF::Solidarity,ORG::TC075,Affect–organization,46,2.3,20
+AFF::Care / compassion,ORG::TC075,Affect–organization,32,1.6,20
+AFF::Empathy,ORG::TC075,Affect–organization,13,0.65,7
+AFF::Hope,ORG::TC075,Affect–organization,35,1.75,19
+AFF::Pride,ORG::TC075,Affect–organization,9,0.45,8
+AFF::Reassurance,ORG::TC075,Affect–organization,19,0.95,14
+AFF::Defiance,ORG::TC075,Affect–organization,15,0.75,10
+AFF::Urgency,ORG::TC075,Affect–organization,26,1.3,14
+AFF::Fear,ORG::TC076,Affect–organization,3,0.375,2
+AFF::Anxiety / uncertainty,ORG::TC076,Affect–organization,3,0.375,3
+AFF::Anger,ORG::TC076,Affect–organization,2,0.25,2
+AFF::Moral outrage,ORG::TC076,Affect–organization,4,0.5,3
+AFF::Grief / sadness,ORG::TC076,Affect–organization,1,0.125,1
+AFF::Solidarity,ORG::TC076,Affect–organization,19,2.375,8
+AFF::Care / compassion,ORG::TC076,Affect–organization,16,2,8
+AFF::Empathy,ORG::TC076,Affect–organization,6,0.75,5
+AFF::Hope,ORG::TC076,Affect–organization,14,1.75,8
+AFF::Gratitude,ORG::TC076,Affect–organization,8,1,4
+AFF::Pride,ORG::TC076,Affect–organization,5,0.625,5
+AFF::Reassurance,ORG::TC076,Affect–organization,7,0.875,5
+AFF::Defiance,ORG::TC076,Affect–organization,3,0.375,3
+AFF::Urgency,ORG::TC076,Affect–organization,7,0.875,4
+AFF::Fear,ORG::TC077,Affect–organization,6,3,2
+AFF::Anxiety / uncertainty,ORG::TC077,Affect–organization,2,1,2
+AFF::Anger,ORG::TC077,Affect–organization,4,2,2
+AFF::Moral outrage,ORG::TC077,Affect–organization,6,3,2
+AFF::Grief / sadness,ORG::TC077,Affect–organization,5,2.5,2
+AFF::Solidarity,ORG::TC077,Affect–organization,6,3,2
+AFF::Care / compassion,ORG::TC077,Affect–organization,4,2,2
+AFF::Empathy,ORG::TC077,Affect–organization,4,2,2
+AFF::Defiance,ORG::TC077,Affect–organization,6,3,2
+AFF::Urgency,ORG::TC077,Affect–organization,6,3,2
+AFF::Fear,ORG::TC078,Affect–organization,24,1.263157894736842,13
+AFF::Anxiety / uncertainty,ORG::TC078,Affect–organization,13,0.6842105263157895,10
+AFF::Anger,ORG::TC078,Affect–organization,9,0.47368421052631576,6
+AFF::Moral outrage,ORG::TC078,Affect–organization,23,1.2105263157894737,17
+AFF::Grief / sadness,ORG::TC078,Affect–organization,1,0.05263157894736842,1
+AFF::Solidarity,ORG::TC078,Affect–organization,53,2.789473684210526,19
+AFF::Care / compassion,ORG::TC078,Affect–organization,39,2.0526315789473686,19
+AFF::Empathy,ORG::TC078,Affect–organization,20,1.0526315789473684,15
+AFF::Hope,ORG::TC078,Affect–organization,24,1.263157894736842,17
+AFF::Pride,ORG::TC078,Affect–organization,6,0.3157894736842105,4
+AFF::Reassurance,ORG::TC078,Affect–organization,18,0.9473684210526316,11
+AFF::Defiance,ORG::TC078,Affect–organization,29,1.5263157894736843,16
+AFF::Urgency,ORG::TC078,Affect–organization,44,2.3157894736842106,18
+ORG::D1-09,MED::Minnesota Women's Press,Organization–media,1,1,1
+ORG::D2-01,MED::Bring Me The News,Organization–media,1,1,1
+ORG::D2-01,MED::FOX 9,Organization–media,3,3,3
+ORG::D2-01,MED::KSTP 5 Eyewitness News,Organization–media,1,1,1
+ORG::D2-01,MED::MPR News,Organization–media,1,1,1
+ORG::D2-01,MED::Minnesota Reformer,Organization–media,4,4,4
+ORG::D2-01,MED::Minnesota Star Tribune,Organization–media,1,1,1
+ORG::D2-01,MED::Sahan Journal,Organization–media,1,1,1
+ORG::D2-02,MED::Community Reporter,Organization–media,1,1,1
+ORG::D2-03,MED::Here & Now / WBUR,Organization–media,1,1,1
+ORG::D2-03,MED::Sahan Journal,Organization–media,1,1,1
+ORG::D2-05,MED::Sahan Journal,Organization–media,1,1,1
+ORG::D2-06,MED::Finance & Commerce,Organization–media,1,1,1
+ORG::D2-06,MED::In These Times,Organization–media,1,1,1
+ORG::D2-07,MED::Sahan Journal,Organization–media,1,1,1
+ORG::D2-08,MED::Associated Press,Organization–media,1,1,1
+ORG::D2-08,MED::Fox News Digital,Organization–media,2,2,2
+ORG::D2-08,MED::The Washington Post,Organization–media,1,1,1
+ORG::D2-10,MED::Community Reporter,Organization–media,1,1,1
+ORG::D2-10,MED::The Guardian,Organization–media,1,1,1
+ORG::TC003,MED::N+ Univision,Organization–media,2,2,2
+ORG::TC019,MED::MPR News,Organization–media,1,1,1
+ORG::TC025,MED::Sahan Journal,Organization–media,1,1,1
+ORG::TC038,MED::CBS Minnesota / WCCO,Organization–media,1,1,1
+ORG::TC041,MED::Bring Me The News,Organization–media,1,1,1
+ORG::TC041,MED::CBS Minnesota / WCCO,Organization–media,1,1,1
+ORG::TC041,MED::KSTP 5 Eyewitness News,Organization–media,2,2,2
+ORG::TC041,MED::MPR News,Organization–media,2,2,2
+ORG::TC041,MED::Minnesota Star Tribune,Organization–media,1,1,1
+ORG::TC041,MED::NPR,Organization–media,1,1,1
+ORG::TC041,MED::Sahan Journal,Organization–media,1,1,1
+ORG::TC042,MED::CBS Minnesota / WCCO,Organization–media,1,1,1
+ORG::TC044,MED::MPR News,Organization–media,1,1,1
+ORG::TC045,MED::Community Reporter,Organization–media,1,1,1
+ORG::TC054,MED::CBS Minnesota / WCCO,Organization–media,1,1,1
+ORG::TC054,MED::MPR News,Organization–media,1,1,1
+ORG::TC054,MED::Minnesota Star Tribune,Organization–media,1,1,1
+ORG::TC057,MED::Associated Press,Organization–media,1,1,1
+ORG::TC057,MED::Bring Me The News,Organization–media,3,3,3
+ORG::TC057,MED::CBS Minnesota / WCCO,Organization–media,1,1,1
+ORG::TC057,MED::CNN,Organization–media,1,1,1
+ORG::TC057,MED::KSTP 5 Eyewitness News,Organization–media,2,2,2
+ORG::TC057,MED::MPR News,Organization–media,3,3,3
+ORG::TC057,MED::Minnesota Reformer,Organization–media,1,1,1
+ORG::TC057,MED::Sahan Journal,Organization–media,4,4,4
+ORG::TC057,MED::The New York Times,Organization–media,1,1,1
+ORG::TC058,MED::CBS Minnesota / WCCO,Organization–media,1,1,1
+ORG::TC058,MED::Minnesota Spokesman-Recorder,Organization–media,1,1,1
+ORG::TC058,MED::Minnesota Star Tribune,Organization–media,2,2,2
+ORG::TC058,MED::The Imprint,Organization–media,1,1,1
+ORG::TC064,MED::Associated Press,Organization–media,2,2,2
+ORG::TC064,MED::Bring Me The News,Organization–media,5,5,5
+ORG::TC064,MED::KSTP 5 Eyewitness News,Organization–media,1,1,1
+ORG::TC064,MED::MPR News,Organization–media,1,1,1
+ORG::TC064,MED::Minnesota Star Tribune,Organization–media,1,1,1
+ORG::TC064,MED::Sahan Journal,Organization–media,3,3,3
+ORG::TC065,MED::CBS Minnesota / WCCO,Organization–media,1,1,1
+ORG::TC065,MED::Community Reporter,Organization–media,1,1,1
+ORG::TC065,MED::Minnesota Star Tribune,Organization–media,1,1,1
+ORG::TC073,MED::CNN,Organization–media,1,1,1
+ORG::TC073,MED::KARE 11,Organization–media,1,1,1
+ORG::TC073,MED::MPR News,Organization–media,1,1,1
+ORG::TC073,MED::Minnesota Star Tribune,Organization–media,4,4,4
+ORG::TC073,MED::Pioneer Press,Organization–media,1,1,1
+ORG::TC074,MED::MPR News,Organization–media,1,1,1
+ORG::TC074,MED::CNN,Organization–media,1,1,1
+ORG::TC074,MED::The Guardian,Organization–media,2,2,2
+ORG::TC075,MED::CBS Minnesota / WCCO,Organization–media,1,1,1
+ORG::TC075,MED::FOX 9,Organization–media,1,1,1
+ORG::TC075,MED::Minnesota Reformer,Organization–media,2,2,2
+ORG::TC075,MED::Sahan Journal,Organization–media,1,1,1
+ORG::TC076,MED::Religion News Service,Organization–media,1,1,1
+ORG::TC077,MED::TC Jewfolk,Organization–media,1,1,1
+ORG::TC077,MED::The Guardian,Organization–media,3,3,3
+ORG::TC078,MED::Jewish Telegraphic Agency,Organization–media,1,1,1
+ORG::TC078,MED::TC Jewfolk,Organization–media,5,5,5
+ORG::TC082,MED::Hmong Daily News,Organization–media,1,1,1
+ORG::TC084,MED::Associated Press,Organization–media,1,1,1
+ORG::TC084,MED::MPR News,Organization–media,1,1,1
+ORG::TC084,MED::Sahan Journal,Organization–media,4,4,4
+ORG::TC084,MED::The Guardian,Organization–media,1,1,1
