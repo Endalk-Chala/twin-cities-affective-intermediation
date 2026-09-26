@@ -205,7 +205,6 @@ direct_service,D3-16,Latino Economic Development Center (LEDC),R0104,STY-C4CED6E
 direct_service,D4-02,Organization of Liberians in Minnesota,R0018,STY-2F91135ABD0F,NEWS050,community_ethnic,named_mention,0,supporting,mobilization_source,0,0,1,0,0,0,verified
 direct_service,TC009,Minnesota Somali Community Center,R0089,STY-8E8D95B320DC,NEWS049,community_ethnic,named_mention,0,supporting,mobilization_source,0,0,1,0,0,0,verified
 direct_service,TC019,Esperanza United,R0038,STY-4B7977EA2636,NEWS002,local_regional,direct_quote,1,supporting,affected_community_intermediary,1,1,0,0,1,0,verified
-direct_service,TC025,Twin Cities Habitat for Humanity,R0116,STY-EA45B6ADD853,NEWS001,local_regional,named_mention,0,supporting,housing_service_source,0,1,0,0,1,0,verified
 direct_service,TC038,Comunidades Latinas Unidas En Servicio (CLUES),R0071,STY-7542CDBA6D7B,NEWS003,local_regional,direct_quote,1,supporting,affected_community_intermediary,1,0,0,0,0,0,verified
 direct_service,TC038,Comunidades Latinas Unidas En Servicio (CLUES),R0097,STY-B0DCEF2BA9C5,NEWS004,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,1,1,1,1,0,verified
 direct_service,TC041,International Institute of Minnesota,R0110,STY-DE1E5A93F787,NEWS001,local_regional,direct_quote,1,supporting,refugee_service_expert,1,1,0,0,1,0,verified
@@ -222,7 +221,6 @@ direct_service,TC041,International Institute of Minnesota,R0068,STY-7052A7220650
 direct_service,TC042,Isuroon,R0074,STY-762C7B599C6B,NEWS004,local_regional,direct_quote,1,primary,community_service_intermediary,1,1,0,1,1,0,verified
 direct_service,TC044,Minnesota Council of Churches - Refugee Services,R0057,STY-5FD5514D98BC,NEWS002,local_regional,direct_quote,1,supporting,faith_refugee_service_source,1,1,0,0,1,0,verified
 direct_service,TC045,Neighborhood House,R0024,STY-376D05B4D135,NEWS016,community_ethnic,named_mention,0,primary,community_service_intermediary,1,1,0,1,1,0,verified
-direct_service,TC050,Project for Pride in Living,R0098,STY-BAC049360883,NEWS032,national_amplification,direct_quote,1,supporting,affected_community_intermediary,1,0,0,0,0,0,verified
 direct_service,TC054,Alight,R0002,STY-07A358550AE0,NEWS002,local_regional,direct_quote,1,primary,humanitarian_service_source,1,1,0,0,1,0,verified
 direct_service,TC054,Alight,R0003,STY-0FB3DFD946CF,NEWS003,local_regional,direct_quote,1,primary,humanitarian_service_source,1,1,0,1,1,0,verified
 direct_service,TC054,Alight,R0010,STY-1A208602483F,NEWS004,local_regional,direct_quote,1,primary,community_service_intermediary,1,1,0,0,1,0,verified
@@ -291,7 +289,6 @@ education_workforce,TC041,International Institute of Minnesota,R0040,STY-4CA2E24
 education_workforce,TC041,International Institute of Minnesota,R0068,STY-7052A7220650,NEWS031,national_amplification,direct_quote,1,supporting,refugee_resettlement_source,1,1,0,0,1,0,verified
 education_workforce,TC044,Minnesota Council of Churches - Refugee Services,R0057,STY-5FD5514D98BC,NEWS002,local_regional,direct_quote,1,supporting,faith_refugee_service_source,1,1,0,0,1,0,verified
 education_workforce,TC045,Neighborhood House,R0024,STY-376D05B4D135,NEWS016,community_ethnic,named_mention,0,primary,community_service_intermediary,1,1,0,1,1,0,verified
-education_workforce,TC050,Project for Pride in Living,R0098,STY-BAC049360883,NEWS032,national_amplification,direct_quote,1,supporting,affected_community_intermediary,1,0,0,0,0,0,verified
 education_workforce,TC054,Alight,R0002,STY-07A358550AE0,NEWS002,local_regional,direct_quote,1,primary,humanitarian_service_source,1,1,0,0,1,0,verified
 education_workforce,TC054,Alight,R0003,STY-0FB3DFD946CF,NEWS003,local_regional,direct_quote,1,primary,humanitarian_service_source,1,1,0,1,1,0,verified
 education_workforce,TC054,Alight,R0010,STY-1A208602483F,NEWS004,local_regional,direct_quote,1,primary,community_service_intermediary,1,1,0,0,1,0,verified
@@ -308,7 +305,6 @@ ethnocultural,TC042,Isuroon,R0074,STY-762C7B599C6B,NEWS004,local_regional,direct
 ethnocultural,TC074,COPAL - Communities Organizing Latine Power and Action,R0064,STY-6C1B14119833,NEWS002,local_regional,direct_quote,1,primary,community_intermediary,1,1,0,0,1,0,verified
 ethnocultural,TC074,COPAL - Communities Organizing Latine Power and Action,R0001,STY-01D82C4B0E8E,NEWS032,national_amplification,direct_quote,1,supporting,mobilization_source,1,0,1,0,0,0,verified
 faith_based,D2-05,CAIR-Minnesota,R0066,STY-6F84D2CD9A9E,NEWS001,local_regional,direct_quote,1,supporting,advocacy_source,1,0,1,0,0,0,verified
-faith_based,TC025,Twin Cities Habitat for Humanity,R0116,STY-EA45B6ADD853,NEWS001,local_regional,named_mention,0,supporting,housing_service_source,0,1,0,0,1,0,verified
 faith_based,TC044,Minnesota Council of Churches - Refugee Services,R0057,STY-5FD5514D98BC,NEWS002,local_regional,direct_quote,1,supporting,faith_refugee_service_source,1,1,0,0,1,0,verified
 faith_based,TC077,ISAIAH,R0014,STY-29BDFA5FEC1A,NEWS017,community_ethnic,direct_quote,1,supporting,faith_advocacy_source,1,0,1,0,0,0,verified
 faith_based,TC077,ISAIAH,R0103,STY-C39A1C9851EB,NEWS053,community_ethnic,named_mention,0,supporting,mobilization_source,0,0,1,0,0,0,verified
@@ -346,12 +342,10 @@ housing_economic,D2-06,Inquilinxs Unidxs por Justicia / United Renters for Justi
 housing_economic,D3-16,Latino Economic Development Center (LEDC),R0104,STY-C4CED6E09EF6,NEWS003,local_regional,direct_quote,1,supporting,data_information_source,1,1,0,0,1,0,verified
 housing_economic,D4-02,Organization of Liberians in Minnesota,R0018,STY-2F91135ABD0F,NEWS050,community_ethnic,named_mention,0,supporting,mobilization_source,0,0,1,0,0,0,verified
 housing_economic,TC009,Minnesota Somali Community Center,R0089,STY-8E8D95B320DC,NEWS049,community_ethnic,named_mention,0,supporting,mobilization_source,0,0,1,0,0,0,verified
-housing_economic,TC025,Twin Cities Habitat for Humanity,R0116,STY-EA45B6ADD853,NEWS001,local_regional,named_mention,0,supporting,housing_service_source,0,1,0,0,1,0,verified
 housing_economic,TC038,Comunidades Latinas Unidas En Servicio (CLUES),R0071,STY-7542CDBA6D7B,NEWS003,local_regional,direct_quote,1,supporting,affected_community_intermediary,1,0,0,0,0,0,verified
 housing_economic,TC038,Comunidades Latinas Unidas En Servicio (CLUES),R0097,STY-B0DCEF2BA9C5,NEWS004,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,1,1,1,1,0,verified
 housing_economic,TC042,Isuroon,R0074,STY-762C7B599C6B,NEWS004,local_regional,direct_quote,1,primary,community_service_intermediary,1,1,0,1,1,0,verified
 housing_economic,TC045,Neighborhood House,R0024,STY-376D05B4D135,NEWS016,community_ethnic,named_mention,0,primary,community_service_intermediary,1,1,0,1,1,0,verified
-housing_economic,TC050,Project for Pride in Living,R0098,STY-BAC049360883,NEWS032,national_amplification,direct_quote,1,supporting,affected_community_intermediary,1,0,0,0,0,0,verified
 housing_economic,TC054,Alight,R0002,STY-07A358550AE0,NEWS002,local_regional,direct_quote,1,primary,humanitarian_service_source,1,1,0,0,1,0,verified
 housing_economic,TC054,Alight,R0003,STY-0FB3DFD946CF,NEWS003,local_regional,direct_quote,1,primary,humanitarian_service_source,1,1,0,1,1,0,verified
 housing_economic,TC054,Alight,R0010,STY-1A208602483F,NEWS004,local_regional,direct_quote,1,primary,community_service_intermediary,1,1,0,0,1,0,verified
@@ -485,4 +479,3 @@ youth_family,D4-02,Organization of Liberians in Minnesota,R0018,STY-2F91135ABD0F
 youth_family,TC009,Minnesota Somali Community Center,R0089,STY-8E8D95B320DC,NEWS049,community_ethnic,named_mention,0,supporting,mobilization_source,0,0,1,0,0,0,verified
 youth_family,TC019,Esperanza United,R0038,STY-4B7977EA2636,NEWS002,local_regional,direct_quote,1,supporting,affected_community_intermediary,1,1,0,0,1,0,verified
 youth_family,TC045,Neighborhood House,R0024,STY-376D05B4D135,NEWS016,community_ethnic,named_mention,0,primary,community_service_intermediary,1,1,0,1,1,0,verified
-youth_family,TC050,Project for Pride in Living,R0098,STY-BAC049360883,NEWS032,national_amplification,direct_quote,1,supporting,affected_community_intermediary,1,0,0,0,0,0,verified
