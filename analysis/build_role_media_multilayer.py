@@ -20,7 +20,7 @@ def main():
         verified_typ[["org_id", "organization", "type_label"]],
         on="org_id",
         how="left",
-    )
+    ).fillna("")
 
     role_edges = core[core["type_label"].ne("")].copy()
     role_edges = role_edges[[
