@@ -1,0 +1,368 @@
+type_label,org_id,organization,relation_id,news_item_id,outlet_id,media_layer,visibility_type,direct_quote,source_prominence,source_function_primary,substantive_interpretation,resource_routing,mobilization_uptake,fundraising_uptake,service_uptake,legal_information_uptake,verification_status
+advocacy,D2-01,ACLU of Minnesota,R0048,STY-55CD48156365,NEWS001,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+advocacy,D2-01,ACLU of Minnesota,R0019,STY-3136CCA56693,NEWS002,local_regional,direct_quote,1,primary,legal_guidance_source,1,1,0,0,1,1,verified
+advocacy,D2-01,ACLU of Minnesota,R0101,STY-C0E3B50FF40D,NEWS003,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+advocacy,D2-01,ACLU of Minnesota,R0029,STY-3FD4FADD113B,NEWS006,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+advocacy,D2-01,ACLU of Minnesota,R0035,STY-43DBE96BD6E7,NEWS006,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+advocacy,D2-01,ACLU of Minnesota,R0095,STY-A9A4C77BE15B,NEWS006,local_regional,direct_quote,1,supporting,advocacy_source,1,0,1,0,0,0,verified
+advocacy,D2-01,ACLU of Minnesota,R0072,STY-755DE49009B8,NEWS007,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,1,0,0,1,verified
+advocacy,D2-01,ACLU of Minnesota,R0026,STY-377E465ED001,NEWS010,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+advocacy,D2-01,ACLU of Minnesota,R0039,STY-4BE32E77757E,NEWS010,local_regional,named_mention,0,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+advocacy,D2-01,ACLU of Minnesota,R0114,STY-E702A3A0BF1C,NEWS010,local_regional,named_mention,0,secondary,legal_advocacy_source,1,0,0,0,0,1,verified
+advocacy,D2-01,ACLU of Minnesota,R0115,STY-E9599798CBC3,NEWS010,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+advocacy,D2-01,ACLU of Minnesota,R0112,STY-DF55FE4B958C,NEWS011,local_regional,named_mention,0,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+advocacy,TC057,Immigrant Law Center of Minnesota,R0016,STY-2DC66D7F6B6E,NEWS001,local_regional,direct_quote,1,supporting,legal_expert,1,0,0,0,0,1,verified
+advocacy,TC057,Immigrant Law Center of Minnesota,R0030,STY-41EDF46ABCF6,NEWS001,local_regional,direct_quote,1,supporting,legal_policy_expert,1,1,0,0,1,1,verified
+advocacy,TC057,Immigrant Law Center of Minnesota,R0078,STY-7D8AF35DB59B,NEWS001,local_regional,resource_listing,0,supporting,resource_legal_source,0,1,0,0,1,1,verified
+advocacy,TC057,Immigrant Law Center of Minnesota,R0099,STY-BC49FDBC8F33,NEWS001,local_regional,direct_quote,1,supporting,legal_expert,1,1,0,0,1,1,verified
+advocacy,TC057,Immigrant Law Center of Minnesota,R0058,STY-676354754AAF,NEWS002,local_regional,direct_quote,1,supporting,legal_policy_expert,1,0,0,0,0,1,verified
+advocacy,TC057,Immigrant Law Center of Minnesota,R0090,STY-951C939203E6,NEWS002,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+advocacy,TC057,Immigrant Law Center of Minnesota,R0119,STY-F5AC37C97E07,NEWS002,local_regional,resource_listing,0,resource_only,legal_service_partner,0,1,0,0,1,1,verified
+advocacy,TC057,Immigrant Law Center of Minnesota,R0042,STY-4FB3FF83A8B3,NEWS004,local_regional,direct_quote,1,supporting,legal_policy_expert,1,0,0,0,0,1,verified
+advocacy,TC057,Immigrant Law Center of Minnesota,R0032,STY-42073B28230B,NEWS007,local_regional,direct_quote,1,supporting,service_provider,1,1,0,0,1,1,verified
+advocacy,TC057,Immigrant Law Center of Minnesota,R0108,STY-D29BEB385398,NEWS007,local_regional,direct_quote,1,supporting,legal_expert,1,1,0,0,1,1,verified
+advocacy,TC057,Immigrant Law Center of Minnesota,R0012,STY-2414DB20A2A0,NEWS010,local_regional,direct_quote,1,supporting,legal_expert,1,0,0,0,0,1,verified
+advocacy,TC057,Immigrant Law Center of Minnesota,R0076,STY-77075C6C427B,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+advocacy,TC057,Immigrant Law Center of Minnesota,R0077,STY-79537F4CC6A5,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+advocacy,TC057,Immigrant Law Center of Minnesota,R0096,STY-AF60415BA0AC,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+advocacy,TC057,Immigrant Law Center of Minnesota,R0046,STY-543E7F9EC3B3,NEWS031,national_amplification,direct_quote,1,supporting,legal_expert,1,1,0,0,1,1,verified
+advocacy,TC057,Immigrant Law Center of Minnesota,R0069,STY-7052A7220650,NEWS031,national_amplification,paraphrase,0,supporting,legal_expert,0,0,0,0,0,1,verified
+advocacy,TC057,Immigrant Law Center of Minnesota,R0063,STY-693B4CC2B52A,NEWS047,national_amplification,direct_quote,1,supporting,legal_expert,1,0,0,0,0,1,verified
+advocacy,TC058,Mid-Minnesota Legal Aid,R0084,STY-89B26927F99A,NEWS003,local_regional,direct_quote,1,supporting,legal_guidance_source,1,1,0,0,1,1,verified
+advocacy,TC058,Mid-Minnesota Legal Aid,R0117,STY-F0A55E72BE26,NEWS003,local_regional,direct_quote,1,supporting,legal_service_intermediary,1,1,0,0,1,1,verified
+advocacy,TC058,Mid-Minnesota Legal Aid,R0044,STY-532733DA5C25,NEWS004,local_regional,resource_listing,0,resource_only,legal_resource_source,0,1,0,0,1,1,verified
+advocacy,TC058,Mid-Minnesota Legal Aid,R0017,STY-2EBB77224EB1,NEWS015,community_ethnic,direct_quote,1,supporting,legal_service_intermediary,1,1,0,0,1,1,verified
+advocacy,TC058,Mid-Minnesota Legal Aid,R0034,STY-43BE58F8A044,NEWS046,national_amplification,direct_quote,1,supporting,legal_guidance_source,1,1,0,0,1,1,verified
+advocacy,TC064,The Advocates for Human Rights,R0027,STY-384FE779B49A,NEWS001,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+advocacy,TC064,The Advocates for Human Rights,R0049,STY-55CD48156365,NEWS001,local_regional,direct_quote,1,supporting,legal_expert,1,0,0,0,0,1,verified
+advocacy,TC064,The Advocates for Human Rights,R0111,STY-DE1E5A93F787,NEWS001,local_regional,direct_quote,1,primary,legal_advocacy_source,1,1,0,0,1,1,verified
+advocacy,TC064,The Advocates for Human Rights,R0062,STY-68B4FC695BD7,NEWS002,local_regional,named_mention,0,secondary,legal_advocacy_source,1,0,0,0,0,1,verified
+advocacy,TC064,The Advocates for Human Rights,R0088,STY-8E4B98EE8918,NEWS003,local_regional,direct_quote,1,supporting,legal_advocacy_source,1,0,0,0,0,1,verified
+advocacy,TC064,The Advocates for Human Rights,R0033,STY-42073B28230B,NEWS007,local_regional,direct_quote,1,supporting,legal_expert,1,1,0,0,1,1,verified
+advocacy,TC064,The Advocates for Human Rights,R0047,STY-54BBCF0FA316,NEWS011,local_regional,direct_quote,1,supporting,legal_advocacy_source,1,0,0,0,0,1,verified
+advocacy,TC064,The Advocates for Human Rights,R0073,STY-75D090F89A94,NEWS011,local_regional,direct_quote,1,supporting,legal_advocacy_source,1,0,0,0,0,1,verified
+advocacy,TC064,The Advocates for Human Rights,R0081,STY-82FD2BE7B36D,NEWS011,local_regional,beneficiary_or_partner,0,supporting,documentation_intermediary,0,1,0,0,1,0,verified
+advocacy,TC064,The Advocates for Human Rights,R0085,STY-8C30649B0EAB,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+advocacy,TC064,The Advocates for Human Rights,R0102,STY-C2C4EFE3EDD3,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+advocacy,TC064,The Advocates for Human Rights,R0070,STY-7052A7220650,NEWS031,national_amplification,direct_quote,1,supporting,legal_expert,1,0,0,0,0,1,verified
+advocacy,TC075,Unidos MN,R0091,STY-9E3663038117,NEWS001,local_regional,direct_quote,1,primary,advocacy_source,1,1,1,0,1,1,verified
+advocacy,TC075,Unidos MN,R0079,STY-7F204E373737,NEWS004,local_regional,direct_quote,1,primary,advocacy_source,1,1,1,0,1,1,verified
+advocacy,TC075,Unidos MN,R0120,STY-F637300E7C9B,NEWS006,local_regional,direct_quote,1,primary,advocacy_source,1,1,1,0,1,1,verified
+advocacy,TC075,Unidos MN,R0050,STY-566C3F14F34F,NEWS010,local_regional,direct_quote,1,supporting,community_intermediary,1,1,0,0,1,0,verified
+advocacy,TC075,Unidos MN,R0065,STY-6E6145534C33,NEWS010,local_regional,direct_quote,1,primary,community_mobilization_source,1,0,1,0,0,0,verified
+advocacy,TC078,Jewish Community Action,R0007,STY-14A4AF92CC45,NEWS017,community_ethnic,direct_quote,1,supporting,faith_advocacy_source,1,0,1,0,0,0,verified
+advocacy,TC078,Jewish Community Action,R0015,STY-29BDFA5FEC1A,NEWS017,community_ethnic,direct_quote,1,supporting,faith_advocacy_source,1,0,1,0,0,0,verified
+advocacy,TC078,Jewish Community Action,R0086,STY-8CD8D933652B,NEWS017,community_ethnic,named_mention,0,passing,faith_mobilization_source,0,0,1,0,0,0,verified
+advocacy,TC078,Jewish Community Action,R0093,STY-A59243E6FAA7,NEWS017,community_ethnic,named_mention,0,passing,faith_community_source,0,1,1,0,1,0,verified
+advocacy,TC078,Jewish Community Action,R0113,STY-E42494A976C7,NEWS017,community_ethnic,resource_listing,0,resource_only,mutual_aid_coordination_source,0,1,1,0,1,0,verified
+advocacy,TC078,Jewish Community Action,R0106,STY-D1EB27037DBF,NEWS045,national_amplification,named_mention,0,supporting,mobilization_source,0,0,1,0,0,0,verified
+advocacy,TC082,Coalition of Asian American Leaders (CAAL),R0037,STY-4AB9FF9A4B46,NEWS019,community_ethnic,named_mention,0,supporting,community_advocacy_source,0,0,1,0,0,0,verified
+advocacy,TC082,Coalition of Asian American Leaders (CAAL),R0020,STY-366842B20EE9,NEWS051,national_amplification,direct_quote,1,supporting,affected_community_intermediary,1,0,0,0,0,0,verified
+advocacy,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0051,STY-5763FAF72846,NEWS001,local_regional,named_mention,0,primary,community_mobilization_source,1,0,1,0,0,0,verified
+advocacy,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0067,STY-6F84D2CD9A9E,NEWS001,local_regional,named_mention,0,primary,community_mobilization_source,1,0,1,0,0,0,verified
+advocacy,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0100,STY-BF593E6BEE1A,NEWS001,local_regional,direct_quote,1,primary,community_mobilization_source,1,0,1,0,0,0,verified
+advocacy,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0109,STY-D75324E86CB8,NEWS001,local_regional,direct_quote,1,supporting,advocacy_source,1,0,1,0,0,0,verified
+advocacy,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0059,STY-676354754AAF,NEWS002,local_regional,direct_quote,1,supporting,community_mobilization_source,1,0,1,0,0,0,verified
+advocacy,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0043,STY-526CE2A63B34,NEWS004,local_regional,direct_quote,1,supporting,mobilization_source,1,0,1,0,0,0,verified
+advocacy,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0009,STY-195109B639FA,NEWS022,community_ethnic,direct_quote,1,supporting,affected_community_intermediary,1,0,0,0,0,0,verified
+advocacy,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0053,STY-582F1201D0D2,NEWS028,national_amplification,named_mention,0,supporting,mobilization_source,0,0,1,0,0,0,verified
+civil_rights_human_rights,D2-01,ACLU of Minnesota,R0048,STY-55CD48156365,NEWS001,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+civil_rights_human_rights,D2-01,ACLU of Minnesota,R0019,STY-3136CCA56693,NEWS002,local_regional,direct_quote,1,primary,legal_guidance_source,1,1,0,0,1,1,verified
+civil_rights_human_rights,D2-01,ACLU of Minnesota,R0101,STY-C0E3B50FF40D,NEWS003,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+civil_rights_human_rights,D2-01,ACLU of Minnesota,R0029,STY-3FD4FADD113B,NEWS006,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+civil_rights_human_rights,D2-01,ACLU of Minnesota,R0035,STY-43DBE96BD6E7,NEWS006,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+civil_rights_human_rights,D2-01,ACLU of Minnesota,R0095,STY-A9A4C77BE15B,NEWS006,local_regional,direct_quote,1,supporting,advocacy_source,1,0,1,0,0,0,verified
+civil_rights_human_rights,D2-01,ACLU of Minnesota,R0072,STY-755DE49009B8,NEWS007,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,1,0,0,1,verified
+civil_rights_human_rights,D2-01,ACLU of Minnesota,R0026,STY-377E465ED001,NEWS010,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+civil_rights_human_rights,D2-01,ACLU of Minnesota,R0039,STY-4BE32E77757E,NEWS010,local_regional,named_mention,0,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+civil_rights_human_rights,D2-01,ACLU of Minnesota,R0114,STY-E702A3A0BF1C,NEWS010,local_regional,named_mention,0,secondary,legal_advocacy_source,1,0,0,0,0,1,verified
+civil_rights_human_rights,D2-01,ACLU of Minnesota,R0115,STY-E9599798CBC3,NEWS010,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+civil_rights_human_rights,D2-01,ACLU of Minnesota,R0112,STY-DF55FE4B958C,NEWS011,local_regional,named_mention,0,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+civil_rights_human_rights,TC057,Immigrant Law Center of Minnesota,R0016,STY-2DC66D7F6B6E,NEWS001,local_regional,direct_quote,1,supporting,legal_expert,1,0,0,0,0,1,verified
+civil_rights_human_rights,TC057,Immigrant Law Center of Minnesota,R0030,STY-41EDF46ABCF6,NEWS001,local_regional,direct_quote,1,supporting,legal_policy_expert,1,1,0,0,1,1,verified
+civil_rights_human_rights,TC057,Immigrant Law Center of Minnesota,R0078,STY-7D8AF35DB59B,NEWS001,local_regional,resource_listing,0,supporting,resource_legal_source,0,1,0,0,1,1,verified
+civil_rights_human_rights,TC057,Immigrant Law Center of Minnesota,R0099,STY-BC49FDBC8F33,NEWS001,local_regional,direct_quote,1,supporting,legal_expert,1,1,0,0,1,1,verified
+civil_rights_human_rights,TC057,Immigrant Law Center of Minnesota,R0058,STY-676354754AAF,NEWS002,local_regional,direct_quote,1,supporting,legal_policy_expert,1,0,0,0,0,1,verified
+civil_rights_human_rights,TC057,Immigrant Law Center of Minnesota,R0090,STY-951C939203E6,NEWS002,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+civil_rights_human_rights,TC057,Immigrant Law Center of Minnesota,R0119,STY-F5AC37C97E07,NEWS002,local_regional,resource_listing,0,resource_only,legal_service_partner,0,1,0,0,1,1,verified
+civil_rights_human_rights,TC057,Immigrant Law Center of Minnesota,R0042,STY-4FB3FF83A8B3,NEWS004,local_regional,direct_quote,1,supporting,legal_policy_expert,1,0,0,0,0,1,verified
+civil_rights_human_rights,TC057,Immigrant Law Center of Minnesota,R0032,STY-42073B28230B,NEWS007,local_regional,direct_quote,1,supporting,service_provider,1,1,0,0,1,1,verified
+civil_rights_human_rights,TC057,Immigrant Law Center of Minnesota,R0108,STY-D29BEB385398,NEWS007,local_regional,direct_quote,1,supporting,legal_expert,1,1,0,0,1,1,verified
+civil_rights_human_rights,TC057,Immigrant Law Center of Minnesota,R0012,STY-2414DB20A2A0,NEWS010,local_regional,direct_quote,1,supporting,legal_expert,1,0,0,0,0,1,verified
+civil_rights_human_rights,TC057,Immigrant Law Center of Minnesota,R0076,STY-77075C6C427B,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+civil_rights_human_rights,TC057,Immigrant Law Center of Minnesota,R0077,STY-79537F4CC6A5,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+civil_rights_human_rights,TC057,Immigrant Law Center of Minnesota,R0096,STY-AF60415BA0AC,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+civil_rights_human_rights,TC057,Immigrant Law Center of Minnesota,R0046,STY-543E7F9EC3B3,NEWS031,national_amplification,direct_quote,1,supporting,legal_expert,1,1,0,0,1,1,verified
+civil_rights_human_rights,TC057,Immigrant Law Center of Minnesota,R0069,STY-7052A7220650,NEWS031,national_amplification,paraphrase,0,supporting,legal_expert,0,0,0,0,0,1,verified
+civil_rights_human_rights,TC057,Immigrant Law Center of Minnesota,R0063,STY-693B4CC2B52A,NEWS047,national_amplification,direct_quote,1,supporting,legal_expert,1,0,0,0,0,1,verified
+civil_rights_human_rights,TC058,Mid-Minnesota Legal Aid,R0084,STY-89B26927F99A,NEWS003,local_regional,direct_quote,1,supporting,legal_guidance_source,1,1,0,0,1,1,verified
+civil_rights_human_rights,TC058,Mid-Minnesota Legal Aid,R0117,STY-F0A55E72BE26,NEWS003,local_regional,direct_quote,1,supporting,legal_service_intermediary,1,1,0,0,1,1,verified
+civil_rights_human_rights,TC058,Mid-Minnesota Legal Aid,R0044,STY-532733DA5C25,NEWS004,local_regional,resource_listing,0,resource_only,legal_resource_source,0,1,0,0,1,1,verified
+civil_rights_human_rights,TC058,Mid-Minnesota Legal Aid,R0017,STY-2EBB77224EB1,NEWS015,community_ethnic,direct_quote,1,supporting,legal_service_intermediary,1,1,0,0,1,1,verified
+civil_rights_human_rights,TC058,Mid-Minnesota Legal Aid,R0034,STY-43BE58F8A044,NEWS046,national_amplification,direct_quote,1,supporting,legal_guidance_source,1,1,0,0,1,1,verified
+civil_rights_human_rights,TC064,The Advocates for Human Rights,R0027,STY-384FE779B49A,NEWS001,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+civil_rights_human_rights,TC064,The Advocates for Human Rights,R0049,STY-55CD48156365,NEWS001,local_regional,direct_quote,1,supporting,legal_expert,1,0,0,0,0,1,verified
+civil_rights_human_rights,TC064,The Advocates for Human Rights,R0111,STY-DE1E5A93F787,NEWS001,local_regional,direct_quote,1,primary,legal_advocacy_source,1,1,0,0,1,1,verified
+civil_rights_human_rights,TC064,The Advocates for Human Rights,R0062,STY-68B4FC695BD7,NEWS002,local_regional,named_mention,0,secondary,legal_advocacy_source,1,0,0,0,0,1,verified
+civil_rights_human_rights,TC064,The Advocates for Human Rights,R0088,STY-8E4B98EE8918,NEWS003,local_regional,direct_quote,1,supporting,legal_advocacy_source,1,0,0,0,0,1,verified
+civil_rights_human_rights,TC064,The Advocates for Human Rights,R0033,STY-42073B28230B,NEWS007,local_regional,direct_quote,1,supporting,legal_expert,1,1,0,0,1,1,verified
+civil_rights_human_rights,TC064,The Advocates for Human Rights,R0047,STY-54BBCF0FA316,NEWS011,local_regional,direct_quote,1,supporting,legal_advocacy_source,1,0,0,0,0,1,verified
+civil_rights_human_rights,TC064,The Advocates for Human Rights,R0073,STY-75D090F89A94,NEWS011,local_regional,direct_quote,1,supporting,legal_advocacy_source,1,0,0,0,0,1,verified
+civil_rights_human_rights,TC064,The Advocates for Human Rights,R0081,STY-82FD2BE7B36D,NEWS011,local_regional,beneficiary_or_partner,0,supporting,documentation_intermediary,0,1,0,0,1,0,verified
+civil_rights_human_rights,TC064,The Advocates for Human Rights,R0085,STY-8C30649B0EAB,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+civil_rights_human_rights,TC064,The Advocates for Human Rights,R0102,STY-C2C4EFE3EDD3,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+civil_rights_human_rights,TC064,The Advocates for Human Rights,R0070,STY-7052A7220650,NEWS031,national_amplification,direct_quote,1,supporting,legal_expert,1,0,0,0,0,1,verified
+civil_rights_human_rights,TC073,Center for Victims of Torture,R0080,STY-82CFA48CCD88,NEWS002,local_regional,direct_quote,1,primary,affected_community_intermediary,1,1,0,0,1,0,verified
+civil_rights_human_rights,TC073,Center for Victims of Torture,R0004,STY-0FB3DFD946CF,NEWS003,local_regional,direct_quote,1,primary,humanitarian_service_source,1,1,0,1,1,0,verified
+civil_rights_human_rights,TC073,Center for Victims of Torture,R0005,STY-1092019988BF,NEWS003,local_regional,direct_quote,1,supporting,affected_community_intermediary,1,1,0,0,1,0,verified
+civil_rights_human_rights,TC073,Center for Victims of Torture,R0013,STY-26D9CC284410,NEWS003,local_regional,direct_quote,1,supporting,affected_community_intermediary,1,1,0,0,1,1,verified
+civil_rights_human_rights,TC073,Center for Victims of Torture,R0036,STY-44E83CD90AAF,NEWS003,local_regional,direct_quote,1,primary,affected_community_intermediary,1,1,0,0,1,1,verified
+civil_rights_human_rights,TC073,Center for Victims of Torture,R0121,STY-F9BC9DEF8CDF,NEWS003,local_regional,direct_quote,1,primary,affected_community_intermediary,1,1,0,0,1,1,verified
+civil_rights_human_rights,TC073,Center for Victims of Torture,R0061,STY-67D27E027398,NEWS005,local_regional,direct_quote,1,primary,affected_community_intermediary,1,1,0,0,1,1,verified
+civil_rights_human_rights,TC073,Center for Victims of Torture,R0041,STY-4D017E19B1CF,NEWS008,local_regional,direct_quote,1,supporting,affected_community_intermediary,1,1,0,0,1,0,verified
+civil_rights_human_rights,TC073,Center for Victims of Torture,R0006,STY-138E40BE3C92,NEWS033,national_amplification,direct_quote,1,supporting,health_trauma_source,1,1,0,0,1,0,verified
+civil_rights_human_rights,TC073,Center for Victims of Torture,R0056,STY-5F0B9A1CB115,NEWS052,national_amplification,direct_quote,1,supporting,health_trauma_source,1,1,0,0,1,0,verified
+civil_rights_human_rights,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0051,STY-5763FAF72846,NEWS001,local_regional,named_mention,0,primary,community_mobilization_source,1,0,1,0,0,0,verified
+civil_rights_human_rights,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0067,STY-6F84D2CD9A9E,NEWS001,local_regional,named_mention,0,primary,community_mobilization_source,1,0,1,0,0,0,verified
+civil_rights_human_rights,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0100,STY-BF593E6BEE1A,NEWS001,local_regional,direct_quote,1,primary,community_mobilization_source,1,0,1,0,0,0,verified
+civil_rights_human_rights,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0109,STY-D75324E86CB8,NEWS001,local_regional,direct_quote,1,supporting,advocacy_source,1,0,1,0,0,0,verified
+civil_rights_human_rights,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0059,STY-676354754AAF,NEWS002,local_regional,direct_quote,1,supporting,community_mobilization_source,1,0,1,0,0,0,verified
+civil_rights_human_rights,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0043,STY-526CE2A63B34,NEWS004,local_regional,direct_quote,1,supporting,mobilization_source,1,0,1,0,0,0,verified
+civil_rights_human_rights,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0009,STY-195109B639FA,NEWS022,community_ethnic,direct_quote,1,supporting,affected_community_intermediary,1,0,0,0,0,0,verified
+civil_rights_human_rights,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0053,STY-582F1201D0D2,NEWS028,national_amplification,named_mention,0,supporting,mobilization_source,0,0,1,0,0,0,verified
+coalition_network,TC082,Coalition of Asian American Leaders (CAAL),R0037,STY-4AB9FF9A4B46,NEWS019,community_ethnic,named_mention,0,supporting,community_advocacy_source,0,0,1,0,0,0,verified
+coalition_network,TC082,Coalition of Asian American Leaders (CAAL),R0020,STY-366842B20EE9,NEWS051,national_amplification,direct_quote,1,supporting,affected_community_intermediary,1,0,0,0,0,0,verified
+community_rooted,TC042,Isuroon,R0074,STY-762C7B599C6B,NEWS004,local_regional,direct_quote,1,primary,community_service_intermediary,1,1,0,1,1,0,verified
+community_rooted,TC075,Unidos MN,R0091,STY-9E3663038117,NEWS001,local_regional,direct_quote,1,primary,advocacy_source,1,1,1,0,1,1,verified
+community_rooted,TC075,Unidos MN,R0079,STY-7F204E373737,NEWS004,local_regional,direct_quote,1,primary,advocacy_source,1,1,1,0,1,1,verified
+community_rooted,TC075,Unidos MN,R0120,STY-F637300E7C9B,NEWS006,local_regional,direct_quote,1,primary,advocacy_source,1,1,1,0,1,1,verified
+community_rooted,TC075,Unidos MN,R0050,STY-566C3F14F34F,NEWS010,local_regional,direct_quote,1,supporting,community_intermediary,1,1,0,0,1,0,verified
+community_rooted,TC075,Unidos MN,R0065,STY-6E6145534C33,NEWS010,local_regional,direct_quote,1,primary,community_mobilization_source,1,0,1,0,0,0,verified
+community_rooted,TC078,Jewish Community Action,R0007,STY-14A4AF92CC45,NEWS017,community_ethnic,direct_quote,1,supporting,faith_advocacy_source,1,0,1,0,0,0,verified
+community_rooted,TC078,Jewish Community Action,R0015,STY-29BDFA5FEC1A,NEWS017,community_ethnic,direct_quote,1,supporting,faith_advocacy_source,1,0,1,0,0,0,verified
+community_rooted,TC078,Jewish Community Action,R0086,STY-8CD8D933652B,NEWS017,community_ethnic,named_mention,0,passing,faith_mobilization_source,0,0,1,0,0,0,verified
+community_rooted,TC078,Jewish Community Action,R0093,STY-A59243E6FAA7,NEWS017,community_ethnic,named_mention,0,passing,faith_community_source,0,1,1,0,1,0,verified
+community_rooted,TC078,Jewish Community Action,R0113,STY-E42494A976C7,NEWS017,community_ethnic,resource_listing,0,resource_only,mutual_aid_coordination_source,0,1,1,0,1,0,verified
+community_rooted,TC078,Jewish Community Action,R0106,STY-D1EB27037DBF,NEWS045,national_amplification,named_mention,0,supporting,mobilization_source,0,0,1,0,0,0,verified
+community_rooted,TC082,Coalition of Asian American Leaders (CAAL),R0037,STY-4AB9FF9A4B46,NEWS019,community_ethnic,named_mention,0,supporting,community_advocacy_source,0,0,1,0,0,0,verified
+community_rooted,TC082,Coalition of Asian American Leaders (CAAL),R0020,STY-366842B20EE9,NEWS051,national_amplification,direct_quote,1,supporting,affected_community_intermediary,1,0,0,0,0,0,verified
+direct_service,TC041,International Institute of Minnesota,R0110,STY-DE1E5A93F787,NEWS001,local_regional,direct_quote,1,supporting,refugee_service_expert,1,1,0,0,1,0,verified
+direct_service,TC041,International Institute of Minnesota,R0054,STY-5DC07AA7C30B,NEWS002,local_regional,direct_quote,1,supporting,refugee_service_expert,1,1,0,0,1,0,verified
+direct_service,TC041,International Institute of Minnesota,R0094,STY-A86362FC86A0,NEWS002,local_regional,direct_quote,1,primary,refugee_service_expert,1,1,0,0,1,0,verified
+direct_service,TC041,International Institute of Minnesota,R0087,STY-8E4B98EE8918,NEWS003,local_regional,direct_quote,1,supporting,refugee_service_expert,1,1,0,0,1,0,verified
+direct_service,TC041,International Institute of Minnesota,R0082,STY-8396DA7EB341,NEWS004,local_regional,direct_quote,1,supporting,refugee_service_expert,1,1,0,0,1,1,verified
+direct_service,TC041,International Institute of Minnesota,R0031,STY-42073B28230B,NEWS007,local_regional,direct_quote,1,supporting,service_provider,1,1,0,0,1,1,verified
+direct_service,TC041,International Institute of Minnesota,R0107,STY-D29BEB385398,NEWS007,local_regional,direct_quote,1,supporting,refugee_service_expert,1,1,0,0,1,1,verified
+direct_service,TC041,International Institute of Minnesota,R0075,STY-77075C6C427B,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+direct_service,TC041,International Institute of Minnesota,R0122,STY-FFE89FC98534,NEWS029,national_amplification,direct_quote,1,supporting,refugee_resettlement_source,1,1,0,0,1,0,verified
+direct_service,TC041,International Institute of Minnesota,R0040,STY-4CA2E2495573,NEWS030,national_amplification,direct_quote,1,supporting,refugee_resettlement_source,1,1,0,0,1,0,verified
+direct_service,TC041,International Institute of Minnesota,R0068,STY-7052A7220650,NEWS031,national_amplification,direct_quote,1,supporting,refugee_resettlement_source,1,1,0,0,1,0,verified
+direct_service,TC042,Isuroon,R0074,STY-762C7B599C6B,NEWS004,local_regional,direct_quote,1,primary,community_service_intermediary,1,1,0,1,1,0,verified
+direct_service,TC057,Immigrant Law Center of Minnesota,R0016,STY-2DC66D7F6B6E,NEWS001,local_regional,direct_quote,1,supporting,legal_expert,1,0,0,0,0,1,verified
+direct_service,TC057,Immigrant Law Center of Minnesota,R0030,STY-41EDF46ABCF6,NEWS001,local_regional,direct_quote,1,supporting,legal_policy_expert,1,1,0,0,1,1,verified
+direct_service,TC057,Immigrant Law Center of Minnesota,R0078,STY-7D8AF35DB59B,NEWS001,local_regional,resource_listing,0,supporting,resource_legal_source,0,1,0,0,1,1,verified
+direct_service,TC057,Immigrant Law Center of Minnesota,R0099,STY-BC49FDBC8F33,NEWS001,local_regional,direct_quote,1,supporting,legal_expert,1,1,0,0,1,1,verified
+direct_service,TC057,Immigrant Law Center of Minnesota,R0058,STY-676354754AAF,NEWS002,local_regional,direct_quote,1,supporting,legal_policy_expert,1,0,0,0,0,1,verified
+direct_service,TC057,Immigrant Law Center of Minnesota,R0090,STY-951C939203E6,NEWS002,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+direct_service,TC057,Immigrant Law Center of Minnesota,R0119,STY-F5AC37C97E07,NEWS002,local_regional,resource_listing,0,resource_only,legal_service_partner,0,1,0,0,1,1,verified
+direct_service,TC057,Immigrant Law Center of Minnesota,R0042,STY-4FB3FF83A8B3,NEWS004,local_regional,direct_quote,1,supporting,legal_policy_expert,1,0,0,0,0,1,verified
+direct_service,TC057,Immigrant Law Center of Minnesota,R0032,STY-42073B28230B,NEWS007,local_regional,direct_quote,1,supporting,service_provider,1,1,0,0,1,1,verified
+direct_service,TC057,Immigrant Law Center of Minnesota,R0108,STY-D29BEB385398,NEWS007,local_regional,direct_quote,1,supporting,legal_expert,1,1,0,0,1,1,verified
+direct_service,TC057,Immigrant Law Center of Minnesota,R0012,STY-2414DB20A2A0,NEWS010,local_regional,direct_quote,1,supporting,legal_expert,1,0,0,0,0,1,verified
+direct_service,TC057,Immigrant Law Center of Minnesota,R0076,STY-77075C6C427B,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+direct_service,TC057,Immigrant Law Center of Minnesota,R0077,STY-79537F4CC6A5,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+direct_service,TC057,Immigrant Law Center of Minnesota,R0096,STY-AF60415BA0AC,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+direct_service,TC057,Immigrant Law Center of Minnesota,R0046,STY-543E7F9EC3B3,NEWS031,national_amplification,direct_quote,1,supporting,legal_expert,1,1,0,0,1,1,verified
+direct_service,TC057,Immigrant Law Center of Minnesota,R0069,STY-7052A7220650,NEWS031,national_amplification,paraphrase,0,supporting,legal_expert,0,0,0,0,0,1,verified
+direct_service,TC057,Immigrant Law Center of Minnesota,R0063,STY-693B4CC2B52A,NEWS047,national_amplification,direct_quote,1,supporting,legal_expert,1,0,0,0,0,1,verified
+direct_service,TC058,Mid-Minnesota Legal Aid,R0084,STY-89B26927F99A,NEWS003,local_regional,direct_quote,1,supporting,legal_guidance_source,1,1,0,0,1,1,verified
+direct_service,TC058,Mid-Minnesota Legal Aid,R0117,STY-F0A55E72BE26,NEWS003,local_regional,direct_quote,1,supporting,legal_service_intermediary,1,1,0,0,1,1,verified
+direct_service,TC058,Mid-Minnesota Legal Aid,R0044,STY-532733DA5C25,NEWS004,local_regional,resource_listing,0,resource_only,legal_resource_source,0,1,0,0,1,1,verified
+direct_service,TC058,Mid-Minnesota Legal Aid,R0017,STY-2EBB77224EB1,NEWS015,community_ethnic,direct_quote,1,supporting,legal_service_intermediary,1,1,0,0,1,1,verified
+direct_service,TC058,Mid-Minnesota Legal Aid,R0034,STY-43BE58F8A044,NEWS046,national_amplification,direct_quote,1,supporting,legal_guidance_source,1,1,0,0,1,1,verified
+direct_service,TC064,The Advocates for Human Rights,R0027,STY-384FE779B49A,NEWS001,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+direct_service,TC064,The Advocates for Human Rights,R0049,STY-55CD48156365,NEWS001,local_regional,direct_quote,1,supporting,legal_expert,1,0,0,0,0,1,verified
+direct_service,TC064,The Advocates for Human Rights,R0111,STY-DE1E5A93F787,NEWS001,local_regional,direct_quote,1,primary,legal_advocacy_source,1,1,0,0,1,1,verified
+direct_service,TC064,The Advocates for Human Rights,R0062,STY-68B4FC695BD7,NEWS002,local_regional,named_mention,0,secondary,legal_advocacy_source,1,0,0,0,0,1,verified
+direct_service,TC064,The Advocates for Human Rights,R0088,STY-8E4B98EE8918,NEWS003,local_regional,direct_quote,1,supporting,legal_advocacy_source,1,0,0,0,0,1,verified
+direct_service,TC064,The Advocates for Human Rights,R0033,STY-42073B28230B,NEWS007,local_regional,direct_quote,1,supporting,legal_expert,1,1,0,0,1,1,verified
+direct_service,TC064,The Advocates for Human Rights,R0047,STY-54BBCF0FA316,NEWS011,local_regional,direct_quote,1,supporting,legal_advocacy_source,1,0,0,0,0,1,verified
+direct_service,TC064,The Advocates for Human Rights,R0073,STY-75D090F89A94,NEWS011,local_regional,direct_quote,1,supporting,legal_advocacy_source,1,0,0,0,0,1,verified
+direct_service,TC064,The Advocates for Human Rights,R0081,STY-82FD2BE7B36D,NEWS011,local_regional,beneficiary_or_partner,0,supporting,documentation_intermediary,0,1,0,0,1,0,verified
+direct_service,TC064,The Advocates for Human Rights,R0085,STY-8C30649B0EAB,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+direct_service,TC064,The Advocates for Human Rights,R0102,STY-C2C4EFE3EDD3,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+direct_service,TC064,The Advocates for Human Rights,R0070,STY-7052A7220650,NEWS031,national_amplification,direct_quote,1,supporting,legal_expert,1,0,0,0,0,1,verified
+direct_service,TC073,Center for Victims of Torture,R0080,STY-82CFA48CCD88,NEWS002,local_regional,direct_quote,1,primary,affected_community_intermediary,1,1,0,0,1,0,verified
+direct_service,TC073,Center for Victims of Torture,R0004,STY-0FB3DFD946CF,NEWS003,local_regional,direct_quote,1,primary,humanitarian_service_source,1,1,0,1,1,0,verified
+direct_service,TC073,Center for Victims of Torture,R0005,STY-1092019988BF,NEWS003,local_regional,direct_quote,1,supporting,affected_community_intermediary,1,1,0,0,1,0,verified
+direct_service,TC073,Center for Victims of Torture,R0013,STY-26D9CC284410,NEWS003,local_regional,direct_quote,1,supporting,affected_community_intermediary,1,1,0,0,1,1,verified
+direct_service,TC073,Center for Victims of Torture,R0036,STY-44E83CD90AAF,NEWS003,local_regional,direct_quote,1,primary,affected_community_intermediary,1,1,0,0,1,1,verified
+direct_service,TC073,Center for Victims of Torture,R0121,STY-F9BC9DEF8CDF,NEWS003,local_regional,direct_quote,1,primary,affected_community_intermediary,1,1,0,0,1,1,verified
+direct_service,TC073,Center for Victims of Torture,R0061,STY-67D27E027398,NEWS005,local_regional,direct_quote,1,primary,affected_community_intermediary,1,1,0,0,1,1,verified
+direct_service,TC073,Center for Victims of Torture,R0041,STY-4D017E19B1CF,NEWS008,local_regional,direct_quote,1,supporting,affected_community_intermediary,1,1,0,0,1,0,verified
+direct_service,TC073,Center for Victims of Torture,R0006,STY-138E40BE3C92,NEWS033,national_amplification,direct_quote,1,supporting,health_trauma_source,1,1,0,0,1,0,verified
+direct_service,TC073,Center for Victims of Torture,R0056,STY-5F0B9A1CB115,NEWS052,national_amplification,direct_quote,1,supporting,health_trauma_source,1,1,0,0,1,0,verified
+education_workforce,TC041,International Institute of Minnesota,R0110,STY-DE1E5A93F787,NEWS001,local_regional,direct_quote,1,supporting,refugee_service_expert,1,1,0,0,1,0,verified
+education_workforce,TC041,International Institute of Minnesota,R0054,STY-5DC07AA7C30B,NEWS002,local_regional,direct_quote,1,supporting,refugee_service_expert,1,1,0,0,1,0,verified
+education_workforce,TC041,International Institute of Minnesota,R0094,STY-A86362FC86A0,NEWS002,local_regional,direct_quote,1,primary,refugee_service_expert,1,1,0,0,1,0,verified
+education_workforce,TC041,International Institute of Minnesota,R0087,STY-8E4B98EE8918,NEWS003,local_regional,direct_quote,1,supporting,refugee_service_expert,1,1,0,0,1,0,verified
+education_workforce,TC041,International Institute of Minnesota,R0082,STY-8396DA7EB341,NEWS004,local_regional,direct_quote,1,supporting,refugee_service_expert,1,1,0,0,1,1,verified
+education_workforce,TC041,International Institute of Minnesota,R0031,STY-42073B28230B,NEWS007,local_regional,direct_quote,1,supporting,service_provider,1,1,0,0,1,1,verified
+education_workforce,TC041,International Institute of Minnesota,R0107,STY-D29BEB385398,NEWS007,local_regional,direct_quote,1,supporting,refugee_service_expert,1,1,0,0,1,1,verified
+education_workforce,TC041,International Institute of Minnesota,R0075,STY-77075C6C427B,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+education_workforce,TC041,International Institute of Minnesota,R0122,STY-FFE89FC98534,NEWS029,national_amplification,direct_quote,1,supporting,refugee_resettlement_source,1,1,0,0,1,0,verified
+education_workforce,TC041,International Institute of Minnesota,R0040,STY-4CA2E2495573,NEWS030,national_amplification,direct_quote,1,supporting,refugee_resettlement_source,1,1,0,0,1,0,verified
+education_workforce,TC041,International Institute of Minnesota,R0068,STY-7052A7220650,NEWS031,national_amplification,direct_quote,1,supporting,refugee_resettlement_source,1,1,0,0,1,0,verified
+ethnocultural,TC042,Isuroon,R0074,STY-762C7B599C6B,NEWS004,local_regional,direct_quote,1,primary,community_service_intermediary,1,1,0,1,1,0,verified
+faith_based,TC078,Jewish Community Action,R0007,STY-14A4AF92CC45,NEWS017,community_ethnic,direct_quote,1,supporting,faith_advocacy_source,1,0,1,0,0,0,verified
+faith_based,TC078,Jewish Community Action,R0015,STY-29BDFA5FEC1A,NEWS017,community_ethnic,direct_quote,1,supporting,faith_advocacy_source,1,0,1,0,0,0,verified
+faith_based,TC078,Jewish Community Action,R0086,STY-8CD8D933652B,NEWS017,community_ethnic,named_mention,0,passing,faith_mobilization_source,0,0,1,0,0,0,verified
+faith_based,TC078,Jewish Community Action,R0093,STY-A59243E6FAA7,NEWS017,community_ethnic,named_mention,0,passing,faith_community_source,0,1,1,0,1,0,verified
+faith_based,TC078,Jewish Community Action,R0113,STY-E42494A976C7,NEWS017,community_ethnic,resource_listing,0,resource_only,mutual_aid_coordination_source,0,1,1,0,1,0,verified
+faith_based,TC078,Jewish Community Action,R0106,STY-D1EB27037DBF,NEWS045,national_amplification,named_mention,0,supporting,mobilization_source,0,0,1,0,0,0,verified
+gender_based,TC042,Isuroon,R0074,STY-762C7B599C6B,NEWS004,local_regional,direct_quote,1,primary,community_service_intermediary,1,1,0,1,1,0,verified
+health_wellbeing,TC042,Isuroon,R0074,STY-762C7B599C6B,NEWS004,local_regional,direct_quote,1,primary,community_service_intermediary,1,1,0,1,1,0,verified
+health_wellbeing,TC073,Center for Victims of Torture,R0080,STY-82CFA48CCD88,NEWS002,local_regional,direct_quote,1,primary,affected_community_intermediary,1,1,0,0,1,0,verified
+health_wellbeing,TC073,Center for Victims of Torture,R0004,STY-0FB3DFD946CF,NEWS003,local_regional,direct_quote,1,primary,humanitarian_service_source,1,1,0,1,1,0,verified
+health_wellbeing,TC073,Center for Victims of Torture,R0005,STY-1092019988BF,NEWS003,local_regional,direct_quote,1,supporting,affected_community_intermediary,1,1,0,0,1,0,verified
+health_wellbeing,TC073,Center for Victims of Torture,R0013,STY-26D9CC284410,NEWS003,local_regional,direct_quote,1,supporting,affected_community_intermediary,1,1,0,0,1,1,verified
+health_wellbeing,TC073,Center for Victims of Torture,R0036,STY-44E83CD90AAF,NEWS003,local_regional,direct_quote,1,primary,affected_community_intermediary,1,1,0,0,1,1,verified
+health_wellbeing,TC073,Center for Victims of Torture,R0121,STY-F9BC9DEF8CDF,NEWS003,local_regional,direct_quote,1,primary,affected_community_intermediary,1,1,0,0,1,1,verified
+health_wellbeing,TC073,Center for Victims of Torture,R0061,STY-67D27E027398,NEWS005,local_regional,direct_quote,1,primary,affected_community_intermediary,1,1,0,0,1,1,verified
+health_wellbeing,TC073,Center for Victims of Torture,R0041,STY-4D017E19B1CF,NEWS008,local_regional,direct_quote,1,supporting,affected_community_intermediary,1,1,0,0,1,0,verified
+health_wellbeing,TC073,Center for Victims of Torture,R0006,STY-138E40BE3C92,NEWS033,national_amplification,direct_quote,1,supporting,health_trauma_source,1,1,0,0,1,0,verified
+health_wellbeing,TC073,Center for Victims of Torture,R0056,STY-5F0B9A1CB115,NEWS052,national_amplification,direct_quote,1,supporting,health_trauma_source,1,1,0,0,1,0,verified
+housing_economic,TC042,Isuroon,R0074,STY-762C7B599C6B,NEWS004,local_regional,direct_quote,1,primary,community_service_intermediary,1,1,0,1,1,0,verified
+housing_economic,TC078,Jewish Community Action,R0007,STY-14A4AF92CC45,NEWS017,community_ethnic,direct_quote,1,supporting,faith_advocacy_source,1,0,1,0,0,0,verified
+housing_economic,TC078,Jewish Community Action,R0015,STY-29BDFA5FEC1A,NEWS017,community_ethnic,direct_quote,1,supporting,faith_advocacy_source,1,0,1,0,0,0,verified
+housing_economic,TC078,Jewish Community Action,R0086,STY-8CD8D933652B,NEWS017,community_ethnic,named_mention,0,passing,faith_mobilization_source,0,0,1,0,0,0,verified
+housing_economic,TC078,Jewish Community Action,R0093,STY-A59243E6FAA7,NEWS017,community_ethnic,named_mention,0,passing,faith_community_source,0,1,1,0,1,0,verified
+housing_economic,TC078,Jewish Community Action,R0113,STY-E42494A976C7,NEWS017,community_ethnic,resource_listing,0,resource_only,mutual_aid_coordination_source,0,1,1,0,1,0,verified
+housing_economic,TC078,Jewish Community Action,R0106,STY-D1EB27037DBF,NEWS045,national_amplification,named_mention,0,supporting,mobilization_source,0,0,1,0,0,0,verified
+immigrant_integration,TC041,International Institute of Minnesota,R0110,STY-DE1E5A93F787,NEWS001,local_regional,direct_quote,1,supporting,refugee_service_expert,1,1,0,0,1,0,verified
+immigrant_integration,TC041,International Institute of Minnesota,R0054,STY-5DC07AA7C30B,NEWS002,local_regional,direct_quote,1,supporting,refugee_service_expert,1,1,0,0,1,0,verified
+immigrant_integration,TC041,International Institute of Minnesota,R0094,STY-A86362FC86A0,NEWS002,local_regional,direct_quote,1,primary,refugee_service_expert,1,1,0,0,1,0,verified
+immigrant_integration,TC041,International Institute of Minnesota,R0087,STY-8E4B98EE8918,NEWS003,local_regional,direct_quote,1,supporting,refugee_service_expert,1,1,0,0,1,0,verified
+immigrant_integration,TC041,International Institute of Minnesota,R0082,STY-8396DA7EB341,NEWS004,local_regional,direct_quote,1,supporting,refugee_service_expert,1,1,0,0,1,1,verified
+immigrant_integration,TC041,International Institute of Minnesota,R0031,STY-42073B28230B,NEWS007,local_regional,direct_quote,1,supporting,service_provider,1,1,0,0,1,1,verified
+immigrant_integration,TC041,International Institute of Minnesota,R0107,STY-D29BEB385398,NEWS007,local_regional,direct_quote,1,supporting,refugee_service_expert,1,1,0,0,1,1,verified
+immigrant_integration,TC041,International Institute of Minnesota,R0075,STY-77075C6C427B,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+immigrant_integration,TC041,International Institute of Minnesota,R0122,STY-FFE89FC98534,NEWS029,national_amplification,direct_quote,1,supporting,refugee_resettlement_source,1,1,0,0,1,0,verified
+immigrant_integration,TC041,International Institute of Minnesota,R0040,STY-4CA2E2495573,NEWS030,national_amplification,direct_quote,1,supporting,refugee_resettlement_source,1,1,0,0,1,0,verified
+immigrant_integration,TC041,International Institute of Minnesota,R0068,STY-7052A7220650,NEWS031,national_amplification,direct_quote,1,supporting,refugee_resettlement_source,1,1,0,0,1,0,verified
+immigrant_integration,TC075,Unidos MN,R0091,STY-9E3663038117,NEWS001,local_regional,direct_quote,1,primary,advocacy_source,1,1,1,0,1,1,verified
+immigrant_integration,TC075,Unidos MN,R0079,STY-7F204E373737,NEWS004,local_regional,direct_quote,1,primary,advocacy_source,1,1,1,0,1,1,verified
+immigrant_integration,TC075,Unidos MN,R0120,STY-F637300E7C9B,NEWS006,local_regional,direct_quote,1,primary,advocacy_source,1,1,1,0,1,1,verified
+immigrant_integration,TC075,Unidos MN,R0050,STY-566C3F14F34F,NEWS010,local_regional,direct_quote,1,supporting,community_intermediary,1,1,0,0,1,0,verified
+immigrant_integration,TC075,Unidos MN,R0065,STY-6E6145534C33,NEWS010,local_regional,direct_quote,1,primary,community_mobilization_source,1,0,1,0,0,0,verified
+legal,D2-01,ACLU of Minnesota,R0048,STY-55CD48156365,NEWS001,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+legal,D2-01,ACLU of Minnesota,R0019,STY-3136CCA56693,NEWS002,local_regional,direct_quote,1,primary,legal_guidance_source,1,1,0,0,1,1,verified
+legal,D2-01,ACLU of Minnesota,R0101,STY-C0E3B50FF40D,NEWS003,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+legal,D2-01,ACLU of Minnesota,R0029,STY-3FD4FADD113B,NEWS006,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+legal,D2-01,ACLU of Minnesota,R0035,STY-43DBE96BD6E7,NEWS006,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+legal,D2-01,ACLU of Minnesota,R0095,STY-A9A4C77BE15B,NEWS006,local_regional,direct_quote,1,supporting,advocacy_source,1,0,1,0,0,0,verified
+legal,D2-01,ACLU of Minnesota,R0072,STY-755DE49009B8,NEWS007,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,1,0,0,1,verified
+legal,D2-01,ACLU of Minnesota,R0026,STY-377E465ED001,NEWS010,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+legal,D2-01,ACLU of Minnesota,R0039,STY-4BE32E77757E,NEWS010,local_regional,named_mention,0,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+legal,D2-01,ACLU of Minnesota,R0114,STY-E702A3A0BF1C,NEWS010,local_regional,named_mention,0,secondary,legal_advocacy_source,1,0,0,0,0,1,verified
+legal,D2-01,ACLU of Minnesota,R0115,STY-E9599798CBC3,NEWS010,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+legal,D2-01,ACLU of Minnesota,R0112,STY-DF55FE4B958C,NEWS011,local_regional,named_mention,0,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+legal,TC057,Immigrant Law Center of Minnesota,R0016,STY-2DC66D7F6B6E,NEWS001,local_regional,direct_quote,1,supporting,legal_expert,1,0,0,0,0,1,verified
+legal,TC057,Immigrant Law Center of Minnesota,R0030,STY-41EDF46ABCF6,NEWS001,local_regional,direct_quote,1,supporting,legal_policy_expert,1,1,0,0,1,1,verified
+legal,TC057,Immigrant Law Center of Minnesota,R0078,STY-7D8AF35DB59B,NEWS001,local_regional,resource_listing,0,supporting,resource_legal_source,0,1,0,0,1,1,verified
+legal,TC057,Immigrant Law Center of Minnesota,R0099,STY-BC49FDBC8F33,NEWS001,local_regional,direct_quote,1,supporting,legal_expert,1,1,0,0,1,1,verified
+legal,TC057,Immigrant Law Center of Minnesota,R0058,STY-676354754AAF,NEWS002,local_regional,direct_quote,1,supporting,legal_policy_expert,1,0,0,0,0,1,verified
+legal,TC057,Immigrant Law Center of Minnesota,R0090,STY-951C939203E6,NEWS002,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+legal,TC057,Immigrant Law Center of Minnesota,R0119,STY-F5AC37C97E07,NEWS002,local_regional,resource_listing,0,resource_only,legal_service_partner,0,1,0,0,1,1,verified
+legal,TC057,Immigrant Law Center of Minnesota,R0042,STY-4FB3FF83A8B3,NEWS004,local_regional,direct_quote,1,supporting,legal_policy_expert,1,0,0,0,0,1,verified
+legal,TC057,Immigrant Law Center of Minnesota,R0032,STY-42073B28230B,NEWS007,local_regional,direct_quote,1,supporting,service_provider,1,1,0,0,1,1,verified
+legal,TC057,Immigrant Law Center of Minnesota,R0108,STY-D29BEB385398,NEWS007,local_regional,direct_quote,1,supporting,legal_expert,1,1,0,0,1,1,verified
+legal,TC057,Immigrant Law Center of Minnesota,R0012,STY-2414DB20A2A0,NEWS010,local_regional,direct_quote,1,supporting,legal_expert,1,0,0,0,0,1,verified
+legal,TC057,Immigrant Law Center of Minnesota,R0076,STY-77075C6C427B,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+legal,TC057,Immigrant Law Center of Minnesota,R0077,STY-79537F4CC6A5,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+legal,TC057,Immigrant Law Center of Minnesota,R0096,STY-AF60415BA0AC,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+legal,TC057,Immigrant Law Center of Minnesota,R0046,STY-543E7F9EC3B3,NEWS031,national_amplification,direct_quote,1,supporting,legal_expert,1,1,0,0,1,1,verified
+legal,TC057,Immigrant Law Center of Minnesota,R0069,STY-7052A7220650,NEWS031,national_amplification,paraphrase,0,supporting,legal_expert,0,0,0,0,0,1,verified
+legal,TC057,Immigrant Law Center of Minnesota,R0063,STY-693B4CC2B52A,NEWS047,national_amplification,direct_quote,1,supporting,legal_expert,1,0,0,0,0,1,verified
+legal,TC058,Mid-Minnesota Legal Aid,R0084,STY-89B26927F99A,NEWS003,local_regional,direct_quote,1,supporting,legal_guidance_source,1,1,0,0,1,1,verified
+legal,TC058,Mid-Minnesota Legal Aid,R0117,STY-F0A55E72BE26,NEWS003,local_regional,direct_quote,1,supporting,legal_service_intermediary,1,1,0,0,1,1,verified
+legal,TC058,Mid-Minnesota Legal Aid,R0044,STY-532733DA5C25,NEWS004,local_regional,resource_listing,0,resource_only,legal_resource_source,0,1,0,0,1,1,verified
+legal,TC058,Mid-Minnesota Legal Aid,R0017,STY-2EBB77224EB1,NEWS015,community_ethnic,direct_quote,1,supporting,legal_service_intermediary,1,1,0,0,1,1,verified
+legal,TC058,Mid-Minnesota Legal Aid,R0034,STY-43BE58F8A044,NEWS046,national_amplification,direct_quote,1,supporting,legal_guidance_source,1,1,0,0,1,1,verified
+legal,TC064,The Advocates for Human Rights,R0027,STY-384FE779B49A,NEWS001,local_regional,direct_quote,1,primary,legal_advocacy_source,1,0,0,0,0,1,verified
+legal,TC064,The Advocates for Human Rights,R0049,STY-55CD48156365,NEWS001,local_regional,direct_quote,1,supporting,legal_expert,1,0,0,0,0,1,verified
+legal,TC064,The Advocates for Human Rights,R0111,STY-DE1E5A93F787,NEWS001,local_regional,direct_quote,1,primary,legal_advocacy_source,1,1,0,0,1,1,verified
+legal,TC064,The Advocates for Human Rights,R0062,STY-68B4FC695BD7,NEWS002,local_regional,named_mention,0,secondary,legal_advocacy_source,1,0,0,0,0,1,verified
+legal,TC064,The Advocates for Human Rights,R0088,STY-8E4B98EE8918,NEWS003,local_regional,direct_quote,1,supporting,legal_advocacy_source,1,0,0,0,0,1,verified
+legal,TC064,The Advocates for Human Rights,R0033,STY-42073B28230B,NEWS007,local_regional,direct_quote,1,supporting,legal_expert,1,1,0,0,1,1,verified
+legal,TC064,The Advocates for Human Rights,R0047,STY-54BBCF0FA316,NEWS011,local_regional,direct_quote,1,supporting,legal_advocacy_source,1,0,0,0,0,1,verified
+legal,TC064,The Advocates for Human Rights,R0073,STY-75D090F89A94,NEWS011,local_regional,direct_quote,1,supporting,legal_advocacy_source,1,0,0,0,0,1,verified
+legal,TC064,The Advocates for Human Rights,R0081,STY-82FD2BE7B36D,NEWS011,local_regional,beneficiary_or_partner,0,supporting,documentation_intermediary,0,1,0,0,1,0,verified
+legal,TC064,The Advocates for Human Rights,R0085,STY-8C30649B0EAB,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+legal,TC064,The Advocates for Human Rights,R0102,STY-C2C4EFE3EDD3,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+legal,TC064,The Advocates for Human Rights,R0070,STY-7052A7220650,NEWS031,national_amplification,direct_quote,1,supporting,legal_expert,1,0,0,0,0,1,verified
+organizing,TC075,Unidos MN,R0091,STY-9E3663038117,NEWS001,local_regional,direct_quote,1,primary,advocacy_source,1,1,1,0,1,1,verified
+organizing,TC075,Unidos MN,R0079,STY-7F204E373737,NEWS004,local_regional,direct_quote,1,primary,advocacy_source,1,1,1,0,1,1,verified
+organizing,TC075,Unidos MN,R0120,STY-F637300E7C9B,NEWS006,local_regional,direct_quote,1,primary,advocacy_source,1,1,1,0,1,1,verified
+organizing,TC075,Unidos MN,R0050,STY-566C3F14F34F,NEWS010,local_regional,direct_quote,1,supporting,community_intermediary,1,1,0,0,1,0,verified
+organizing,TC075,Unidos MN,R0065,STY-6E6145534C33,NEWS010,local_regional,direct_quote,1,primary,community_mobilization_source,1,0,1,0,0,0,verified
+organizing,TC078,Jewish Community Action,R0007,STY-14A4AF92CC45,NEWS017,community_ethnic,direct_quote,1,supporting,faith_advocacy_source,1,0,1,0,0,0,verified
+organizing,TC078,Jewish Community Action,R0015,STY-29BDFA5FEC1A,NEWS017,community_ethnic,direct_quote,1,supporting,faith_advocacy_source,1,0,1,0,0,0,verified
+organizing,TC078,Jewish Community Action,R0086,STY-8CD8D933652B,NEWS017,community_ethnic,named_mention,0,passing,faith_mobilization_source,0,0,1,0,0,0,verified
+organizing,TC078,Jewish Community Action,R0093,STY-A59243E6FAA7,NEWS017,community_ethnic,named_mention,0,passing,faith_community_source,0,1,1,0,1,0,verified
+organizing,TC078,Jewish Community Action,R0113,STY-E42494A976C7,NEWS017,community_ethnic,resource_listing,0,resource_only,mutual_aid_coordination_source,0,1,1,0,1,0,verified
+organizing,TC078,Jewish Community Action,R0106,STY-D1EB27037DBF,NEWS045,national_amplification,named_mention,0,supporting,mobilization_source,0,0,1,0,0,0,verified
+organizing,TC082,Coalition of Asian American Leaders (CAAL),R0037,STY-4AB9FF9A4B46,NEWS019,community_ethnic,named_mention,0,supporting,community_advocacy_source,0,0,1,0,0,0,verified
+organizing,TC082,Coalition of Asian American Leaders (CAAL),R0020,STY-366842B20EE9,NEWS051,national_amplification,direct_quote,1,supporting,affected_community_intermediary,1,0,0,0,0,0,verified
+organizing,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0051,STY-5763FAF72846,NEWS001,local_regional,named_mention,0,primary,community_mobilization_source,1,0,1,0,0,0,verified
+organizing,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0067,STY-6F84D2CD9A9E,NEWS001,local_regional,named_mention,0,primary,community_mobilization_source,1,0,1,0,0,0,verified
+organizing,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0100,STY-BF593E6BEE1A,NEWS001,local_regional,direct_quote,1,primary,community_mobilization_source,1,0,1,0,0,0,verified
+organizing,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0109,STY-D75324E86CB8,NEWS001,local_regional,direct_quote,1,supporting,advocacy_source,1,0,1,0,0,0,verified
+organizing,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0059,STY-676354754AAF,NEWS002,local_regional,direct_quote,1,supporting,community_mobilization_source,1,0,1,0,0,0,verified
+organizing,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0043,STY-526CE2A63B34,NEWS004,local_regional,direct_quote,1,supporting,mobilization_source,1,0,1,0,0,0,verified
+organizing,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0009,STY-195109B639FA,NEWS022,community_ethnic,direct_quote,1,supporting,affected_community_intermediary,1,0,0,0,0,0,verified
+organizing,TC084,Minnesota Immigrant Rights Action Committee (MIRAC),R0053,STY-582F1201D0D2,NEWS028,national_amplification,named_mention,0,supporting,mobilization_source,0,0,1,0,0,0,verified
+refugee_resettlement,TC041,International Institute of Minnesota,R0110,STY-DE1E5A93F787,NEWS001,local_regional,direct_quote,1,supporting,refugee_service_expert,1,1,0,0,1,0,verified
+refugee_resettlement,TC041,International Institute of Minnesota,R0054,STY-5DC07AA7C30B,NEWS002,local_regional,direct_quote,1,supporting,refugee_service_expert,1,1,0,0,1,0,verified
+refugee_resettlement,TC041,International Institute of Minnesota,R0094,STY-A86362FC86A0,NEWS002,local_regional,direct_quote,1,primary,refugee_service_expert,1,1,0,0,1,0,verified
+refugee_resettlement,TC041,International Institute of Minnesota,R0087,STY-8E4B98EE8918,NEWS003,local_regional,direct_quote,1,supporting,refugee_service_expert,1,1,0,0,1,0,verified
+refugee_resettlement,TC041,International Institute of Minnesota,R0082,STY-8396DA7EB341,NEWS004,local_regional,direct_quote,1,supporting,refugee_service_expert,1,1,0,0,1,1,verified
+refugee_resettlement,TC041,International Institute of Minnesota,R0031,STY-42073B28230B,NEWS007,local_regional,direct_quote,1,supporting,service_provider,1,1,0,0,1,1,verified
+refugee_resettlement,TC041,International Institute of Minnesota,R0107,STY-D29BEB385398,NEWS007,local_regional,direct_quote,1,supporting,refugee_service_expert,1,1,0,0,1,1,verified
+refugee_resettlement,TC041,International Institute of Minnesota,R0075,STY-77075C6C427B,NEWS011,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,0,1,1,0,0,verified
+refugee_resettlement,TC041,International Institute of Minnesota,R0122,STY-FFE89FC98534,NEWS029,national_amplification,direct_quote,1,supporting,refugee_resettlement_source,1,1,0,0,1,0,verified
+refugee_resettlement,TC041,International Institute of Minnesota,R0040,STY-4CA2E2495573,NEWS030,national_amplification,direct_quote,1,supporting,refugee_resettlement_source,1,1,0,0,1,0,verified
+refugee_resettlement,TC041,International Institute of Minnesota,R0068,STY-7052A7220650,NEWS031,national_amplification,direct_quote,1,supporting,refugee_resettlement_source,1,1,0,0,1,0,verified
+,D1-09,,R0060,STY-679A7E5A974D,NEWS023,community_ethnic,direct_quote,1,primary,legal_expert,1,1,0,0,1,1,verified
+,D2-02,,R0008,STY-15C721780639,NEWS001,local_regional,direct_quote,1,supporting,advocacy_source,1,1,1,0,1,1,verified
+,D2-02,,R0022,STY-376D05B4D135,NEWS016,community_ethnic,resource_listing,0,resource_only,specialized_support_source,0,1,0,0,1,0,verified
+,D2-03,,R0011,STY-1E4074FFF418,NEWS001,local_regional,named_mention,0,supporting,crisis_response_source,0,1,0,0,1,1,verified
+,D2-05,,R0066,STY-6F84D2CD9A9E,NEWS001,local_regional,direct_quote,1,supporting,advocacy_source,1,0,1,0,0,0,verified
+,D2-06,,R0052,STY-577453D0D7A8,NEWS004,local_regional,direct_quote,1,supporting,advocacy_source,1,0,1,0,0,0,verified
+,D2-06,,R0083,STY-85F325C36F1D,NEWS054,local_regional,named_mention,0,supporting,housing_justice_source,0,0,0,0,0,0,verified
+,D2-07,,R0055,STY-5E05E490685E,NEWS001,local_regional,direct_quote,1,supporting,legal_advocacy_source,1,0,0,0,0,1,verified
+,D2-08,,R0021,STY-373C016F1D24,NEWS031,national_amplification,named_mention,0,primary,mobilization_source,1,0,1,0,0,0,verified
+,D2-10,,R0092,STY-A2533DA2D136,NEWS001,local_regional,direct_quote,1,primary,mobilization_source,1,0,1,0,0,0,verified
+,D2-10,,R0023,STY-376D05B4D135,NEWS016,community_ethnic,resource_listing,0,resource_only,coordination_network_source,0,1,1,0,1,0,verified
+,D3-13,,R0028,STY-3C6325FEEF11,NEWS003,local_regional,direct_quote,1,supporting,affected_community_intermediary,1,0,0,0,0,0,verified
+,D3-16,,R0104,STY-C4CED6E09EF6,NEWS003,local_regional,direct_quote,1,supporting,data_information_source,1,1,0,0,1,0,verified
+,D4-02,,R0018,STY-2F91135ABD0F,NEWS050,community_ethnic,named_mention,0,supporting,mobilization_source,0,0,1,0,0,0,verified
+,TC009,,R0089,STY-8E8D95B320DC,NEWS049,community_ethnic,named_mention,0,supporting,mobilization_source,0,0,1,0,0,0,verified
+,TC019,,R0038,STY-4B7977EA2636,NEWS002,local_regional,direct_quote,1,supporting,affected_community_intermediary,1,1,0,0,1,0,verified
+,TC025,,R0116,STY-EA45B6ADD853,NEWS001,local_regional,named_mention,0,supporting,housing_service_source,0,1,0,0,1,0,verified
+,TC038,,R0071,STY-7542CDBA6D7B,NEWS003,local_regional,direct_quote,1,supporting,affected_community_intermediary,1,0,0,0,0,0,verified
+,TC038,,R0097,STY-B0DCEF2BA9C5,NEWS004,local_regional,beneficiary_or_partner,0,supporting,collective_action_destination,0,1,1,1,1,0,verified
+,TC044,,R0057,STY-5FD5514D98BC,NEWS002,local_regional,direct_quote,1,supporting,faith_refugee_service_source,1,1,0,0,1,0,verified
+,TC045,,R0024,STY-376D05B4D135,NEWS016,community_ethnic,named_mention,0,primary,community_service_intermediary,1,1,0,1,1,0,verified
+,TC050,,R0098,STY-BAC049360883,NEWS032,national_amplification,direct_quote,1,supporting,affected_community_intermediary,1,0,0,0,0,0,verified
+,TC054,,R0002,STY-07A358550AE0,NEWS002,local_regional,direct_quote,1,primary,humanitarian_service_source,1,1,0,0,1,0,verified
+,TC054,,R0003,STY-0FB3DFD946CF,NEWS003,local_regional,direct_quote,1,primary,humanitarian_service_source,1,1,0,1,1,0,verified
+,TC054,,R0010,STY-1A208602483F,NEWS004,local_regional,direct_quote,1,primary,community_service_intermediary,1,1,0,0,1,0,verified
+,TC054,,R0105,STY-C7C15EBDC1E4,NEWS033,national_amplification,direct_quote,1,supporting,refugee_resettlement_source,1,1,0,0,1,0,verified
+,TC065,,R0118,STY-F0A55E72BE26,NEWS003,local_regional,resource_listing,0,resource_only,legal_resource_source,0,1,0,0,1,1,verified
+,TC065,,R0045,STY-532733DA5C25,NEWS004,local_regional,resource_listing,0,resource_only,legal_resource_source,0,1,0,0,1,1,verified
+,TC065,,R0025,STY-376D05B4D135,NEWS016,community_ethnic,resource_listing,0,resource_only,legal_resource_source,0,1,0,0,1,1,verified
+,TC074,,R0064,STY-6C1B14119833,NEWS002,local_regional,direct_quote,1,primary,community_intermediary,1,1,0,0,1,0,verified
+,TC074,,R0001,STY-01D82C4B0E8E,NEWS032,national_amplification,direct_quote,1,supporting,mobilization_source,1,0,1,0,0,0,verified
+,TC077,,R0014,STY-29BDFA5FEC1A,NEWS017,community_ethnic,direct_quote,1,supporting,faith_advocacy_source,1,0,1,0,0,0,verified
+,TC077,,R0103,STY-C39A1C9851EB,NEWS053,community_ethnic,named_mention,0,supporting,mobilization_source,0,0,1,0,0,0,verified
