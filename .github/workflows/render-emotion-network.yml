@@ -33,7 +33,7 @@ jobs:
       - name: Install GLPK runtime
         run: sudo apt-get update && sudo apt-get install -y libglpk40
       - name: Install R network packages from Posit Package Manager
-        run: Rscript -e 'install.packages(c("readr","dplyr","tibble","igraph","tidygraph","ggraph","graphlayouts","ggplot2","scales"), repos="https://packagemanager.posit.co/cran/__linux__/noble/latest")'
+        run: Rscript -e 'install.packages(c("readr","dplyr","tibble","igraph","tidygraph","ggraph","graphlayouts","ggplot2","scales","svglite"), repos="https://packagemanager.posit.co/cran/__linux__/noble/latest")'
       - name: Render R force-directed network
         run: Rscript analysis/render_affective_circulation_network_r_v1.R
       - name: Upload rendered affective network outputs
