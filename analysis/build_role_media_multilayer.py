@@ -5,7 +5,10 @@ ROOT = Path(__file__).resolve().parents[1]
 INTERIM = ROOT / "data" / "interim"
 
 REL = INTERIM / "organization_news_relations_master_v1.csv"
-TYP = INTERIM / "organization_typology_bridge_v1.csv"
+TYP_FILES = [
+    INTERIM / "organization_typology_bridge_v1.csv",
+    INTERIM / "organization_typology_bridge_media_visible_completion_v1.csv",
+]
 OUT = INTERIM / "role_organization_outlet_layer_edges_v1.csv"
 SUMMARY = INTERIM / "role_media_layer_summary_v1.csv"
 COVERAGE = INTERIM / "typology_network_coverage_v1.csv"
@@ -13,7 +16,12 @@ COVERAGE = INTERIM / "typology_network_coverage_v1.csv"
 
 def main():
     rel = pd.read_csv(REL, dtype=str).fillna("")
-    typ = pd.read_csv(TYP, dtype=str).fillna("")
+    typ_parts = [pd.read_csv(p, dtype=str).fillna("") for p in TYP_FILES if p.exists()]
+    if not typ_parts:
+        raise SystemExit("No typology bridge files found")
+    typ = pd.concat(typ_parts, ignore_index=True).drop_duplicates(
+        subset=["org_id", "type_label", "type_status", "evidence_url", "evidence_note"]
+    )
 
     verified_typ = typ[typ["type_status"].eq("verified")].copy()
     core = rel.merge(
