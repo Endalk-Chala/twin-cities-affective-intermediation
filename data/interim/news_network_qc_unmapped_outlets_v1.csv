@@ -1,0 +1,17 @@
+source_batch,source_news_item_id,normalized_news_item_id,outlet,date,headline,collection_status
+news_media_uptake_batch_21_cross_layer_deep_pass.csv,NM103,STY-9A4D670F5E4F,local_regional_news,2026-01-01,Unidos MN organizers describe hospital access and worker resistance amid enforcement surge,candidate
+news_media_uptake_batch_21_cross_layer_deep_pass.csv,NM102,STY-2E15B78576EC,local_regional_news,2026-02-01,Brooklyn Park council reaffirms support for immigrant communities,candidate
+news_media_uptake_batch_22_foxnews_national.csv,NM098,STY-0AAA8BA982A0,Fox News Digital,2026-02-05,Anti-ICE 'digital Minutemen' use military-grade surveillance tactics against feds,verified_external
+news_media_uptake_batch_22_foxnews_national.csv,NM099,STY-1D051FC7269E,Fox News Digital,2026-02-06,When anti-ICE clashes trigger federal intervention: Experts explain the constitutional breaking point,verified_external
+news_media_uptake_batch_15_ayada.csv,NM082,STY-8C93C1B29958,Here & Now / WBUR,2026-01-15,Minnesota activist weighs in on supporting Somali community amid violence,verified_external
+news_media_uptake_batch_21_rotating_ix.csv,NM097,STY-FAB873CB1D90,In These Times,2026-02-19,"Terrorized By ICE, Unable to Pay Rent, Minnesotans Are Getting Ready for a Rent Strike",verified_external
+news_media_uptake_batch_18_centro_univision.csv,NM089,STY-0D89C6A76DB4,N+ Univision,2026-01-15,¿Cuál es la realidad en Minnesota por protestas ante ICE?,verified_external
+news_media_uptake_batch_18_centro_univision.csv,NM090,STY-D7FD932E31AA,N+ Univision,2026-01-20,Operativos de ICE en Minnesota ya afectan la vida diaria y la economía: Análisis,verified_external
+news_media_uptake_batch_19_icom_habitat.csv,NM091,STY-EF6BF4949C9C,Religion News Service,2026-01-13,Faith leaders are denied access to immigration detainees in Minnesota,verified_external
+news_media_uptake_batch_17_national_external_additions.csv,NM090,STY-24E8CDD22847,The Guardian,2026-01-17,"‘Make no mistake, this is an occupation’: ICE’s deadly presence casts long shadow over Minneapolis",verified_external
+news_media_uptake_batch_23_national_guardian_expansion.csv,NM104,STY-FEA931BF0CCE,The Guardian,2026-01-20,Economic blackout day planned in Minnesota to protest ICE surge,verified_external
+news_media_uptake_batch_23_national_guardian_expansion.csv,NM105,STY-6116E91ADB9A,The Guardian,2026-01-22,‘We have to stand together’: Minnesota economic blackout organizers push to take demonstrations nationwide,verified_external
+news_media_uptake_batch_23_national_guardian_expansion.csv,NM100,STY-47E944973E50,The Guardian,2026-02-01,‘We’re fighting for the soul of the country’: how Minnesota residents came together to face ICE,verified_external
+news_media_uptake_batch_23_national_guardian_expansion.csv,NM101,STY-47E944973E50,The Guardian,2026-02-01,‘We’re fighting for the soul of the country’: how Minnesota residents came together to face ICE,verified_external
+news_media_uptake_batch_23_national_guardian_expansion.csv,NM102,STY-47E944973E50,The Guardian,2026-02-01,‘We’re fighting for the soul of the country’: how Minnesota residents came together to face ICE,verified_external
+news_media_uptake_batch_23_national_guardian_expansion.csv,NM103,STY-47E944973E50,The Guardian,2026-02-01,‘We’re fighting for the soul of the country’: how Minnesota residents came together to face ICE,verified_external
