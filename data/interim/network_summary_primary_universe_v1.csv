@@ -1,0 +1,10 @@
+metric,entity,count,notes
+media_layer_edges,community_ethnic,17,Primary analytical universe only.
+media_layer_edges,local_regional,87,Primary analytical universe only.
+media_layer_edges,national_amplification,16,Primary analytical universe only.
+corpus_total,verified_edges_primary_universe,120,Eligible + probably eligible organizations only.
+corpus_total,unique_stories_primary_universe,102,Normalized story IDs.
+corpus_total,organizations_primary_with_news,31,Primary-universe organizations with >=1 verified news relation.
+corpus_total,outlets_primary,31,Mapped outlets represented.
+audit_difference,verified_edges_outside_primary_universe,2,"Retained for provenance, excluded from primary analysis."
+audit_difference,organizations_outside_primary_with_verified_news,2,TC025;TC050
