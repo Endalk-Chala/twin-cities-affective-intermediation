@@ -1,6 +1,6 @@
 # Manuscript-specific reliability replication: 210 communication items
 
-**Status (2026-10-23):** Coding-score replication material released for transparency. **Human-coder provenance and independence are not independently verified by these files.** This is an important limitation to resolve before any manuscript claims of independent human intercoder validation are finalized.
+**Status (2026-10-23):** Coding-score replication material released for transparency. **The author confirmed on October 23, 2026 that these were two independent human coders.** This is an author-provided account of coding provenance; the numeric score matrices independently reproduce the agreement estimates but cannot, by themselves, verify coder identities or independence.
 
 ## Which dataset does this represent?
 
@@ -10,7 +10,7 @@ The author identified the linked dataset record as https://doi.org/10.5281/zenod
 
 ## Files
 
-- `Full_Coder_1_de_textualized_214.csv` and `Full_Coder_2_de_textualized_214.csv`: Two score matrices, each with **214 matched candidate item IDs** and **63 columns**. Each contains coding status and categorical/ordinal coded values only; organization names, names of research participants, URLs, original communications, quotation excerpts, free-text coding notes and coder identifiers have been excluded. Coder names in filenames are labels for two score matrices, **not proof of human independence**.
+- `Full_Coder_1_de_textualized_214.csv` and `Full_Coder_2_de_textualized_214.csv`: Two score matrices, each with **214 matched candidate item IDs** and **63 columns**. Each contains coding status and categorical/ordinal coded values only; organization names, names of research participants, URLs, original communications, quotation excerpts, free-text coding notes and coder identifiers have been excluded. Coder names in filenames distinguish the independent human coding passes as confirmed by the author; filenames and matrices alone do not independently verify that provenance.
 - `compute_reliability.py`: Standalone computation of nominal/ordinal Krippendorff's alpha and raw pairwise agreement, using the score matrices.
 - `historical_agreement_by_variable.csv`: Historical variable schema and reported coefficients used **for comparison**, not for computing new scores.
 - `recomputed_reliability_summary.csv`: Independently recomputed output of the script (76 estimates).
@@ -32,7 +32,7 @@ The **210-item statistical sample**, the **214 rows assessed for codability**, a
 
 ## Provenance and ethics limitations
 
-The files do **not** establish the real-world identities of the people or systems who performed the two coding passes, the independence of those passes, whether generative AI assisted coding, or original coder consent for data dissemination. Those questions require an author-held provenance/ethics audit, and must not be inferred from high alpha. The full unredacted coder sheets are retained privately and are **not published here**. Item IDs remain to allow alignment with the underlying study and may be linkable to public organizational texts. This is de-textualization, not a guarantee of anonymous records.
+**Author confirmation:** The two coding passes were performed by two independent human coders. **Documentation boundary:** These de-textualized files do not themselves establish coder identities, independently document workflow separation, specify whether computational tools assisted coding, or establish permissions for disseminating coder records. Such matters should be documented through the author's research records and ethics review, not inferred from high alpha. The full unredacted coder sheets are retained privately and are **not published here**. Item IDs remain to allow alignment with the underlying study and may be linkable to public organizational texts. This is de-textualization, not a guarantee of anonymous records.
 
 ## Anonymous peer review
 
