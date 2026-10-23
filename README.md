@@ -2,6 +2,10 @@
 
 ## Organizational emotion, public uptake, circulation, and action during immigration enforcement
 
+
+> **Manuscript-specific dataset note (October 23, 2026):** The current *Affective Intermediation: Emotional Attribution and Journalistic Relay During Minnesota’s Immigration Enforcement Crisis* manuscript analyzes **210 communication items from 32 organizations**, distinct from this repository’s original **337-item/44-organization working corpus** described below. The [final-manuscript reliability replication folder](replication/final_manuscript_210/) contains paired de-textualized coding-score matrices, source code, and agreement results for **214 candidate records / 210 mutually codable items**. Those files reproduce agreement statistics but **do not alone prove independent human coding**; coding-pass provenance still needs author confirmation. The author-reported dataset DOI is [10.5281/zenodo.23586832](https://doi.org/10.5281/zenodo.23586832), and the GitHub coder matrices are **not confirmed to be included in the Zenodo record**. This repository identifies the author; use a separately prepared blinded supplementary package for anonymous peer review.
+
+
 **Status:** Active research project · primary corpus assembled, coded, and reproducibly validated  
 **Author:** Endalkachew H. Chala  
 **Study period:** November 1, 2025–March 31, 2026  
